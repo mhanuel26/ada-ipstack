@@ -63,5 +63,43 @@ project Ping extends "Ada_Drivers_Library/examples/shared/common/common.gpr" is
          for Runtime ("ada") use Stm32F769_Discovery'Runtime ("Ada");
    end case;
 
+   package Ide is
+
+      case LCH is
+
+         when "led" =>
+
+            case RTS_Profile is
+
+               when "ravenscar-sfp" =>
+
+                  case LOADER is
+
+                     when "RAM" =>
+
+                     when "ROM" =>
+
+                        case PLATFORM_BUILD is
+
+                           when "Debug" =>
+                              for Connection_Tool use "openocd";
+                              for Connection_Config_File use "../../STM/openocd/tcl/board/stm32f7discovery.cfg";
+                              for Program_Host use "localhost:3333";
+                              for Communication_Protocol use "remote";
+
+                           when "Production" =>
+
+                        end case;
+                  end case;
+
+               when "ravenscar-full" =>
+
+            end case;
+
+         when "lcd" =>
+
+      end case;
+   end Ide;
+
 end Ping;
 
