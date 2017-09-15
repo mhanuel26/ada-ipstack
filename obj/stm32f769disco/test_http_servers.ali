@@ -105,7 +105,7 @@ D aip-nif.ads		20170810211549 01157a11 aip.nif%s
 D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
 D connection_state_machine.ads  20170904214026 9acedd10 connection_state_machine%s
 D connection_state_machine-expected_sequence.ads  20170903220545 be19d12e connection_state_machine.expected_sequence%s
-D connection_state_machine-http_server.ads  20170907234800 9ec99494 connection_state_machine.http_server%s
+D connection_state_machine-http_server.ads  20170915143334 9ec99494 connection_state_machine.http_server%s
 D connection_state_machine-terminated_strings.ads  20170903221236 09a08c70 connection_state_machine.terminated_strings%s
 D generic_discrete_set.ads  20170903192339 5981cbd8 generic_discrete_set%s
 D generic_set.ads	20170903191347 e463b347 generic_set%s
@@ -119,7 +119,7 @@ D i-stm32-pwr.ads	20170728224417 9584d9cf interfaces.stm32.pwr%s
 D i-stm32-rcc.ads	20170728224417 4eaa7f20 interfaces.stm32.rcc%s
 D object.ads		20170819034427 d0edfe36 object%s
 D object-handle.ads	20170819034649 9fe931e5 object.handle%s
-D raw_lwip_server.ads	20170909020754 c44e50f1 raw_lwip_server%s
+D raw_lwip_server.ads	20170915143236 c44e50f1 raw_lwip_server%s
 D stack_storage.ads	20170903222035 828e91cd stack_storage%s
 D stm32.ads		20170728224345 698e2c3b stm32%s
 D stm32-calendar.ads	20170903170527 b83b90bd stm32.calendar%s
@@ -221,117 +221,117 @@ X 23 connection_state_machine.ads
 151U14*Enumerate
 453U14 Call
 X 25 connection_state_machine-http_server.ads
-43K34*HTTP_Server 1891e41 88|19w31 20r31
-59A9*HTTP_Allowed(boolean)<48E9>
-60D9*HTTP_Version
-275K12*CGI_Keys[86|49] 89|186r11
-299R9*HTTP_Client<23|118R9> 1712e17 88|39r16 94r15 89|188r19
-311n30*None{311E9} 89|164r15
-311n36*File{311E9} 89|166r15
-311n42*URI{311E9} 89|179r15
-315R9*Status_Line 334e17 89|92r16 161r16
-327a13*File{string} 89|167r23
-344U14*Finalize<23|135p14>
-354V13*Get_Allowed{59A9}
-367V13*Get_Name{string}
-377U14*Initialize<37|116p14> 89|188s7
-382U14*Received<23|140p14>
-393U14*Set_Allowed
-403U14*Trace
-413U14*Do_Connect
-414U14*Do_Delete
-416U14*Do_Head
-417U14*Do_Options
-418U14*Do_Patch
-419U14*Do_Post
-420U14*Do_Put
-421U14*Do_Trace
-422U14*Do_WebSocket
-437V13*Get_Closing{boolean}
-451V13*Get_Date{6|53M9}
-462V13*Get_Header{string}
-475V13*Get_If_Modified_Since{6|53M9}
-485V13*Get_If_Unmodified_Since{6|53M9}
-495V13*Get_Last_Modified{6|53M9}
-505V13*Get_Method{48E9}
-515V13*Get_Ranges{211R9}
-525V13*Get_Status_Line{315R9} 89|92s36 161s36
-535V13*Get_Version{60D9}
-559U14*Reply_HTML
-566U14*Reply_Text
-579U14*Send_Accept_Ranges
-589U14*Send_Age
-596U14*Send_Allow
-609U14*Send_Connection 89|171s16
-619U14*Send_Content_Range
-631U14*Send_Content_Range
-644U14*Send_Content_Type 89|172s16
-655U14*Send_Date 89|169s16
-665U14*Send_If_Modified_Since
-675U14*Send_If_Unmodified_Since
-685U14*Send_Last_Modified
-695U14*Send_Length
-699U14*Send_Length
-710U14*Send_Server 89|170s16
-719U14*Send_Status_Line 89|168s16
-731U14*Send
-735U14*Send
-750U14*Accumulate_Body
-754U14*Accumulate_Body
-758U14*Accumulate_Body 89|173s16 174s16 175s16
-762U14*Accumulate_Body
-779V13*Accumulated_Body_Length{8|51I12}
-790U14*Body_Sent
-822U14*Send_Body
-827U14*Send_Body
-833U14*Send_Body_Now
-862U14*Send_Body
-867U14*Send_Body
-888U14*Send_Body
-905U14*Send_Body 89|176s16
-910U14*Send_Body_Now
-945U14*Body_Error
-950U14*Body_Error
-969U14*Body_Received
-973U14*Body_Received
-994V13*Get_CGI_Key{string}
-1005V13*Get_CGI_Size{natural}
-1023V13*Get_CGI_Value{string}
-1025V13*Get_CGI_Value{string}
-1037V13*Get_Multipart_Header{string}
-1061U14*Receive_Body
-1065U14*Receive_Body
-1070U14*Receive_Body
-1080U14*Receive_Body
-1093U14*Receive_Body
-1103U14*Receive_Body_Tracing
-1113U14*Receive_Header_Tracing
-1132V13*Validate_Key{boolean}
-1154U14*WebSocket_Close
-1172U14*WebSocket_Closed
-1186U14*WebSocket_Error
-1198U14*WebSocket_Finalize
-1209U14*WebSocket_Initialize
-1269V13*WebSocket_Open{1253R9}
-1286U14*WebSocket_Received
-1290U14*WebSocket_Received
-1310U14*WebSocket_Received_Part
-1314U14*WebSocket_Received_Part
-1331U14*WebSocket_Send
-1335U14*WebSocket_Send
-1714V13 Check_WebSocket{boolean}
-1734U14 Queue_Content
-1738U14 Queue_Content
-1743U14 Set_Failed<39|1319p14>
-1768U14 Header_Received
-1773U14 Multipart_Header_Received
-1780U14 Continue
-1784U14 Sent<39|1003p14>
-1794U14 Send_Content
-1798U14 Send_Content
-1816U14 Status_Line_Received
-1821U14 Status_Line_Received
-1828U14 Status_Line_Received
+44K34*HTTP_Server 1892e41 88|19w31 20r31
+60A9*HTTP_Allowed(boolean)<49E9>
+61D9*HTTP_Version
+276K12*CGI_Keys[86|49] 89|186r11
+300R9*HTTP_Client<23|118R9> 1713e17 88|39r16 94r15 89|188r19
+312n30*None{312E9} 89|164r15
+312n36*File{312E9} 89|166r15
+312n42*URI{312E9} 89|179r15
+316R9*Status_Line 335e17 89|92r16 161r16
+328a13*File{string} 89|167r23
+345U14*Finalize<23|135p14>
+355V13*Get_Allowed{60A9}
+368V13*Get_Name{string}
+378U14*Initialize<37|116p14> 89|188s7
+383U14*Received<23|140p14>
+394U14*Set_Allowed
+404U14*Trace
+414U14*Do_Connect
+415U14*Do_Delete
+417U14*Do_Head
+418U14*Do_Options
+419U14*Do_Patch
+420U14*Do_Post
+421U14*Do_Put
+422U14*Do_Trace
+423U14*Do_WebSocket
+438V13*Get_Closing{boolean}
+452V13*Get_Date{6|53M9}
+463V13*Get_Header{string}
+476V13*Get_If_Modified_Since{6|53M9}
+486V13*Get_If_Unmodified_Since{6|53M9}
+496V13*Get_Last_Modified{6|53M9}
+506V13*Get_Method{49E9}
+516V13*Get_Ranges{212R9}
+526V13*Get_Status_Line{316R9} 89|92s36 161s36
+536V13*Get_Version{61D9}
+560U14*Reply_HTML
+567U14*Reply_Text
+580U14*Send_Accept_Ranges
+590U14*Send_Age
+597U14*Send_Allow
+610U14*Send_Connection 89|171s16
+620U14*Send_Content_Range
+632U14*Send_Content_Range
+645U14*Send_Content_Type 89|172s16
+656U14*Send_Date 89|169s16
+666U14*Send_If_Modified_Since
+676U14*Send_If_Unmodified_Since
+686U14*Send_Last_Modified
+696U14*Send_Length
+700U14*Send_Length
+711U14*Send_Server 89|170s16
+720U14*Send_Status_Line 89|168s16
+732U14*Send
+736U14*Send
+751U14*Accumulate_Body
+755U14*Accumulate_Body
+759U14*Accumulate_Body 89|173s16 174s16 175s16
+763U14*Accumulate_Body
+780V13*Accumulated_Body_Length{8|51I12}
+791U14*Body_Sent
+823U14*Send_Body
+828U14*Send_Body
+834U14*Send_Body_Now
+863U14*Send_Body
+868U14*Send_Body
+889U14*Send_Body
+906U14*Send_Body 89|176s16
+911U14*Send_Body_Now
+946U14*Body_Error
+951U14*Body_Error
+970U14*Body_Received
+974U14*Body_Received
+995V13*Get_CGI_Key{string}
+1006V13*Get_CGI_Size{natural}
+1024V13*Get_CGI_Value{string}
+1026V13*Get_CGI_Value{string}
+1038V13*Get_Multipart_Header{string}
+1062U14*Receive_Body
+1066U14*Receive_Body
+1071U14*Receive_Body
+1081U14*Receive_Body
+1094U14*Receive_Body
+1104U14*Receive_Body_Tracing
+1114U14*Receive_Header_Tracing
+1133V13*Validate_Key{boolean}
+1155U14*WebSocket_Close
+1173U14*WebSocket_Closed
+1187U14*WebSocket_Error
+1199U14*WebSocket_Finalize
+1210U14*WebSocket_Initialize
+1270V13*WebSocket_Open{1254R9}
+1287U14*WebSocket_Received
+1291U14*WebSocket_Received
+1311U14*WebSocket_Received_Part
+1315U14*WebSocket_Received_Part
+1332U14*WebSocket_Send
+1336U14*WebSocket_Send
+1715V13 Check_WebSocket{boolean}
+1735U14 Queue_Content
+1739U14 Queue_Content
+1744U14 Set_Failed<39|1319p14>
+1769U14 Header_Received
+1774U14 Multipart_Header_Received
+1781U14 Continue
+1785U14 Sent<39|1003p14>
+1795U14 Send_Content
+1799U14 Send_Content
+1817U14 Status_Line_Received
+1822U14 Status_Line_Received
+1829U14 Status_Line_Received
 X 29 generic_unbounded_array.ads
 64R9 Unbounded_Array<5|50R9>
 X 32 hal-real_time_clock.ads
@@ -414,17 +414,17 @@ X 88 test_http_servers.ads
 30i7*Input_Size{39|80I12} 79r12 89|81r38
 31i7*Output_Size{39|80I12} 80r12 89|82r38
 32i7*Max_Connections{positive} 81r12
-35R9*Test_HTTP_Client<25|299R9> 23|126P14 151p14 453p14 25|344P14 354p13
-. 367p13 382P14 393p14 403p14 413p14 414p14 416p14 417p14 418p14 419p14 420p14
-. 421p14 422p14 437p13 451p13 462p13 475p13 485p13 495p13 505p13 515p13 525p13
-. 535p13 559p14 566p14 579p14 589p14 596p14 609p14 619p14 631p14 644p14 655p14
-. 665p14 675p14 685p14 695p14 699p14 710p14 719p14 731p14 735p14 750p14 754p14
-. 758p14 762p14 779p13 790p14 822p14 827p14 833p14 862p14 867p14 888p14 905p14
-. 910p14 945p14 950p14 969p14 973p14 994p13 1005p13 1023p13 1025p13 1037p13
-. 1061p14 1065p14 1070p14 1080p14 1093p14 1103p14 1113p14 1132p13 1154p14
-. 1172p14 1186p14 1198p14 1209p14 1269p13 1286p14 1290p14 1310p14 1314p14
-. 1331p14 1335p14 1714p13 1734p14 1738p14 1743P14 1768p14 1773p14 1780p14
-. 1784P14 1794p14 1798p14 1816p14 1821p14 1828p14 37|56p14 79p13 84p13 109p14
+35R9*Test_HTTP_Client<25|300R9> 23|126P14 151p14 453p14 25|345P14 355p13
+. 368p13 383P14 394p14 404p14 414p14 415p14 417p14 418p14 419p14 420p14 421p14
+. 422p14 423p14 438p13 452p13 463p13 476p13 486p13 496p13 506p13 516p13 526p13
+. 536p13 560p14 567p14 580p14 590p14 597p14 610p14 620p14 632p14 645p14 656p14
+. 666p14 676p14 686p14 696p14 700p14 711p14 720p14 732p14 736p14 751p14 755p14
+. 759p14 763p14 780p13 791p14 823p14 828p14 834p14 863p14 868p14 889p14 906p14
+. 911p14 946p14 951p14 970p14 974p14 995p13 1006p13 1024p13 1026p13 1038p13
+. 1062p14 1066p14 1071p14 1081p14 1094p14 1104p14 1114p14 1133p13 1155p14
+. 1173p14 1187p14 1199p14 1210p14 1270p13 1287p14 1291p14 1311p14 1315p14
+. 1332p14 1336p14 1715p13 1735p14 1739p14 1744P14 1769p14 1774p14 1781p14
+. 1785P14 1795p14 1799p14 1817p14 1822p14 1829p14 37|56p14 79p13 84p13 109p14
 . 39|170p13 185p13 234p14 373p14 398p14 423p14 490p13 540p13 583p13 604p13
 . 646p13 661p13 671p13 681p13 789p14 799p13 841p14 853p14 884p14 889p14 924p14
 . 929p14 940p14 949p14 962p14 970p14 988p14 1019p14 1037p14 1059p14 1072p14
@@ -439,19 +439,19 @@ X 88 test_http_servers.ads
 44i7 Pcb{22|16I12} 89|70b7 76r28
 45a7 Data{8|54A9} 89|71b7 76r33
 46i7 Err{15|141I12} 89|72b7 86m7
-50U14*Body_Error<25|940p14> 51=15 52=17 53>17 89|25b14 35l8 35t18
+50U14*Body_Error<25|941p14> 51=15 52=17 53>17 89|25b14 35l8 35t18
 51r15 Client{35R9} 89|26b7 31r28
 52c17 Stream<8|39R9> 89|27b9 31r36
 53r17 Error{4|63R9} 89|28b9 31r44
-56U14*Body_Received<25|965p14> 57=15 58=17 89|38b14 52l8 52t21
+56U14*Body_Received<25|966p14> 57=15 58=17 89|38b14 52l8 52t21
 57r15 Client{35R9} 89|39b7 43r28
 58c17 Stream<8|39R9> 89|40b9 43r36
-61U14*Do_Body<25|928p14> 61=23 89|91b14 156l8 156t15
+61U14*Do_Body<25|929p14> 61=23 89|91b14 156l8 156t15
 61r23 Client{35R9} 89|91b23 92r53 94r28
-63U14*Do_Get<25|415p14> 63=23 89|159b14 182l8 182t14
+63U14*Do_Get<25|416p14> 63=23 89|159b14 182l8 182t14
 63r23 Client{35R9} 89|159b22 161r53 168m34 169m29 170m29 171m33 172m35 173m33
 . 174m33 175m33 176m27
-67U14*Initialize<25|377p14> 67=26 89|185b14 193l8 193t18
+67U14*Initialize<25|378p14> 67=26 89|185b14 193l8 193t18
 67r26 Client{35R9} 89|185b26 188m32 188r32
 69U14*Test_Web 69>24 89|197b14 210l8 210t16
 69i24 Port{natural} 89|197b24 206r63
@@ -465,8 +465,8 @@ X 89 test_http_servers.adb
 22i4 HTTP_Polling{6|63I9} 242r48
 47r12 Error{4|63R9} 48r31
 74p7 Result{39|133P9} 78m7 87r14
-92r7 Status{25|315R9} 94r36
-161r7 Status{25|315R9} 163r12 167r16
+92r7 Status{25|316R9} 94r36
+161r7 Status{25|316R9} 163r12 167r16
 199i7 Err{15|141I12}
 200r7 Factory{88|28R9} 206m36 206r36
 206r7 Server{39|156R9}

@@ -57,8 +57,8 @@ D aip-nif.ads		20170810211549 01157a11 aip.nif%s
 D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
 D object.ads		20170819034427 d0edfe36 object%s
 D object-handle.ads	20170819034649 9fe931e5 object.handle%s
-D raw_lwip_server.ads	20170909020754 c44e50f1 raw_lwip_server%s
-D raw_socket_callbacks.ads  20170906061830 5486daee raw_socket_callbacks%s
+D raw_lwip_server.ads	20170915143236 c44e50f1 raw_lwip_server%s
+D raw_socket_callbacks.ads  20170915143550 5486daee raw_socket_callbacks%s
 D strings_edit.ads	20170819015521 7d801be5 strings_edit%s
 D strings_edit-integer_edit.ads  20170819025937 bd787de3 strings_edit.integer_edit%s
 D system.ads		20170728224417 db831581 system%s
@@ -77,35 +77,35 @@ D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
 D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
 D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
 X 1 ada.ads
-16K9*Ada 20e8 21|6r6 9r6 9r30 21r6 24r6
+16K9*Ada 20e8 21|19r6 22r6 22r30 34r6 37r6
 X 6 a-stream.ads
-36K13*Streams 87e16 21|9w10 9r34
+36K13*Streams 87e16 21|22w10 22r34
 42M9*Stream_Element
-54A9*Stream_Element_Array(42M9)<44I9> 21|17r33
+54A9*Stream_Element_Array(42M9)<44I9> 21|30r33
 X 10 a-unccon.ads
-20v14*Unchecked_Conversion 21|6w10 21r10 24r10
+20v14*Unchecked_Conversion 21|19w10 34r10 37r10
 X 11 aip.ads
-66K9*AIP 182e8 21|7r6 8r6 16r33 18r37 21r45 24r32
+66K9*AIP 182e8 21|20r6 21r6 29r33 31r37 34r45 37r32
 73I9*S8_T<short_short_integer>
 75I9*S32_T<integer>
-141I12*Err_T{73I9} 21|18r41
+141I12*Err_T{73I9} 21|31r41
 167I12*EID{75I9}
 X 13 aip-callbacks.ads
-8K13*Callbacks 33e18 21|8w10 21r49 24r36
-18M9*CBK_Id 21|21r59 24r46
+8K13*Callbacks 33e18 21|21w10 34r49 37r36
+18M9*CBK_Id 21|34r59 37r46
 X 17 aip-pcbs.ads
-14K13*PCBs 157e13 21|7w10 16r37
-16I12*PCB_Id{11|167I12} 21|16r42
+14K13*PCBs 157e13 21|20w10 29r37
+16I12*PCB_Id{11|167I12} 21|29r42
 X 20 raw_lwip_server.ads
-43K9*RAW_LwIp_Server 1681e20 21|10w6 10r30
-133P9*Connection_Ptr(129R9) 21|15r40
+43K9*RAW_LwIp_Server 1681e20 21|23w6 23r30
+133P9*Connection_Ptr(129R9) 21|28r40
 X 21 raw_socket_callbacks.ads
-12K9*RAW_SOCKET_Callbacks 26l5 26e25
-14P9*SOCKET_Hook 15=24 16>24 17>24 18<24 21r32 24r54
-15p24 Client{20|133P9}
-16i24 Pcb{17|16I12}
-17a24 DATA{6|54A9}
-18i24 Err{11|141I12}
-20V13*To_CBID[10|20]{13|18M9}
-23V13*To_Hook[10|20]{14P9}
+25K9*RAW_SOCKET_Callbacks 39l5 39e25
+27P9*SOCKET_Hook 28=24 29>24 30>24 31<24 34r32 37r54
+28p24 Client{20|133P9}
+29i24 Pcb{17|16I12}
+30a24 DATA{6|54A9}
+31i24 Err{11|141I12}
+33V13*To_CBID[10|20]{13|18M9}
+36V13*To_Hook[10|20]{27P9}
 

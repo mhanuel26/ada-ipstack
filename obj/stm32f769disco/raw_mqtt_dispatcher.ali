@@ -49,41 +49,42 @@ D aip-config.ads	20170912220857 ec3c29ae aip.config%s
 D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
 D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
-D raw_mqtt_callbacks.ads  20170831173036 e7e683bb raw_mqtt_callbacks%s
-D raw_mqtt_dispatcher.ads  20170831172527 855d877c raw_mqtt_dispatcher%s
-D raw_mqtt_dispatcher.adb  20170831173023 c5eeb5f4 raw_mqtt_dispatcher%b
+D raw_mqtt_callbacks.ads  20170915143715 e7e683bb raw_mqtt_callbacks%s
+D raw_mqtt_dispatcher.ads  20170915143559 855d877c raw_mqtt_dispatcher%s
+D raw_mqtt_dispatcher.adb  20170915143720 c5eeb5f4 raw_mqtt_dispatcher%b
 D system.ads		20170728224417 db831581 system%s
 D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
 D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
 D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
 X 1 ada.ads
-16K9*Ada 20e8 13|8r6 8r26
+16K9*Ada 20e8 13|21r6 21r26
 X 2 a-stream.ads
-36K13*Streams 87e16 13|8w10 8r30
+36K13*Streams 87e16 13|21w10 21r30
 42M9*Stream_Element
-54A9*Stream_Element_Array(42M9)<44I9> 13|14r14 14|14r14
+54A9*Stream_Element_Array(42M9)<44I9> 13|27r14 14|27r14
 X 5 aip.ads
-66K9*AIP 182e8 13|6r6 7r6 13r14 15r14 16r18 14|10r13 13r14 15r14 16r18 19r18
+66K9*AIP 182e8 13|19r6 20r6 26r14 28r14 29r18 14|23r13 26r14 28r14 29r18
+. 32r18
 73I9*S8_T<short_short_integer>
 75I9*S32_T<integer>
-141I12*Err_T{73I9} 13|16r22 14|16r22
+141I12*Err_T{73I9} 13|29r22 14|29r22
 167I12*EID{75I9}
 X 7 aip-callbacks.ads
-8K13*Callbacks 33e18 13|6w10 15r18 14|10r17 15r18 19r22
-18M9*CBK_Id 13|15r28 14|10r27 15r28
-19m4*NOCB{18M9} 14|19r32
+8K13*Callbacks 33e18 13|19w10 28r18 14|23r17 28r18 32r22
+18M9*CBK_Id 13|28r28 14|23r27 28r28
+19m4*NOCB{18M9} 14|32r32
 X 11 aip-pcbs.ads
-14K13*PCBs 157e13 13|7w10 13r18 14|13r18
-16I12*PCB_Id{5|167I12} 13|13r23 14|13r23
+14K13*PCBs 157e13 13|20w10 26r18 14|26r18
+16I12*PCB_Id{5|167I12} 13|26r23 14|26r23
 X 12 raw_mqtt_callbacks.ads
-11K9*RAW_MQTT_Callbacks 24e23 14|6w6 20r10
-13P9*MQTT_Hook
-21V13*To_Hook[4|20]{13P9} 14|20s29
+24K9*RAW_MQTT_Callbacks 37e23 14|19w6 33r10
+26P9*MQTT_Hook
+34V13*To_Hook[4|20]{26P9} 14|33s29
 X 13 raw_mqtt_dispatcher.ads
-10K9*RAW_MQTT_Dispatcher 22l5 22e24 14|8b14 24l5 24t24
-12U14*MQTT_Event 13>7 14>7 15>7 16<7 14|12b14 22l8 22t18
-13i7 PCB{11|16I12} 14|13b7 20r49
-14a7 DATA{2|54A9} 14|14b7 20r54
-15m7 Cbid{7|18M9} 14|15b7 19r10 20r38
-16i7 Err{5|141I12} 14|16b7 20m60
+23K9*RAW_MQTT_Dispatcher 35l5 35e24 14|21b14 37l5 37t24
+25U14*MQTT_Event 26>7 27>7 28>7 29<7 14|25b14 35l8 35t18
+26i7 PCB{11|16I12} 14|26b7 33r49
+27a7 DATA{2|54A9} 14|27b7 33r54
+28m7 Cbid{7|18M9} 14|28b7 32r10 33r38
+29i7 Err{5|141I12} 14|29b7 33m60
 

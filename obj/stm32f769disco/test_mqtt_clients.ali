@@ -90,15 +90,15 @@ D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
 D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
 D aip-time_types.ads	20170829195128 940203c3 aip.time_types%s
-D aip-timers.ads	20170827230204 0f190d44 aip.timers%s
+D aip-timers.ads	20170915144007 0f190d44 aip.timers%s
 D generic_unbounded_array.ads  20170819033324 2a33c881 generic_unbounded_array%s
 D generic_unbounded_ptr_array.ads  20170819032953 fc8814e1 generic_unbounded_ptr_array%s
 D handles.ads		20170827033548 8e21c50d handles%s
 D interfac.ads		20170517144320 5ab55268 interfaces%s
-D mqtt.ads		20170914193122 f2595cc5 mqtt%s
+D mqtt.ads		20170915143520 f2595cc5 mqtt%s
 D object.ads		20170819034427 d0edfe36 object%s
 D object-handle.ads	20170819034649 9fe931e5 object.handle%s
-D raw_mqtt_callbacks.ads  20170831173036 e7e683bb raw_mqtt_callbacks%s
+D raw_mqtt_callbacks.ads  20170915143715 e7e683bb raw_mqtt_callbacks%s
 D strings_edit.ads	20170819015521 7d801be5 strings_edit%s
 D strings_edit-integer_edit.ads  20170819025937 bd787de3 strings_edit.integer_edit%s
 D strings_edit-integers.ads  20170819025315 f7832339 strings_edit.integers%s
@@ -157,57 +157,57 @@ X 23 handles.ads
 X 24 interfac.ads
 66M9*Unsigned_16
 X 25 mqtt.ads
-46K9*MQTT 1160e9 48|28w6 28r30
-112E9*QoS_Level 112e65 49|128r25
-112n23*At_Most_Once{112E9} 49|143r51
-149I9*Connect_Response<short_integer> 48|60r28 49|79r26
-155V13*Image{string} 49|83s46
-172M9*Packet_Identifier<24|66M9> 48|76r26 49|117r24
-173R9*Packet_Identification 183e14 48|69r29 49|98r27 143r21
-187b22*Success{boolean} 49|127r27
-190e13*QoS{112E9} 49|128r56
-195A9*Return_Code_List(187R9)<integer> 48|77r26 49|118r24
-223P9*Connection_Ptr(222R9)
-361R9*MQTT_Pier<222R9> 1063e14 48|51r28 80r28 49|105r8
-374U14*Finalize<26|99p14>
-398V13*Get_Max_Message_Size{6|51I12}
-409V13*Get_Max_Secondary_Buffer_Size{6|51I12}
-427V13*Get_QoS{112E9}
-458V13*Get_Topic{string}
-486U14*Received 49|46s26
-506U14*Set_Max_Message_Size
-531U14*Send_Acknowledge
-537U14*Connect 49|147s17
-544U14*Disconnect
-549V13*Is_Connected{boolean} 49|149s26 153s26
-573U14*Send_Connect 49|152s13
-596U14*Send_Connect_Accepted
-611U14*Send_Connect_Rejected
-627U14*Send_Disconnect 49|163s13
-638U14*Send_Ping 49|156s13
-649U14*Send_Ping_Response
-666U14*Send_Publish
-674U14*Send_Publish 49|158s13
-697U14*Send_Publish
-718U14*Send_Subscribe
-724U14*Send_Subscribe
-743U14*Send_Subscribe_Acknowledgement
-761U14*Send_Unsubscribe
-787U14*On_Acknowledge
-808U14*On_Connect
-854U14*On_Disconnect
-862U14*On_Ping
-885U14*On_Publish 49|104s7
-904U14*On_Subscribe
-934U14*On_Unsubscribe
-944U14*Set_Client_Ip 49|145s17
-948V13*Does_Mqtt_Pier_Match{boolean} 49|45s26
-952U14*Set_Client_Cbs 49|146s17
-1067V13 Get_Message{6|54A9}
-1071V13 Get_String{string}
-1096U14 Reset_String
-1100U14 Send
-1104U14 Trace
+48K9*MQTT 1162e9 48|28w6 28r30
+114E9*QoS_Level 114e65 49|128r25
+114n23*At_Most_Once{114E9} 49|143r51
+151I9*Connect_Response<short_integer> 48|60r28 49|79r26
+157V13*Image{string} 49|83s46
+174M9*Packet_Identifier<24|66M9> 48|76r26 49|117r24
+175R9*Packet_Identification 185e14 48|69r29 49|98r27 143r21
+189b22*Success{boolean} 49|127r27
+192e13*QoS{114E9} 49|128r56
+197A9*Return_Code_List(189R9)<integer> 48|77r26 49|118r24
+225P9*Connection_Ptr(224R9)
+363R9*MQTT_Pier<224R9> 1065e14 48|51r28 80r28 49|105r8
+376U14*Finalize<26|99p14>
+400V13*Get_Max_Message_Size{6|51I12}
+411V13*Get_Max_Secondary_Buffer_Size{6|51I12}
+429V13*Get_QoS{114E9}
+460V13*Get_Topic{string}
+488U14*Received 49|46s26
+508U14*Set_Max_Message_Size
+533U14*Send_Acknowledge
+539U14*Connect 49|147s17
+546U14*Disconnect
+551V13*Is_Connected{boolean} 49|149s26 153s26
+575U14*Send_Connect 49|152s13
+598U14*Send_Connect_Accepted
+613U14*Send_Connect_Rejected
+629U14*Send_Disconnect 49|163s13
+640U14*Send_Ping 49|156s13
+651U14*Send_Ping_Response
+668U14*Send_Publish
+676U14*Send_Publish 49|158s13
+699U14*Send_Publish
+720U14*Send_Subscribe
+726U14*Send_Subscribe
+745U14*Send_Subscribe_Acknowledgement
+763U14*Send_Unsubscribe
+789U14*On_Acknowledge
+810U14*On_Connect
+856U14*On_Disconnect
+864U14*On_Ping
+887U14*On_Publish 49|104s7
+906U14*On_Subscribe
+936U14*On_Unsubscribe
+946U14*Set_Client_Ip 49|145s17
+950V13*Does_Mqtt_Pier_Match{boolean} 49|45s26
+954U14*Set_Client_Cbs 49|146s17
+1069V13 Get_Message{6|54A9}
+1073V13 Get_String{string}
+1098U14 Reset_String
+1102U14 Send
+1106U14 Trace
 X 26 object.ads
 56U14*Decrement_Count
 79V13*Equal{boolean}
@@ -217,7 +217,7 @@ X 26 object.ads
 X 27 object-handle.ads
 40R9*Handle<5|43R9> 48|37r43[23|32]
 41r4*Null_Handle{40R9[23|32]} 48|39r51[23|32] 49|40r42[23|32]
-89V13*Ptr{25|223P9} 49|42s60[23|32] 142s54[23|32]
+89V13*Ptr{25|225P9} 49|42s60[23|32] 142s54[23|32]
 106U14*Set 49|140s7[23|32]
 X 29 strings_edit.ads
 133K9*Strings_Edit 336e17 49|29r6 29r34
@@ -241,34 +241,34 @@ X 48 test_mqtt_clients.ads
 47i7 Pcb{18|16I12} 49|56b7 61r28
 48a7 DATA{6|54A9} 49|57b7 61r33
 49i7 Err{11|141I12} 49|58b7 62m7
-51R9*Test_Client<25|361R9> 25|374P14 398p13 409p13 427p13 458p13 486p14 506p14
-. 531p14 537p14 544p14 549p13 573p14 596p14 611p14 627p14 638p14 649p14 666p14
-. 674p14 697p14 718p14 724p14 743p14 761p14 787p14 808p14 854p14 862p14 904p14
-. 934p14 944p14 948p13 952p14 1067p13 1071p13 1096p14 1100p14 1104p14 26|56p14
+51R9*Test_Client<25|363R9> 25|376P14 400p13 411p13 429p13 460p13 488p14 508p14
+. 533p14 539p14 546p14 551p13 575p14 598p14 613p14 629p14 640p14 651p14 668p14
+. 676p14 699p14 720p14 726p14 745p14 763p14 789p14 810p14 856p14 864p14 906p14
+. 936p14 946p14 950p13 954p14 1069p13 1073p13 1098p14 1102p14 1106p14 26|56p14
 . 79p13 84p13 109p14 116P14 34|42p14 48|53P14 54r40 58P14 59r33 63P14 63r46
 . 65P14 66r34 74P14 75r31 80c9 80e54 49|42r27 42r47 68r40 78r33 87r46 95r34
 . 116r31 140r39 142r21 142r41
-53U14*On_Connect_Accepted<25|829p14> 54=15 55>17 49|67b14 74l8 74t27
+53U14*On_Connect_Accepted<25|831p14> 54=15 55>17 49|67b14 74l8 74t27
 54r15 Pier{51R9} 49|68b15 72r28
 55b17 Session_Present{boolean} 49|69b15 72r34
-58U14*On_Connect_Rejected<25|842p14> 59=15 60>17 49|77b14 84l8 84t27
+58U14*On_Connect_Rejected<25|844p14> 59=15 60>17 49|77b14 84l8 84t27
 59r15 Pier{51R9} 49|78b15 82r28
-60i17 Response{25|149I9} 49|79b15 83r53
-63U14*On_Ping_Response<25|870p14> 63=32 49|87b14 91l8 91t24
+60i17 Response{25|151I9} 49|79b15 83r53
+63U14*On_Ping_Response<25|872p14> 63=32 49|87b14 91l8 91t24
 63r32 Pier{51R9} 49|87b32 89r28
-65U14*On_Publish<25|885p14> 66=15 67>17 68>17 69>17 70>17 71>17 49|94b14
+65U14*On_Publish<25|887p14> 66=15 67>17 68>17 69>17 70>17 71>17 49|94b14
 . 112l8 112t18
 66r15 Pier{51R9} 49|95b15 105m19 105r19
 67a17 Topic{string} 49|96b15 106r8
 68a17 Message{6|54A9} 49|97b15 107r8
-69r17 Packet{25|173R9} 49|98b15 108r8
+69r17 Packet{25|175R9} 49|98b15 108r8
 70b17 Duplicate{boolean} 49|99b15 109r8
 71b17 Retain{boolean} 49|100b15 110r8
-74U14*On_Subscribe_Acknowledgement<25|918p14> 75=15 76>17 77>17 49|115b14
+74U14*On_Subscribe_Acknowledgement<25|920p14> 75=15 76>17 77>17 49|115b14
 . 134l8 134t36
 75r15 Pier{51R9} 49|116b15 121r28
-76m17 Packet{25|172M9} 49|117b15 122r51
-77a17 Codes{25|195A9} 49|118b15 123r20 124r22 127r13 128r42
+76m17 Packet{25|174M9} 49|117b15 122r51
+77a17 Codes{25|197A9} 49|118b15 123r20 124r22 127r13 128r42
 X 49 test_mqtt_clients.adb
 39i11 Hitem{integer} 40r32 42r84
 42r16 Client{48|51R9} 45r19 46r19
@@ -277,5 +277,5 @@ X 49 test_mqtt_clients.adb
 138i7 Client_Err{11|141I12} 147m26 148r13
 142r10 Client{48|51R9} 145r10 146r10 147r10 149r19 152r27 153r19 156r24 158r27
 . 163r30
-143r10 PId{25|173R9} 161r27
+143r10 PId{25|175R9} 161r27
 

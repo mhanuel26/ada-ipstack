@@ -1,9 +1,9 @@
 --                                                                     --
---   package GNAT.Sockets.Server     Copyright (c)  Dmitry A. Kazakov  --
---   Interface                                      Luebeck            --
+--   package RAW_LwIp_Server     Copyright (c)  Dmitry A. Kazakov  --
+--   Implementation                                 Luebeck            --
 --                                                  Winter, 2012       --
---                                                                     --
---                                 Last revision :  21:11 16 Apr 2017  --
+--   Modified by Manuel Iglesias for ipstack raw lwip implementation   --
+--                                 Last revision :  15 Sep 2017        --
 --                                                                     --
 --   This  library  is  free software; you can redistribute it and/or  --
 --   modify it under the terms of the GNU General Public  License  as  --

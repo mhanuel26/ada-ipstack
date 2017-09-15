@@ -39,12 +39,12 @@ D aip.ads		20170810230203 63cc5fb2 aip%s
 D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
 D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
 D aip-config.ads	20170912220857 ec3c29ae aip.config%s
-D aip-ip.ads		20170815223411 36592376 aip.ip%s
+D aip-ip.ads		20170915144020 36592376 aip.ip%s
 D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
 D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
 D aip-pools.ads		20170804214847 35af82f0 aip.pools%s
-D aip-tcp.ads		20170902044844 1a4cf31d aip.tcp%s
+D aip-tcp.ads		20170915143944 1a4cf31d aip.tcp%s
 D aip-udp.ads		20170806165452 1cbde6e9 aip.udp%s
 D interfac.ads		20170517144320 5ab55268 interfaces%s
 D net.ads		20170911175125 10b1f911 net%s

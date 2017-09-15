@@ -36,8 +36,8 @@ W system.restrictions%s	s-restri.adb		s-restri.ali
 U ada_main%s		b__ping.ads		6b4f9801 EE NE OO PK IL
 W system%s		system.ads		system.ali
 
-D b__ping.ads		20170915023539 b0cc8d80 ada_main%s
-D b__ping.adb		20170915023539 d6721785 ada_main%b
+D b__ping.ads		20170915145802 b0cc8d80 ada_main%s
+D b__ping.adb		20170915145802 d6721785 ada_main%b
 D system.ads		20170728224417 db831581 system%s
 D s-restri.ads		20170517144320 1b9d0672 system.restrictions%s
 D s-rident.ads		20170517144320 e8fe221c system.rident%s

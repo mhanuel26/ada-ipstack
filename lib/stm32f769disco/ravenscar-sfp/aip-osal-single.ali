@@ -50,11 +50,11 @@ D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
 D aip-config.ads	20170912220857 ec3c29ae aip.config%s
 D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
-D aip-osal.ads		20170811231814 a35e8d51 aip.osal%s
-D aip-osal-single.ads	20170827151639 f02e5ebb aip.osal.single%s
-D aip-osal-single.adb	20170824153311 563f6d17 aip.osal.single%b
+D aip-osal.ads		20170915143838 a35e8d51 aip.osal%s
+D aip-osal-single.ads	20170915143756 f02e5ebb aip.osal.single%s
+D aip-osal-single.adb	20170915143750 563f6d17 aip.osal.single%b
 D aip-time_types.ads	20170829195128 940203c3 aip.time_types%s
-D aip-timers.ads	20170827230204 0f190d44 aip.timers%s
+D aip-timers.ads	20170915144007 0f190d44 aip.timers%s
 D interfac.ads		20170517144320 5ab55268 interfaces%s
 D net.ads		20170911175125 10b1f911 net%s
 D net-buffers.ads	20170810162520 42b6bdec net.buffers%s
@@ -67,8 +67,8 @@ D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
 D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
 D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
 X 3 aip.ads
-66K9*AIP 182e8 10|12r6 13r6 15r6 17r9 19r36 21r38 23r84 30r5 11|6r6 10r6
-. 11r6 14r14 21r36 23r7 23r33 30r38 32r7 39r84 44r5
+66K9*AIP 182e8 10|25r6 26r6 28r6 30r9 32r36 34r38 36r84 43r5 11|19r6 23r6
+. 24r6 27r14 34r36 36r7 36r33 43r38 45r7 52r84 57r5
 75I9*S32_T<integer>
 85I9*U8_T<short_integer>
 87I9*U16_T<integer>
@@ -76,42 +76,42 @@ X 3 aip.ads
 134A12*Ethernet_Address{128A9}<85I9>
 167I12*EID{75I9}
 X 4 aip-arp.ads
-18K13*ARP 159e12 11|6w10 23r11
-38U14*ARP_Input 11|23s15
+18K13*ARP 159e12 11|19w10 36r11
+38U14*ARP_Input 11|36s15
 X 5 aip-buffers.ads
-11K13*Buffers 362e16 10|13w10 19r40 21r42 23r88 11|21r40 30r42 39r88
-75I12*Buffer_Id{3|87I9} 10|19r48 21r50 23r96 11|21r48 30r50 39r96
+11K13*Buffers 362e16 10|26w10 32r40 34r42 36r88 11|34r40 43r42 52r88
+75I12*Buffer_Id{3|87I9} 10|32r48 34r50 36r96 11|34r48 43r50 52r96
 X 8 aip-nif.ads
-15K13*NIF 212e12 11|10w10 32r11
-136U14*Input 11|32s15
+15K13*NIF 212e12 11|23w10 45r11
+136U14*Input 11|45s15
 X 9 aip-osal.ads
-20K13*OSAL 3|66k9 9|49e13 10|17r13 30r9 11|11w10 14r18 23r37 44r9
-30a4*Netif_MAC_Addr{3|134A12} 11|23r42
-46i4 If_Id{3|167I12} 11|23r26 32r22 41r34
+33K13*OSAL 3|66k9 9|62e13 10|30r13 43r9 11|24w10 27r18 36r37 57r9
+43a4*Netif_MAC_Addr{3|134A12} 11|36r42
+59i4 If_Id{3|167I12} 11|36r26 45r22 54r34
 X 10 aip-osal-single.ads
-17K18*Single 9|20k13 10|30l14 30e20 11|14b23 44l14 44t20
-19U14*Process_Arp 19>27 11|21b14 24l8 24t19
-19i27 Buf{5|75I12} 11|21b27 23r58
-21U14*Process_Input 21>29 11|30b14 33l8 33t21
-21i29 Buf{5|75I12} 11|30b29 32r29
-23V13*Process_Interface_Events{5|75I12} 23=39 11|39b13 42l8 42t32
-23r39 Buf{16|113R9} 11|39b39 41m41 41r41
-25U14*Init_Timers=25:41
-27U14*Process_Timers=27:68
-27m30 Now{12|8M9}
+30K18*Single 9|33k13 10|43l14 43e20 11|27b23 57l14 57t20
+32U14*Process_Arp 32>27 11|34b14 37l8 37t19
+32i27 Buf{5|75I12} 11|34b27 36r58
+34U14*Process_Input 34>29 11|43b14 46l8 46t21
+34i29 Buf{5|75I12} 11|43b29 45r29
+36V13*Process_Interface_Events{5|75I12} 36=39 11|52b13 55l8 55t32
+36r39 Buf{16|113R9} 11|52b39 54m41 54r41
+38U14*Init_Timers=38:41
+40U14*Process_Timers=40:68
+40m30 Now{12|8M9}
 X 12 aip-time_types.ads
-6K13*Time_Types 10|12w10 27r36 12|21e19
-8M9*Time 10|27r47
+6K13*Time_Types 10|25w10 40r36 12|21e19
+8M9*Time 10|40r47
 X 13 aip-timers.ads
-8K13*Timers 10|15w10 25r34 27r61 13|74e15
-42U14*Initialize 10|25r41
-68U14*Timer_Fired_Cb 10|27r68
+21K13*Timers 10|28w10 38r34 40r61 13|87e15
+55U14*Initialize 10|38r41
+81U14*Timer_Fired_Cb 10|40r68
 X 15 net.ads
-29K9*Net 10|14r6 23r52 11|9r6 39r52 41r14 15|76e8
+29K9*Net 10|27r6 36r52 11|22r6 52r52 54r14 15|76e8
 X 16 net-buffers.ads
-95K13*Buffers 10|14w10 23r56 11|39r56 16|318e16
-113R9*Buffer_Type 10|23r64 11|39r64 16|308e14
+95K13*Buffers 10|27w10 36r56 11|52r56 16|318e16
+113R9*Buffer_Type 10|36r64 11|52r64 16|308e14
 X 20 net-minif.ads
-23K13*MinIf 11|9w10 41r18 20|36e14
-27V13*LL_Input{5|75I12} 11|41s24
+23K13*MinIf 11|22w10 54r18 20|36e14
+27V13*LL_Input{5|75I12} 11|54s24
 

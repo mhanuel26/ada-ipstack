@@ -43,11 +43,11 @@ D aip.ads		20170810230203 63cc5fb2 aip%s
 D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
 D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
 D aip-config.ads	20170912220857 ec3c29ae aip.config%s
-D aip-ip.ads		20170815223411 36592376 aip.ip%s
+D aip-ip.ads		20170915144020 36592376 aip.ip%s
 D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
 D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
-D aip-tcp.ads		20170902044844 1a4cf31d aip.tcp%s
+D aip-tcp.ads		20170915143944 1a4cf31d aip.tcp%s
 D raw_tcp_callbacks.ads	20170811031958 bf1aa874 raw_tcp_callbacks%s
 D system.ads		20170728224417 db831581 system%s
 D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
@@ -69,12 +69,12 @@ X 10 aip-pcbs.ads
 14K13*PCBs 157e13 12|8w10 15r34
 16I12*PCB_Id{3|167I12} 12|15r39
 X 11 aip-tcp.ads
-19K13*TCP 332e12 12|7w10 14r34
-44R9*TCP_Event_T 59e14 12|14r38
+32K13*TCP 345e12 12|7w10 14r34
+57R9*TCP_Event_T 72e14 12|14r38
 X 12 raw_tcp_callbacks.ads
 11K9*RAW_TCP_Callbacks 24l5 24e22
 13P9*TCP_Hook 14>24 15>24 16<24 19r32 22r54
-14r24 Ev{11|44R9}
+14r24 Ev{11|57R9}
 15i24 Pcb{10|16I12}
 16i24 Err{3|141I12}
 18V13*To_CBID[2|20]{5|18M9}

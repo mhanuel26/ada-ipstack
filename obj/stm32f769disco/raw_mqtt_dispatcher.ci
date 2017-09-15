@@ -1,7 +1,7 @@
 graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/raw_mqtt_dispatcher.adb"
 node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
-node: { title: "raw_mqtt_dispatcher__mqtt_event" label: "Mqtt_Event\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/raw_mqtt_dispatcher.adb:12:4\n32 bytes (static)" }
-edge: { sourcename: "raw_mqtt_dispatcher__mqtt_event" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/raw_mqtt_dispatcher.adb:20:44" }
+node: { title: "raw_mqtt_dispatcher__mqtt_event" label: "Mqtt_Event\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/raw_mqtt_dispatcher.adb:25:4\n32 bytes (static)" }
+edge: { sourcename: "raw_mqtt_dispatcher__mqtt_event" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/raw_mqtt_dispatcher.adb:33:44" }
 node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
-edge: { sourcename: "raw_mqtt_dispatcher__mqtt_event" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/raw_mqtt_dispatcher.adb:20:44" }
+edge: { sourcename: "raw_mqtt_dispatcher__mqtt_event" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/raw_mqtt_dispatcher.adb:33:44" }
 }

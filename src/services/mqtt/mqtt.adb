@@ -1,8 +1,10 @@
 --                                                                    --
---  package GNAT.Sockets.MQTT       Copyright (c)  Dmitry A. Kazakov  --
+--  package              MQTT       Copyright (c)  Dmitry A. Kazakov  --
 --  Implementation                                 Luebeck            --
 --                                                 Spring, 2016       --
 --                                                                    --
+--   Modified by Manuel Iglesias for ipstack raw lwip implementation  --
+--                                 Last revision :  15 Sep 2017       --
 --                                Last revision :  09:44 08 Oct 2016  --
 --                                                                    --
 --  This  library  is  free software; you can redistribute it and/or  --

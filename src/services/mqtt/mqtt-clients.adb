@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                            IPSTACK MQTT COMPONENT
---         Copyright (C) 2017, Free Software Foundation, Inc.
+--         Copyright (C) 2017.
 --  Written by Manuel Iglesias (Mhanuel.Usb@gmail.com)
 --
 --  Licensed under the Apache License, Version 2.0 (the "License");

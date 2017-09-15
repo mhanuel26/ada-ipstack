@@ -69,10 +69,10 @@ D aip-etherh.ads	20170806155808 8496f505 aip.etherh%s
 D aip-io.ads		20170806152155 7e20cd36 aip.io%s
 D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
-D aip-osal.ads		20170811231814 a35e8d51 aip.osal%s
-D aip-osal-single.ads	20170827151639 f02e5ebb aip.osal.single%s
+D aip-osal.ads		20170915143838 a35e8d51 aip.osal%s
+D aip-osal-single.ads	20170915143756 f02e5ebb aip.osal.single%s
 D aip-time_types.ads	20170829195128 940203c3 aip.time_types%s
-D aip-timers.ads	20170827230204 0f190d44 aip.timers%s
+D aip-timers.ads	20170915144007 0f190d44 aip.timers%s
 D interfac.ads		20170517144320 5ab55268 interfaces%s
 D i-stm32.ads		20170728224417 8e8d1147 interfaces.stm32%s
 D i-stm32-pwr.ads	20170728224417 9584d9cf interfaces.stm32.pwr%s
@@ -151,13 +151,13 @@ X 12 aip-io.ads
 8K13*IO 14e11 29|27w10 64r11 114r11
 11U14*Put_Line 29|64s14 114s14
 X 15 aip-osal.ads
-20K13*OSAL 49e13 29|22w10 23r10 75r17 77r24 89r29 92r26
-28r4*Ifnet{27|28R9} 29|75m22 75r22
+33K13*OSAL 62e13 29|22w10 23r10 75r17 77r24 89r29 92r26
+41r4*Ifnet{27|28R9} 29|75m22 75r22
 X 16 aip-osal-single.ads
-17K18*Single 30e20 29|23w15 77r29 89r34 92r31
-19U14*Process_Arp 29|92s38
-21U14*Process_Input 29|89s41
-23V13*Process_Interface_Events{9|75I12} 29|77s36
+30K18*Single 43e20 29|23w15 77r29 89r34 92r31
+32U14*Process_Arp 29|92s38
+34U14*Process_Input 29|89s41
+36V13*Process_Interface_Events{9|75I12} 29|77s36
 X 19 interfac.ads
 77M9*Unsigned_64
 X 23 net.ads

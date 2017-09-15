@@ -53,7 +53,7 @@ D aip-config.ads	20170912220857 ec3c29ae aip.config%s
 D aip-conversions.ads	20170804220950 c62f1275 aip.conversions%s
 D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
-D aip-osal.ads		20170811231814 a35e8d51 aip.osal%s
+D aip-osal.ads		20170915143838 a35e8d51 aip.osal%s
 D interfac.ads		20170517144320 5ab55268 interfaces%s
 D net.ads		20170911175125 10b1f911 net%s
 D net-buffers.ads	20170810162520 42b6bdec net.buffers%s
@@ -102,8 +102,8 @@ X 8 aip-nif.ads
 32I12*Netif_Id{3|167I12} 16|25r21 27r37 30r39 17|31r37 104r39
 95U14*Get_LL_Address 17|66s15
 X 9 aip-osal.ads
-20K13*OSAL 49e13 17|23w10 135r11
-37U14*Send 17|135s16
+33K13*OSAL 62e13 17|23w10 135r11
+50U14*Send 17|135s16
 X 10 interfac.ads
 66M9*Unsigned_16
 X 11 net.ads

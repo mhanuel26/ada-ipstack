@@ -56,7 +56,7 @@ D aip-inet.ads		20170804214847 207e705b aip.inet%s
 D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
 D aip-nif.ads		20170810211549 01157a11 aip.nif%s
 D aip-time_types.ads	20170829195128 940203c3 aip.time_types%s
-D aip-timers.ads	20170827230204 0f190d44 aip.timers%s
+D aip-timers.ads	20170915144007 0f190d44 aip.timers%s
 D interfac.ads		20170517144320 5ab55268 interfaces%s
 D system.ads		20170728224417 db831581 system%s
 D s-assert.ads		20170517144320 cd8d2c94 system.assertions%s
@@ -293,10 +293,10 @@ X 12 aip-time_types.ads
 11m4*Hz{9M12} 3|255r67 492r70 496r74
 16V13*Now{8M9} 3|284s51 480s26
 X 13 aip-timers.ads
-8K13*Timers 3|10w10 254r7 254r25 255r7 255r28 13|74e15
-20n22*TIMER_EVT_ETHARPTMR{20E9} 3|254r32 255r35
-45U14*TID_Alloc 3|254s14
-56U14*Set_Interval 3|255s14
+21K13*Timers 3|10w10 254r7 254r25 255r7 255r28 13|87e15
+33n22*TIMER_EVT_ETHARPTMR{33E9} 3|254r32 255r35
+58U14*TID_Alloc 3|254s14
+69U14*Set_Interval 3|255s14
 X 15 system.ads
 50K9*System 3|45r14 78r14 313r20 15|164e11
 80M9*Address 3|45r21 78r21 313r27
