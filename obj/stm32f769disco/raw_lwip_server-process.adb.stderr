@@ -1,2 +1,0 @@
-raw_lwip_server-process.ads:22:25: "Process" conflicts with declaration at raw_lwip_server.ads:1332
-raw_lwip_server-process.ads:23:59: "State" not declared in "RAW_LwIp_Server"

@@ -1,9 +1,0 @@
-graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb"
-node: { title: "aip__ipaddrs__match" label: "MATCH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb:43:4\n16 bytes (static)" }
-edge: { sourcename: "aip__ipaddrs__match" targetname: "aip__ipaddrs__same" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb:45:50" }
-edge: { sourcename: "aip__ipaddrs__match" targetname: "aip__ipaddrs__any" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb:45:32" }
-edge: { sourcename: "aip__ipaddrs__match" targetname: "aip__ipaddrs__any" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb:45:14" }
-node: { title: "aip__ipaddrs__same" label: "SAME\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb:34:4\n16 bytes (static)" }
-node: { title: "aip__ipaddrs__any" label: "ANY\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb:25:4\n16 bytes (static)" }
-node: { title: "aip__ipaddrs__ip4" label: "IP4\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.adb:12:4\n16 bytes (static)" }
-}

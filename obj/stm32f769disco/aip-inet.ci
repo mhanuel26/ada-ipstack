@@ -1,6 +1,0 @@
-graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-inet.adb"
-node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
-node: { title: "aip__inet__hlen_to" label: "HLEN_TO\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-inet.adb:24:4\n24 bytes (static)" }
-edge: { sourcename: "aip__inet__hlen_to" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-inet.adb:33:20" }
-edge: { sourcename: "aip__inet__hlen_to" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-inet.adb:31:23" }
-}

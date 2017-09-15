@@ -1,9 +1,0 @@
-graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-support.adb"
-node: { title: "__gnat_rcheck_PE_Explicit_Raise" label: "gnat_rcheck_PE_Explicit_Raise\n<built-in>" shape : ellipse }
-node: { title: "gnat__io__put_line" label: "PUT_LINE\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/g-io.ads:56:14" shape : ellipse }
-node: { title: "aip__support__verify_or_err" label: "VERIFY_OR_ERR\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-support.adb:40:4\n24 bytes (static)" }
-node: { title: "aip__support__verify" label: "VERIFY\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-support.adb:25:4\n16 bytes (static)" }
-edge: { sourcename: "aip__support__verify" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-support.adb:32:10" }
-node: { title: "aip__support__log" label: "LOG\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-support.adb:14:4\n16 bytes (static)" }
-edge: { sourcename: "aip__support__log" targetname: "gnat__io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-support.adb:18:14" }
-}

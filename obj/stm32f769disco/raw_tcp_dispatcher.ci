@@ -1,7 +1,0 @@
-graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_tcp_dispatcher.adb"
-node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
-node: { title: "AIP_tcp_event" label: "Tcp_Event\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_tcp_dispatcher.adb:12:4\n32 bytes (static)" }
-edge: { sourcename: "AIP_tcp_event" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_tcp_dispatcher.adb:20:43" }
-node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
-edge: { sourcename: "AIP_tcp_event" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_tcp_dispatcher.adb:20:43" }
-}
