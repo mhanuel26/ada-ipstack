@@ -1,0 +1,105 @@
+edge: { sourcename: "os_service__mqtt_connect__TT5bCFD"
+  targetname: "-9:mqtt__mqtt_pier,mqtt__mqtt_pier"
+  label: "os_service.adb:86:23"
+}
+edge: { sourcename: "os_service__mqtt_connect__TS3bCFD"
+  targetname: "-9:test_mqtt_clients__test_client,test_mqtt_clients__test_client"
+  label: "os_service.adb:86:23"
+}
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__real_time__milliseconds" label: "Milliseconds\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-reatim.ads:106:13" shape : ellipse }
+node: { title: "ada__synchronous_task_control__suspension_objectVIP" label: "Suspension_Objectvip\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-sytaco.ads:79:4" shape : ellipse }
+node: { title: "system__tasking__restricted__stages__complete_restricted_task" label: "Complete_Restricted_Task\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-tarest.ads:241:14" shape : ellipse }
+node: { title: "ada__real_time__Oadd" label: "+\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-reatim.ads:74:13" shape : ellipse }
+node: { title: "aip__timers__timer_fired_cb" label: "TIMER_FIRED_CB\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-timers.ads:68:14" shape : ellipse }
+node: { title: "ada__real_time__delays__delay_until" label: "Delay_Until\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-retide.ads:42:14" shape : ellipse }
+node: { title: "ada__real_time__clock" label: "Clock\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-reatim.ads:70:13" shape : ellipse }
+node: { title: "aip__time_types__now" label: "NOW\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.ads:16:13" shape : ellipse }
+node: { title: "ada__synchronous_task_control__suspend_until_true" label: "Suspend_Until_True\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-sytaco.ads:65:14" shape : ellipse }
+node: { title: "system__tasking__restricted__stages__complete_restricted_activation" label: "Complete_Restricted_Activation\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-tarest.ads:232:14" shape : ellipse }
+node: { title: "ada__synchronous_task_control__set_true" label: "Set_True\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-sytaco.ads:51:14" shape : ellipse }
+node: { title: "aip__timers__initialize" label: "INITIALIZE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-timers.ads:42:14" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "gnat_rcheck_PE_Finalize_Raised_Exception\n<built-in>" shape : ellipse }
+node: { title: "handles__finalize__2" label: "Finalize\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:60:14" shape : ellipse }
+node: { title: "system__storage_pools__subpools__allocate_any_controlled" label: "Allocate_Any_Controlled\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-stposu.ads:263:14" shape : ellipse }
+node: { title: "system__relative_delays__delay_for" label: "Delay_For\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-reldel.ads:38:14" shape : ellipse }
+node: { title: "mqtt__connect" label: "CONNECT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:537:14" shape : ellipse }
+node: { title: "mqtt__set_client_ip" label: "SET_CLIENT_IP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:944:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Tag_Check" label: "gnat_rcheck_CE_Tag_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "handles__ptr" label: "Ptr\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:89:13" shape : ellipse }
+node: { title: "handles__set" label: "Set\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:106:14" shape : ellipse }
+node: { title: "test_mqtt_clients__test_clientDI" label: "Test_Clientdi\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" shape : ellipse }
+node: { title: "test_mqtt_clients__test_clientIP" label: "Test_Clientip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" shape : ellipse }
+node: { title: "handles__handleIP" label: "Handleip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" shape : ellipse }
+node: { title: "framebuffer_dsi__update_layer" label: "Update_Layer\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/Ada_Drivers_Library/boards/stm32_common/otm8009a/framebuffer_dsi.ads:112:25" shape : ellipse }
+node: { title: "demos__refresh_ifnet_stats" label: "Refresh_Ifnet_Stats\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.ads:55:14" shape : ellipse }
+node: { title: "aip__arp__send_request" label: "SEND_REQUEST\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-arp.ads:55:14" shape : ellipse }
+node: { title: "aip__ipaddrs__ip4" label: "IP4\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.ads:21:13" shape : ellipse }
+node: { title: "aip__timers__timer_stop" label: "TIMER_STOP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-timers.ads:53:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "aip__io__put_line" label: "PUT_LINE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.ads:11:14" shape : ellipse }
+node: { title: "system__tasking__restricted__stages__create_restricted_task_sequential" label: "Create_Restricted_Task_Sequential\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-tarest.ads:187:14" shape : ellipse }
+node: { title: "os_service___elabs" label: "Os_Service\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.ads:19:1\n16 bytes (static)" }
+edge: { sourcename: "os_service___elabs" targetname: "os_service__periodicTKVIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.ads:30:4" }
+node: { title: "os_service___elabb" label: "Os_Service\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:37:1\n16 bytes (static)" }
+edge: { sourcename: "os_service___elabb" targetname: "ada__real_time__milliseconds" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:50:70" }
+edge: { sourcename: "os_service___elabb" targetname: "ada__synchronous_task_control__suspension_objectVIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:48:4" }
+node: { title: "os_service__periodicTKB" label: "Periodic\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:122:4\n48 bytes (static)" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "_Unwind_Resume" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__periodicTK___finalizer.6581" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:148:0" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "ada__real_time__Oadd" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:145:25" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "aip__timers__timer_fired_cb" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:144:25" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "aip__time_types__now" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:143:16" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "ada__real_time__delays__delay_until" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:142:10" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "ada__real_time__clock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:135:22" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "aip__time_types__now" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:134:13" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "ada__synchronous_task_control__suspend_until_true" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:131:35" }
+edge: { sourcename: "os_service__periodicTKB" targetname: "system__tasking__restricted__stages__complete_restricted_activation" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:122:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__periodicTK___finalizer.6581" label: "Periodictk\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:122:4\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__periodicTK___finalizer.6581" targetname: "system__tasking__restricted__stages__complete_restricted_task" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:122:4" }
+node: { title: "os_service__start" label: "Start\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:116:4\n8 bytes (static)" }
+edge: { sourcename: "os_service__start" targetname: "ada__synchronous_task_control__set_true" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:119:35" }
+edge: { sourcename: "os_service__start" targetname: "aip__timers__initialize" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:118:22" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect__P18b.6241" label: "P18b\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:86:23\n40 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect__P18b.6241" targetname: "system__storage_pools__subpools__allocate_any_controlled" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:86:23" }
+node: { title: "os_service__mqtt_connect" label: "Mqtt_Connect\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:81:4\n96 bytes (static)" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "_Unwind_Resume" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect___finalizer.5944" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:110:0" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "aip__io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:107:19" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "system__relative_delays__delay_for" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:104:13" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "aip__io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:93:19" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "mqtt__connect" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:91:10" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "mqtt__set_client_ip" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:90:16" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "__gnat_rcheck_CE_Tag_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:88:45" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:88:74" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "handles__ptr" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:88:58" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "handles__set" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:86:7" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "test_mqtt_clients__test_clientDI" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:86:23" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "test_mqtt_clients__test_clientIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:86:23" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect__P18b.6241" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:86:23" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "aip__ipaddrs__ip4" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:83:7" }
+edge: { sourcename: "os_service__mqtt_connect" targetname: "handles__handleIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:82:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect___finalizer.5944" label: "Mqtt_Connect\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:81:4\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect___finalizer.5944" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:81:4" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect___finalizer.5944" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:81:4" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect___finalizer.5944" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect___finalizer.5944" targetname: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:81:4" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__mqtt_connect___finalizer.5944" targetname: "handles__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:82:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__refresh" label: "Refresh\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:71:4\n8 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__refresh" targetname: "framebuffer_dsi__update_layer" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:74:26" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__refresh" targetname: "demos__refresh_ifnet_stats" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:73:12" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__send_arp" label: "Send_Arp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:63:4\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__send_arp" targetname: "aip__arp__send_request" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:67:14" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:os_service__send_arp" targetname: "aip__ipaddrs__ip4" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:65:7" }
+node: { title: "os_service__dummy" label: "Dummy\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:52:4\n24 bytes (static)" }
+edge: { sourcename: "os_service__dummy" targetname: "aip__timers__timer_stop" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:60:17" }
+edge: { sourcename: "os_service__dummy" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:60:30" }
+edge: { sourcename: "os_service__dummy" targetname: "os_service__mqtt_connect" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:56:7" }
+edge: { sourcename: "os_service__dummy" targetname: "aip__io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.adb:55:13" }
+node: { title: "os_service__periodicTKVIP" label: "Periodictkvip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.ads:30:4\n72 bytes (static)" }
+edge: { sourcename: "os_service__periodicTKVIP" targetname: "system__tasking__restricted__stages__create_restricted_task_sequential" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/os_service.ads:30:4" }
+}

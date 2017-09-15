@@ -1,0 +1,205 @@
+edge: { sourcename: "test_mqtt_clients__TT48sCFD"
+  targetname: "-9:mqtt__mqtt_pier,mqtt__mqtt_pier"
+  label: "test_mqtt_clients.ads:80:24"
+}
+edge: { sourcename: "test_mqtt_clients__test_clientDF__B60s__B62s__TS63sCFD__2"
+  targetname: "-9:mqtt__mqtt_pier,mqtt__mqtt_pier"
+  label: "test_mqtt_clients.ads:80:9"
+}
+edge: { sourcename: "test_mqtt_clients___size__TT71sCFD__2"
+  targetname: "-9:mqtt__mqtt_pier,mqtt__mqtt_pier"
+  label: "test_mqtt_clients.ads:80:9"
+}
+edge: { sourcename: "test_mqtt_clients__Ttest_clientCFD"
+  targetname: "-9:test_mqtt_clients__test_client,test_mqtt_clients__test_client"
+  label: "test_mqtt_clients.ads:51:9"
+}
+class {
+  classname: "test_mqtt_clients__test_client"
+  label: "test_mqtt_clients__test_client\test_mqtt_clients.ads:51:9"
+  parent: "mqtt__mqtt_pier"
+  virtuals: "-1:test_mqtt_clients___size__2,-1:mqtt__mqtt_pier\n
+             -9:test_mqtt_clients__test_clientDF__2,-9:mqtt__mqtt_pier\n
+             33:test_mqtt_clients__on_connect_accepted,33:mqtt__mqtt_pier\n
+             34:test_mqtt_clients__on_connect_rejected,34:mqtt__mqtt_pier\n
+             37:test_mqtt_clients__on_ping_response,37:mqtt__mqtt_pier\n
+             38:test_mqtt_clients__on_publish,38:mqtt__mqtt_pier\n
+             40:test_mqtt_clients__on_subscribe_acknowledgement,40:mqtt__mqtt_pier"
+}
+edge: { sourcename: "test_mqtt_clients__test_1__TT63bCFD"
+  targetname: "-9:mqtt__mqtt_pier,mqtt__mqtt_pier"
+  label: "test_mqtt_clients.adb:140:35"
+}
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:543:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:456:14" shape : ellipse }
+node: { title: "system__storage_pools__subpools__allocate_any_controlled" label: "Allocate_Any_Controlled\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-stposu.ads:263:14" shape : ellipse }
+node: { title: "mqtt__send_disconnect" label: "SEND_DISCONNECT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:627:14" shape : ellipse }
+node: { title: "mqtt__send_publish__2" label: "SEND_PUBLISH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:674:14" shape : ellipse }
+node: { title: "mqtt__send_ping" label: "SEND_PING\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:638:14" shape : ellipse }
+node: { title: "mqtt__send_connect" label: "SEND_CONNECT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:573:14" shape : ellipse }
+node: { title: "system__relative_delays__delay_for" label: "Delay_For\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-reldel.ads:38:14" shape : ellipse }
+node: { title: "mqtt__is_connected" label: "IS_CONNECTED\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:549:13" shape : ellipse }
+node: { title: "mqtt__connect" label: "CONNECT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:537:14" shape : ellipse }
+node: { title: "mqtt__set_client_cbs" label: "SET_CLIENT_CBS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:952:14" shape : ellipse }
+node: { title: "mqtt__set_client_ip" label: "SET_CLIENT_IP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:944:14" shape : ellipse }
+node: { title: "mqtt__packet_identificationIP" label: "PACKET_IDENTIFICATIONIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:173:9" shape : ellipse }
+node: { title: "handles__set" label: "Set\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:106:14" shape : ellipse }
+node: { title: "system__img_enum_new__image_enumeration_8" label: "Image_Enumeration_8\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-imenne.ads:48:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Discriminant_Check" label: "gnat_rcheck_CE_Discriminant_Check\n<built-in>" shape : ellipse }
+node: { title: "mqtt__return_codeD2" label: "RETURN_CODED2\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:187:4" shape : ellipse }
+node: { title: "aip__io__put" label: "PUT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.ads:10:14" shape : ellipse }
+node: { title: "strings_edit__integers__image" label: "Image\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/strings_edit-integer_edit.ads:159:13" shape : ellipse }
+node: { title: "mqtt__on_publish" label: "ON_PUBLISH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:885:14" shape : ellipse }
+node: { title: "system__secondary_stack__ss_release" label: "Ss_Release\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-secsta.ads:70:14" shape : ellipse }
+node: { title: "aip__io__put_line" label: "PUT_LINE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.ads:11:14" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "mqtt__image__3" label: "IMAGE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:155:13" shape : ellipse }
+node: { title: "system__secondary_stack__ss_mark" label: "Ss_Mark\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-secsta.ads:67:13" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "mqtt__received" label: "RECEIVED\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:486:14" shape : ellipse }
+node: { title: "mqtt__does_mqtt_pier_match" label: "DOES_MQTT_PIER_MATCH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:948:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Tag_Check" label: "gnat_rcheck_CE_Tag_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "handles__ptr" label: "Ptr\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:89:13" shape : ellipse }
+node: { title: "handles__Oeq" label: "=\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:128:13" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:575:14" shape : ellipse }
+node: { title: "mqtt__mqtt_pierIP" label: "MQTT_PIERIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:1044:9" shape : ellipse }
+node: { title: "mqtt__mqtt_pierDF__2" label: "MQTT_PIERDF\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:1044:9" shape : ellipse }
+node: { title: "mqtt__finalize__2" label: "FINALIZE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:374:14" shape : ellipse }
+node: { title: "object__initialize" label: "Initialize\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object.ads:116:14" shape : ellipse }
+node: { title: "handles___assign__3" label: "Handles\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" shape : ellipse }
+node: { title: "handles__finalize__2" label: "Finalize\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:60:14" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "gnat_rcheck_PE_Finalize_Raised_Exception\n<built-in>" shape : ellipse }
+node: { title: "handles__adjust__2" label: "Adjust\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:50:14" shape : ellipse }
+node: { title: "handles__handleIP" label: "Handleip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" shape : ellipse }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:_GLOBAL__SZ19_test_mqtt_clients" label: "SZ19_TEST_MQTT_CLIENTS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/mqtt/mqtt.ads:178:15\n16 bytes (static)" }
+node: { title: "test_mqtt_clients___elabs" label: "Test_Mqtt_Clients\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:33:1\n16 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients___elabs" targetname: "ada__tags__register_tag" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients___elabs" targetname: "ada__tags__check_tsd" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients___elabs" targetname: "system__secondary_stack__ss_release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:39:4" }
+edge: { sourcename: "test_mqtt_clients___elabs" targetname: "handles__adjust__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:39:40" }
+edge: { sourcename: "test_mqtt_clients___elabs" targetname: "system__secondary_stack__ss_mark" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:39:4" }
+node: { title: "test_mqtt_clients___elabb" label: "Test_Mqtt_Clients\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:31:1\n4 bytes (static)" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__test_1__P72b.7047" label: "P72b\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:140:35\n40 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__test_1__P72b.7047" targetname: "system__storage_pools__subpools__allocate_any_controlled" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:140:35" }
+node: { title: "test_mqtt_clients__test_1" label: "Test_1\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:136:4\n192 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "aip__io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:165:19" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__send_disconnect" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:163:13" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "system__relative_delays__delay_for" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:162:13" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__send_publish__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:158:13" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "system__relative_delays__delay_for" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:157:13" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__send_ping" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:156:13" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "system__relative_delays__delay_for" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:154:16" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__is_connected" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:153:25" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__send_connect" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:152:13" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "system__relative_delays__delay_for" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:150:16" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__is_connected" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:149:25" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__connect" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:147:16" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__set_client_cbs" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:146:16" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__set_client_ip" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:145:16" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "mqtt__packet_identificationIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:143:10" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "__gnat_rcheck_CE_Tag_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:142:41" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:142:82" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "handles__ptr" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:142:54" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "handles__set" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:140:7" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "test_mqtt_clients__test_clientDI" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:140:35" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "test_mqtt_clients__test_clientIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:140:35" }
+edge: { sourcename: "test_mqtt_clients__test_1" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__test_1__P72b.7047" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:140:35" }
+node: { title: "test_mqtt_clients__on_subscribe_acknowledgement" label: "On_Subscribe_Acknowledgement\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:115:4\n208 bytes (dynamic)" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "_Unwind_Resume" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "aip__io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:133:13" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "aip__io__put" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:130:19" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "aip__io__put" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:128:19" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "system__img_enum_new__image_enumeration_8" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:128:34" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:128:55" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "__gnat_rcheck_CE_Discriminant_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:128:55" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "mqtt__return_codeD2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:128:55" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "aip__io__put" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:125:19" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__on_subscribe_acknowledgement__B34b___finalizer.6896" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:122:0" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "aip__io__put" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:122:13" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "memcpy" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "memcpy" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "strings_edit__integers__image" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:122:35" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "system__secondary_stack__ss_mark" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:122:13" }
+edge: { sourcename: "test_mqtt_clients__on_subscribe_acknowledgement" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:115:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__on_subscribe_acknowledgement__B34b___finalizer.6896" label: "B34b\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:122:13\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__on_subscribe_acknowledgement__B34b___finalizer.6896" targetname: "system__secondary_stack__ss_release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:122:13" }
+node: { title: "test_mqtt_clients__on_publish" label: "On_Publish\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:94:4\n48 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__on_publish" targetname: "mqtt__on_publish" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:104:7" }
+edge: { sourcename: "test_mqtt_clients__on_publish" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:94:4" }
+node: { title: "test_mqtt_clients__on_ping_response" label: "On_Ping_Response\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:87:4\n16 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__on_ping_response" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:87:4" }
+node: { title: "test_mqtt_clients__on_connect_rejected" label: "On_Connect_Rejected\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:77:4\n88 bytes (dynamic)" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "_Unwind_Resume" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__on_connect_rejected__B13b___finalizer.6830" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:83:0" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "aip__io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:83:13" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "memcpy" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "memcpy" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "mqtt__image__3" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:83:46" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "system__secondary_stack__ss_mark" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:83:13" }
+edge: { sourcename: "test_mqtt_clients__on_connect_rejected" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:77:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__on_connect_rejected__B13b___finalizer.6830" label: "B13b\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:83:13\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:test_mqtt_clients__on_connect_rejected__B13b___finalizer.6830" targetname: "system__secondary_stack__ss_release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:83:13" }
+node: { title: "test_mqtt_clients__on_connect_accepted" label: "On_Connect_Accepted\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:67:4\n16 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__on_connect_accepted" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:67:4" }
+node: { title: "test_mqtt_clients__test_connect" label: "Test_Connect\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:55:4\n32 bytes (static)" }
+node: { title: "test_mqtt_clients__test_receive" label: "Test_Receive\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:33:4\n96 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__test_receive" targetname: "mqtt__received" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:46:25" }
+edge: { sourcename: "test_mqtt_clients__test_receive" targetname: "mqtt__does_mqtt_pier_match" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:45:25" }
+edge: { sourcename: "test_mqtt_clients__test_receive" targetname: "__gnat_rcheck_CE_Tag_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:42:47" }
+edge: { sourcename: "test_mqtt_clients__test_receive" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:42:92" }
+edge: { sourcename: "test_mqtt_clients__test_receive" targetname: "handles__ptr" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:42:60" }
+edge: { sourcename: "test_mqtt_clients__test_receive" targetname: "handles__Oeq" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.adb:40:39" }
+node: { title: "test_mqtt_clients__finalize_spec" label: "Finalize_Spec\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:33:1\n24 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__finalize_spec" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:33:1" }
+edge: { sourcename: "test_mqtt_clients__finalize_spec" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:33:1" }
+edge: { sourcename: "test_mqtt_clients__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "test_mqtt_clients__finalize_spec" targetname: "test_mqtt_clients__Thandle_arrayBDF" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:39:4" }
+edge: { sourcename: "test_mqtt_clients__finalize_spec" targetname: "ada__tags__unregister_tag" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:33:1" }
+node: { title: "test_mqtt_clients__Ttest_clientCFD" label: "Ttest_Clientcfd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:51:9\n32 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__Ttest_clientCFD" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:51:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "test_mqtt_clients___size__2" label: "Test_Mqtt_Clients\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9\n24 bytes (static)" }
+node: { title: "test_mqtt_clients__test_clientIP" label: "Test_Clientip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9\n24 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__test_clientIP" targetname: "mqtt__mqtt_pierIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:24" }
+node: { title: "test_mqtt_clients__test_clientFD" label: "Test_Clientfd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9\n16 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__test_clientFD" targetname: "test_mqtt_clients__test_clientDF__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+node: { title: "test_mqtt_clients__test_clientDF__2" label: "Test_Clientdf\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9\n40 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "_Unwind_Resume" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "_Unwind_Resume" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "mqtt__mqtt_pierDF__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+edge: { sourcename: "test_mqtt_clients__test_clientDF__2" targetname: "mqtt__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+node: { title: "test_mqtt_clients__test_clientDI" label: "Test_Clientdi\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9\n16 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__test_clientDI" targetname: "object__initialize" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:9" }
+node: { title: "test_mqtt_clients__TT48sCFD" label: "Tt48scfd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:24\n32 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__TT48sCFD" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:80:24" }
+node: { title: "test_mqtt_clients__Thandle_arrayBSA" label: "Thandle_Arraybsa\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4\n40 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBSA" targetname: "handles___assign__3" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+node: { title: "test_mqtt_clients__Thandle_arrayBFD" label: "Thandle_Arraybfd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4\n24 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBFD" targetname: "test_mqtt_clients__Thandle_arrayBDF" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+node: { title: "test_mqtt_clients__Thandle_arrayBDF" label: "Thandle_Arraybdf\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4\n48 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDF" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDF" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDF" targetname: "_Unwind_Resume" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDF" targetname: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDF" targetname: "handles__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+node: { title: "test_mqtt_clients__Thandle_arrayBDA" label: "Thandle_Arraybda\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4\n48 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDA" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDA" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDA" targetname: "_Unwind_Resume" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDA" targetname: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBDA" targetname: "handles__adjust__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+node: { title: "test_mqtt_clients__Thandle_arrayBDI" label: "Thandle_Arraybdi\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4\n16 bytes (static)" }
+node: { title: "test_mqtt_clients__Thandle_arrayBIP" label: "Thandle_Arraybip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4\n32 bytes (static)" }
+edge: { sourcename: "test_mqtt_clients__Thandle_arrayBIP" targetname: "handles__handleIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/ping/test_mqtt_clients.ads:37:4" }
+}

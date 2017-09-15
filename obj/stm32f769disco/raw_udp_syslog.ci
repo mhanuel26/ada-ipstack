@@ -1,0 +1,41 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb"
+node: { title: "aip__udp__udp_bind" label: "UDP_BIND\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-udp.ads:36:14" shape : ellipse }
+node: { title: "aip__udp__on_udp_recv" label: "ON_UDP_RECV\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-udp.ads:116:14" shape : ellipse }
+node: { title: "aip__udp__udp_new" label: "UDP_NEW\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-udp.ads:31:14" shape : ellipse }
+node: { title: "aip__udp__udp_disconnect" label: "UDP_DISCONNECT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-udp.ads:88:14" shape : ellipse }
+node: { title: "aip__buffers__buffer_blind_free" label: "BUFFER_BLIND_FREE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:202:14" shape : ellipse }
+node: { title: "aip__udp__udp_send" label: "UDP_SEND\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-udp.ads:68:14" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-assert.ads:46:14" shape : ellipse }
+node: { title: "aip__no" label: "NO\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip.ads:154:13" shape : ellipse }
+node: { title: "aip__udp__udp_connect" label: "UDP_CONNECT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-udp.ads:53:14" shape : ellipse }
+node: { title: "aip__ipaddrs__ip4" label: "IP4\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-ipaddrs.ads:21:13" shape : ellipse }
+node: { title: "aip__buffers__buffer_chain" label: "BUFFER_CHAIN\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:222:14" shape : ellipse }
+node: { title: "memcpy" label: "Memcpy\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:18:14" shape : ellipse }
+node: { title: "aip__buffers__buffer_payload" label: "BUFFER_PAYLOAD\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:159:13" shape : ellipse }
+node: { title: "aip__buffers__buffer_alloc" label: "BUFFER_ALLOC\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:94:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "aip__inet__hlen_to" label: "HLEN_TO\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-inet.ads:18:13" shape : ellipse }
+node: { title: "raw_udp_syslog__init" label: "Init\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:106:4\n32 bytes (static)" }
+edge: { sourcename: "raw_udp_syslog__init" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:120:22" }
+edge: { sourcename: "raw_udp_syslog__init" targetname: "aip__no" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:120:25" }
+edge: { sourcename: "raw_udp_syslog__init" targetname: "aip__udp__udp_bind" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:119:14" }
+edge: { sourcename: "raw_udp_syslog__init" targetname: "aip__udp__on_udp_recv" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:117:14" }
+edge: { sourcename: "raw_udp_syslog__init" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:115:22" }
+edge: { sourcename: "raw_udp_syslog__init" targetname: "aip__udp__udp_new" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:114:14" }
+node: { title: "raw_udp_syslog__syslog_process_recv" label: "Syslog_Process_Recv\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:21:4\n48 bytes (static)" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__udp__udp_disconnect" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:98:14" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__buffers__buffer_blind_free" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:93:18" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:91:22" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__no" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:91:25" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__udp__udp_send" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:90:14" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:88:22" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__no" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:88:25" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__udp__udp_connect" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:87:14" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__ipaddrs__ip4" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:86:18" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__buffers__buffer_chain" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:82:18" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "memcpy" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:79:7" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__buffers__buffer_payload" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:79:26" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__buffers__buffer_alloc" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:63:18" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:64:28" }
+edge: { sourcename: "raw_udp_syslog__syslog_process_recv" targetname: "aip__inet__hlen_to" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.adb:64:28" }
+}

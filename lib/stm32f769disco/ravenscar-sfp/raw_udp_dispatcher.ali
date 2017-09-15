@@ -1,0 +1,83 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U raw_udp_dispatcher%b	raw_udp_dispatcher.adb	11266e50 NE OO PK
+W raw_udp_callbacks%s	raw_udp_callbacks.ads	raw_udp_callbacks.ali
+W raw_udp_syslog%s	raw_udp_syslog.adb	raw_udp_syslog.ali
+
+U raw_udp_dispatcher%s	raw_udp_dispatcher.ads	a81b7edc EE NE OO PK
+W aip%s			aip.adb			aip.ali
+W aip.callbacks%s	aip-callbacks.ads	aip-callbacks.ali
+W aip.pcbs%s		aip-pcbs.adb		aip-pcbs.ali
+W aip.udp%s		aip-udp.adb		aip-udp.ali
+
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170912220857 ec3c29ae aip.config%s
+D aip-ip.ads		20170815223411 36592376 aip.ip%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D aip-pools.ads		20170804214847 35af82f0 aip.pools%s
+D aip-tcp.ads		20170902044844 1a4cf31d aip.tcp%s
+D aip-udp.ads		20170806165452 1cbde6e9 aip.udp%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D net.ads		20170911175125 10b1f911 net%s
+D raw_udp_callbacks.ads	20170811031958 09a5b48b raw_udp_callbacks%s
+D raw_udp_dispatcher.ads  20170811032138 1372e153 raw_udp_dispatcher%s
+D raw_udp_dispatcher.adb  20170811031958 bcf3aca5 raw_udp_dispatcher%b
+D raw_udp_syslog.ads	20170811031958 b702972d raw_udp_syslog%s
+D system.ads		20170728224417 db831581 system%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 aip.ads
+66K9*AIP 182e8 15|6r6 7r6 8r6 13r14 14r14 15r14 16|12r14 13r14 14r14
+75I9*S32_T<integer>
+167I12*EID{75I9}
+X 3 aip-callbacks.ads
+8K13*Callbacks 33e18 15|6w10 15r18 16|14r18
+18M9*CBK_Id 15|15r28 16|14r28
+X 8 aip-pcbs.ads
+14K13*PCBs 157e13 15|7w10 14r18 16|13r18
+16I12*PCB_Id{1|167I12} 15|14r23 16|13r23
+X 11 aip-udp.ads
+17K13*UDP 165e12 15|8w10 13r18 16|12r18
+109R9*UDP_Event_T 114e14 15|13r22 16|12r22
+X 14 raw_udp_callbacks.ads
+12K9*RAW_UDP_Callbacks 17e22 16|6w6 24r15
+14m4*SYSLOG_RECV{3|18M9} 16|24r33
+X 15 raw_udp_dispatcher.ads
+10K9*RAW_UDP_Dispatcher 21l5 21e23 16|9b14 31l5 31t23
+12U14*UDP_Event 13>7 14>7 15>7 16|11b14 29l8 29t17
+13r7 Ev{11|109R9} 16|12b7 25r49
+14i7 PCB{8|16I12} 16|13b7 25r53
+15m7 Cbid{3|18M9} 16|14b7 23r12
+X 17 raw_udp_syslog.ads
+15K9*RAW_UDP_Syslog 16|7w6 25r13 17|26e19
+17U14*SYSLOG_Process_Recv 16|25s28
+

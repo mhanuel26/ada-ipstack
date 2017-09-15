@@ -1,0 +1,430 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U connection_state_machine%b  connection_state_machine.adb  e69355e1 OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U connection_state_machine%s  connection_state_machine.ads  80d218d0 BN EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W generic_unbounded_array%s  generic_unbounded_array.adb  generic_unbounded_array.ali  AD
+W interfaces%s		interfac.ads		interfac.ali
+W raw_lwip_server%s	raw_lwip_server.adb	raw_lwip_server.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-charac.ads		20170517144320 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170517144320 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-finali.ads		20170517144320 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170517144320 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170517144320 119b8fb3 ada.streams%s
+D a-string.ads		20170517144320 90ac6797 ada.strings%s
+D a-strmap.ads		20170517144320 e8bb714a ada.strings.maps%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170517144320 f15a5ed1 ada.unchecked_deallocation%s
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170912220857 ec3c29ae aip.config%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D connection_state_machine.ads  20170904214026 9acedd10 connection_state_machine%s
+D connection_state_machine.adb  20170904213946 df209b97 connection_state_machine%b
+D generic_unbounded_array.ads  20170819033324 2a33c881 generic_unbounded_array%s
+D generic_unbounded_array.adb  20170819033253 c292e192 generic_unbounded_array%b
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D object.ads		20170819034427 d0edfe36 object%s
+D object-handle.ads	20170819034649 9fe931e5 object.handle%s
+D raw_lwip_server.ads	20170909020754 c44e50f1 raw_lwip_server%s
+D strings_edit.ads	20170819015521 7d801be5 strings_edit%s
+D strings_edit-integer_edit.ads  20170819025937 bd787de3 strings_edit.integer_edit%s
+D system.ads		20170728224417 db831581 system%s
+D s-atacco.ads		20170517144320 4c36d12f system.address_to_access_conversions%s
+D s-finmas.ads		20170517144320 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170517144320 4ff27390 system.finalization_root%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-pooglo.ads		20170517144320 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170517144320 0b22b54c system.secondary_stack%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170517144320 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170517144320 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170517144320 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170517144320 aedef97e system.stream_attributes%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 ada.ads
+16K9*Ada 20e8 20|39r6 39r32 40r6 40r32 161r11 21|27r6 27r30 28r6 28r30 29r6
+. 29r30 31r6 303r11 326r14
+X 4 a-except.ads
+54K13*Exceptions 349e19 21|27w10 27r34
+90U14*Raise_Exception 21|160s22 188s10 216s10 248s22 292s10 402s10 415s10
+. 429s10 457s10 523s13 560s10
+X 5 a-finali.ads
+40K13*Finalization 68e21 20|39w10 39r36 161r15
+50H9*Limited_Controlled<33|40R9> 66e55 20|161r28
+53U14*Initialize<33|44p14>
+54U14*Finalize<33|43p14>
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 21|28w10 28r34
+21X4*Status_Error 21|524r14
+24X4*Use_Error 21|161r23 189r11 217r11 249r23 293r11 403r11 416r11 430r11
+. 458r11
+X 7 a-stream.ads
+36K13*Streams 87e16 20|40w10 40r36
+39H9*Root_Stream_Type 70e64 20|152r31 205r31 230r31 334r31 455r38 21|131r31
+. 140r31 199r31 228r31
+42M9*Stream_Element
+44I9*Stream_Element_Offset<long_long_integer> 20|143r34 182r34 184r34 221r34
+. 223r34 269r34 271r34 291r34 293r34 450r15 465r30 21|347r34 349r34 361r34
+. 363r34 374r34 376r34 486r30 498r34
+51I12*Stream_Element_Count{44I9}
+54A9*Stream_Element_Array(42M9)<44I9> 20|142r27 181r27 220r27 268r27 290r27
+. 464r30 471r26 21|346r27 360r27 373r27 485r30 497r27 644r26
+X 10 a-tags.ads
+69K13*Tags 608e13 21|29w10 29r34
+78V13*Expanded_Name{string} 21|163s28 191s16 193s16 219s16 221s16 251s28
+. 295s16 297s16 405s16 418s16 432s16 460s16 526s19 563s16
+X 12 a-uncdea.ads
+20u15*Unchecked_Deallocation 21|31w10 303r15 326r18
+X 13 aip.ads
+104M9*M32_T
+X 17 aip-ipaddrs.ads
+15M12*IPaddr{13|104M9}
+X 20 connection_state_machine.ads
+52K9*Connection_State_Machine 424E14 509l5 509e29 21|34b14 650l5 650t29
+118H9*State_Machine<27|129R9> 126P14 126r41 135P14 135r40 140P14 141r32 151p14
+. 153r26 155r8 183r34 222r34 270r34 292r34 449c9 452e14 453p14 453r36 21|103r31
+. 113r41 117r7 119r10 132r26 306r40 348r34 362r34 375r34 496r32 515r35 25|56p14
+. 79p13 84p13 109p14 116P14 27|170p13 185p13 234p14 373p14 398p14 423p14
+. 490p13 540p13 583p13 604p13 646p13 661p13 671p13 681p13 789p14 799p13 841p14
+. 853p14 884p14 889p14 924p14 929p14 940p14 949p14 962p14 970p14 988p14 1003p14
+. 1019p14 1037p14 1059p14 1072p14 1280p14 1291p14 1319p14 1330p14 1559p14
+. 33|42p14
+126U14*Connected<27|270p14> 126=25 21|113b14 128l8 128t17
+126r25 Client{118R9} 21|113b25 119r31 121m7
+135U14*Finalize<27|459p14> 135=24 21|306b14 315l8 315t16
+135r24 Client{118R9} 21|306b24 308r10 309r16 310m13 310r28 312m16 312r16
+. 314m29 314r29
+140U14*Received<27|827p14> 141=15 142>17 143=17 21|495b14 533l8 533t16
+141r15 Client{118R9} 21|496b15 504r11 504r29 507m13 508m13 508r13 510r13
+. 511r13 511r36 512r19 512r41 513r19 514r19 515m56 515r56 518m16 518r31 519r16
+. 519r39 527r20 528r23
+142a17 Data{7|54A9} 21|497b17 501r18 505r13 522r33
+143i17 Pointer{7|44I9} 21|498b17 501m7 506m13 522r23
+151U14*Enumerate 152^15 153>17 155r32 21|130b14 136l8 136t17
+152p15 Stream(7|39R9) 21|131b15
+153r17 Item{118R9} 21|132b17
+160H9*Data_Item<5|50R9> 5|53P14 54P14 20|161e63 179p14 180r32 195p13 195r30
+. 204p14 206r26 208r8 213r36 261r26 283r30 426r37 486r26 489r27 502r30 21|163r43
+. 191r31 200r26 219r31 251r43 295r31 388r49 405r31 418r31 432r31 447r30 460r31
+. 541r26 563r31 33|42p14
+179x14*Feed 180=15 181>17 182=17 183=17 184=17 21|503R10
+180r15 Item{160R9}
+181a17 Data{7|54A9}
+182i17 Pointer{7|44I9}
+183c17 Client<118R9>
+184i17 State{7|44I9}
+195V13*Get_Size{positive} 195>23 21|441R32 447b13 451l8 451t16 473R38
+195r23 Item{160R9} 21|447b23 449r28
+204U14*Enumerate 205^15 206>17 21|198b14 224l8 224t17
+205p15 Stream(7|39R9) 21|199b15 203r10 206r49 221r31
+206r17 Item{160R9} 21|200b17 212r50 219r48
+213H9*Data_Block<160R9> 5|53P14 20|218P14 219r32 229P14 231r26 233r8 242P14
+. 242r38 252p13 252r32 257P13 257r30 488r38 489c9 492e14 493r26 21|141r26
+. 155r19 157r22 318r38 345r32 385r49 412r32 426r30 535r26 33|42p14
+218U14*Feed<179p14> 219=15 220>17 221=17 222=17 223=17 21|344b14 355l8 355t12
+219r15 Item{213R9} 21|345b15 353r21
+220a17 Data{7|54A9} 21|346b17 352r28
+221i17 Pointer{7|44I9} 21|347b17 352r34
+222c17 Client<118R9> 21|348b17 353m13
+223i17 State{7|44I9} 21|349b17 354m7
+229U14*Enumerate<204p14> 230^15 231>17 21|139b14 196l8 196t17
+230p15 Stream(7|39R9) 21|140b15 144r10 148r50 193r31
+231r17 Item{213R9} 21|141b17 150r20 154r25 157r40 163r60 167r25 176r56 183r50
+. 191r48
+242U14*Finalize<5|54p14> 242=24 21|318b14 321l8 321t16
+242r24 Item{213R9} 21|318b24 320m13 320r13
+252V13*Get_Length{positive} 252>25 21|412b13 423l8 423t18
+252r25 Item{213R9} 21|412b25 414r14 414r39 418r48 422r24
+257V13*Get_Size{positive}<195p13> 257>23 21|176s46 426b13 445l8 445t16
+257r23 Item{213R9} 21|426b23 428r14 428r39 432r48 438r47
+261R9*Data_Null<160R9> 5|53P14 54P14 20|195p13 204p14 261e52 266P14 267r32
+. 21|359r32 33|42p14
+266U14*Feed<179p14> 267=15 268>17 269=17 270=17 271=17 21|358b14 368l8 368t12
+267r15 Item{261R9} 21|359b15 366r51
+268a17 Data{7|54A9} 21|360b17 366r28
+269i17 Pointer{7|44I9} 21|361b17 366r34
+270c17 Client<118R9> 21|362b17 366r43
+271i17 State{7|44I9} 21|363b17 367m7
+283R9*Data_Selector<160R9> 5|53P14 20|288P14 289r32 303P14 303r38 313p13
+. 313r37 327p13 327r45 333P14 335r26 337r8 349p14 350r36 357P13 357r30 501r41
+. 502c9 506e14 507r26 21|229r26 234r24 235r30 246r19 324r38 372r32 391r49
+. 393r37 398r45 454r30 547r26 555r36 33|42p14
+288U14*Feed<179p14> 289=15 290>17 291=17 292=17 293=17 21|371b14 382l8 382t12
+289r15 Item{283R9} 21|372b15 380r21 380r45
+290a17 Data{7|54A9} 21|373b17 379r28
+291i17 Pointer{7|44I9} 21|374b17 379r34
+292c17 Client<118R9> 21|375b17 380m13
+293i17 State{7|44I9} 21|376b17 381m7
+303U14*Finalize<5|54p14> 303=24 21|324b14 341l8 341t16
+303r24 Item{283R9} 21|324b24 331r10 333r43 339m16 339r16
+313V13*Get_Alternative{positive} 313>30 21|393b13 396l8 396t23
+313r30 Item{283R9} 21|393b30 395r14
+327V13*Get_Alternatives_Number{positive} 327>38 21|398b13 410l8 410t31 559s24
+327r38 Item{283R9} 21|398b38 401r14 401r39 405r48 409r24
+333U14*Enumerate<204p14> 334^15 335>17 21|227b14 300l8 300t17
+334p15 Stream(7|39R9) 21|228b15 232r10 238r53 297r31
+335r17 Item{283R9} 21|229b17 235r51 251r60 263r29 280r56 287r50 295r48
+349U14*Set_Alternative 350=15 351>17 21|554b14 567l8 567t23
+350r15 Item{283R9} 21|555b15 559r49 563r48 566m7
+351i17 Alternative{positive} 21|556b17 559r10 566r23
+357V13*Get_Size{positive}<195p13> 357>23 21|280s46 454b13 479l8 479t16
+357r23 Item{283R9} 21|454b23 456r14 456r39 460r48 466r44
+424U14 Process_Packet 424=30 21|97b14 100l8 100t22
+424r30 Client{27|129R9} 21|97b30
+426P9 Data_Item_Ptr(160R9) 431r45 435r35 486r50 21|261r29 541r50
+427I9 Data_Item_Offset<integer> 429r7 429r35 445r17 456r16 457r16 21|146r21
+. 176r28 236r24 269r31 280r28
+428I12 Data_Item_Address{427I9} 431r14 434r33 443r28
+430A9 Data_Item_Ptr_Array(426P9)<427I9> 436r35 446r17 21|438r19 470r23
+432K12 Data_Item_Arrays[22|62] 439r8
+441R9 Sequence 442r36 443c9 443d19 447e14 21|122r14 168r26 272r32 303r39
+442P9 Sequence_Ptr(441R9) 444r17 451r15 453r58 490r21 495r56 21|104r26 303r49
+443i19*Length{428I12} 446r43 21|123m15 169m27 273m33 422r34 512r53
+444p7*Caller{442P9} 21|107m12 124m17 170m29 274m35 309r28 310r40 513r31 518r43
+445i7*Current{427I9} 21|109m12 125m17 171m29 275m35 504r41 511m25 511r48
+. 512r31 514m31 519m28 519r51 528r35
+446a7*List{430A9} 21|126m17 172m29 276m35 438m57 470m68 504r23 527r32
+450i7 State{7|44I9} 21|508m20 510r20
+451p7 Data{442P9} 21|107r30 108m14 121m14 308r17 309r23 310m20 310r35 312m23
+. 504r18 504r36 511r20 511r43 512r26 512r48 513r26 514r26 518m23 518r38 519r23
+. 519r46 527r27 528r30
+453U14 Call 453=20 453>51 21|102b14 110l8 110t12 353R7 380R7
+453r20 Client{118R9} 21|103b15 107r23 108m7
+453p51 Data{442P9} 21|104b17 107r7 108r23 109r7
+455R9 Initialization_Stream<7|39R9> 459e14 462P14 463r31 469P14 470r31 21|114r24
+. 144r24 147r21 148r21 152r37 203r24 205r20 206r20 232r24 237r24 238r24 243r37
+. 484r31 643r31
+456i7*Count{427I9} 21|123r33 126r60 159r30 169r46 174r53 182m21 182r35 183r37
+. 211m21 211r35 212r37 247r30 257r44 286m21 286r35 287r37
+457i7*Ignore{427I9} 21|179r21 180m21 180r36 185m18 185r33 208r21 209m21 209r36
+. 283r21 284m21 284r36 289m18 289r33
+458r7*Data{22|64R9[432]} 21|126r35 172r48 183m26 212m26 268r37 287m26
+462U14 Read<7|57p14> 463=15 464<17 465<17 21|483b14 491l8 491t12
+463r15 Stream{455R9} 21|484b15 489r28
+464a17 Item{7|54A9} 21|485b17 490r15
+465i17 Last{7|44I9} 21|486b17 490m7
+469U14 Write<7|63p14> 470=15 471>17 21|642b14 648l8 648t13
+470r15 Stream{455R9} 21|643b15
+471a17 Item{7|54A9} 21|644b17
+474V13 To_Integer{24|46I9} 474>25 21|569b13 576l8 576t18
+474m25 Value{24|63M9} 21|569b25 571r10 572r28 574r32
+475V13 To_Integer{24|49I9} 475>25 21|578b13 585l8 585t18
+475m25 Value{24|66M9} 21|578b25 580r10 581r29 583r33
+476V13 To_Integer{24|52I9} 476>25 21|587b13 594l8 594t18
+476m25 Value{24|74M9} 21|587b25 589r10 590r29 592r33
+477V13 To_Integer{24|55I9} 477>25 21|596b13 603l8 603t18
+477m25 Value{24|77M9} 21|596b25 598r10 599r29 601r33
+480V13 To_Unsigned{24|63M9} 480>26 21|605b13 612l8 612t19
+480i26 Value{24|46I9} 21|605b26 607r10 608r29 610r35
+481V13 To_Unsigned{24|66M9} 481>26 21|614b13 621l8 621t19
+481i26 Value{24|49I9} 21|614b26 616r10 617r30 619r36
+482V13 To_Unsigned{24|74M9} 482>26 21|623b13 630l8 630t19
+482i26 Value{24|52I9} 21|623b26 625r10 626r30 628r36
+483V13 To_Unsigned{24|77M9} 483>26 21|632b13 639l8 639t19
+483i26 Value{24|55I9} 21|632b26 634r10 635r30 637r36
+486V13 Self{426P9} 486>19 21|183s44 212s44 287s44 541b13 545l8 545t12
+486c19 Item<160R9> 21|541b19 544r26
+488P9 Data_Block_Ptr(213R9) 493r51 21|535r51
+490p7 Data{442P9} 21|167m31 320m18 353r26 414r44 422r29 428r44 438r52
+491b7 Initialized{boolean} 21|150r25 154m31 414r19 428r19
+493V13 Self{488P9} 493>19 21|154s19 167s19 535b13 539l8 539t12
+493c19 Item<213R9> 21|535b19 538r26
+495A9 Sequence_Array(442P9)<integer> 497r14 21|262r29 333r20 466r21
+496R9 Alternatives_List 496d28 498e14 499r41 21|256r26 327r15
+496i28*Size{natural} 497r35 21|409r42
+497a7*List{495A9} 21|263m47 333m61 380r39 466m62
+499P9 Alternatives_List_Ptr(496R9) 503r22 21|328r17
+501P9 Data_Selector_Ptr(283R9) 507r54 21|548r14
+503p7 Alternatives{499P9} 21|255m28 263r34 331r15 333r48 339m21 380r26 401r44
+. 409r29 456r44 466r49
+504i7 Current{positive} 21|380r50 395r19 566m12
+505b7 Initialized{boolean} 21|240r29 241m25 245m28 401r19 456r19
+507V13 Self{501P9} 507>19 21|235s24 547b13 552l8 552t12
+507c19 Item<283R9> 21|547b19 551r26
+X 21 connection_state_machine.adb
+114r7 Stream{20|455R9} 118m8 118r8 123r26 126r28 126r53
+146i13 Count{20|427I9} 176m19 185r42
+147c13 This<20|455R9> 179r16 180r16 180r31 182r16 182r30 183r21 183r32 185r13
+. 185r28
+152r19 Counter{20|455R9} 156m20 156r20 159r22 169r38 172r40 174r45
+205c13 This<20|455R9> 208r16 209r16 209r31 211r16 211r30 212r21 212r32
+234c13 Selector<20|283R9> 240r20 241r16 245r19 246r62 255r19
+236i13 Count{20|427I9} 280m19 289r42
+237c13 This<20|455R9> 283r16 284r16 284r31 286r16 286r30 287r21 287r32 289r13
+. 289r28
+243r19 Counter{20|455R9} 246m46 246r46 247r22 257r36 268r29
+261p22 This{20|426P9} 266m25 276r52
+262a22 List{20|495A9} 265r35 271r25
+265i26 Index{integer} 269r49 271r31
+302U14 Free[12|20] 312s10 320s7 336s16
+325U17 Free[12|20] 339s10
+333a13 List{20|495A9} 335r26 336r22
+335i17 Index{integer} 336r28
+384K12 From_Block_Address[31|39] 536r11
+387K12 From_Item_Address[31|39] 542r11
+390K12 From_Selector_Address[31|39] 549r11
+437i10 Result{natural} 441m13 441r23 443r17
+438a10 List{20|430A9} 440r23 441r42
+440i14 Index<integer> 441r48
+465i10 Result{natural} 473m19 473r29 477r17
+466a10 Sequence{20|495A9} 468r23 470r51
+468i14 Index{integer} 470r61
+470a16 List{20|430A9} 472r29 473r48
+472i20 Index<integer> 473r54
+X 22 generic_unbounded_array.ads
+56E9 Index_Type 20|434r12
+57+9 Object_Type 20|435r14
+58A9 Object_Array_Type(57+9)<56E9> 20|436r14
+59*4 Null_Element{57+9} 20|437r14
+62k9*Generic_Unbounded_Array 20|43w6 433r11 22|140e28
+63P9*Object_Array_Ptr(20|430A9)
+64R9*Unbounded_Array<5|50R9> 20|458r16[432]
+67p7*Vector{63P9[20|432]} 21|126r40[20|432] 172r53[20|432]
+118V13*Get{20|426P9} 21|267s28[20|432]
+131U14*Put 21|183s16[20|432] 212s16[20|432] 287s16[20|432]
+X 24 interfac.ads
+38K9*Interfaces 20|44w6 53r8 24|184e15
+46I9*Integer_8<short_short_integer> 20|474r53 480r34 21|569r52 572r17 574r17
+. 605r34
+49I9*Integer_16<short_integer> 20|475r53 481r34 21|578r53 581r17 583r17 614r34
+52I9*Integer_32<integer> 20|476r53 482r34 21|587r53 590r17 592r17 623r34
+55I9*Integer_64<long_long_integer> 20|477r53 483r34 21|596r53 599r17 601r17
+. 632r34
+63M9*Unsigned_8 20|474r33 480r53 21|569r33 605r52 608r17 610r21
+66M9*Unsigned_16 20|475r33 481r53 21|578r33 614r53 617r17 619r21
+74M9*Unsigned_32 20|476r33 482r53 21|587r33 623r53 626r17 628r21
+77M9*Unsigned_64 20|477r33 483r53 21|596r33 632r53 635r17 637r21
+X 25 object.ads
+56U14*Decrement_Count
+79V13*Equal{boolean}
+84V13*Less{boolean}
+109U14*Increment_Count
+116U14*Initialize<5|53p14>
+X 27 raw_lwip_server.ads
+43K9*RAW_LwIp_Server 20|50w6 50r32 27|1681e20
+129H9*Connection<25|40R9> 20|118r39 424r46 449r39 21|97r46 314r17 27|1525e17
+170V13*Available_To_Process{7|51I12}
+185V13*Available_To_Send{7|51I12}
+234U14*Connect_Error
+373U14*Disconnected
+398U14*Downed
+423U14*Elevated
+459U14*Finalize<25|99p14> 21|314s7
+490V13*Get_Client_Address{17|15M12}
+540V13*Get_Overlapped_Size{7|51I12}
+583V13*Get_Session_State{94E9}
+604V13*Has_Data{boolean}
+646V13*Is_Connected{boolean}
+661V13*Is_Down{boolean}
+671V13*Is_Elevated{boolean}
+681V13*Is_Incoming{boolean}
+789U14*Process_Packet 21|515R19
+799V13*Queued_To_Send{7|51I12}
+841U14*Receive_Error
+853U14*Released
+884U14*Send
+889U14*Send
+924U14*Send
+929U14*Send
+940U14*Send
+949U14*Send
+962U14*Send
+970U14*Send
+988U14*Send_Error
+1003U14*Sent
+1019U14*Set_Client_Data
+1037U14*Set_Expected_Count
+1059U14*Set_Overlapped_Size
+1072U14*Shutdown
+1280U14*Push
+1291U14*Read
+1319U14*Set_Failed
+1330U14*Write
+1559U14 Queue
+X 30 system.ads
+50K9*System 21|32r6 385r11 388r11 391r11 30|164e11
+X 31 s-atacco.ads
+39k16*Address_To_Access_Conversions 21|32w13 385r18 388r18 391r18 31|63e41
+47P9*Object_Pointer(20|213C9)
+57V13*To_Pointer{47P9[21|384]} 21|538s14[384] 544s14[387] 551s14[390]
+X 33 s-finroo.ads
+42U14*Adjust
+

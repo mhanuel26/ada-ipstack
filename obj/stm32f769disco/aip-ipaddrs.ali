@@ -1,0 +1,65 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U aip.ipaddrs%b		aip-ipaddrs.adb		12623f06 NE OO PK IU
+W aip%s			aip.adb			aip.ali
+
+U aip.ipaddrs%s		aip-ipaddrs.ads		0e9dd86d NE OO PU PK IU
+W aip%s			aip.adb			aip.ali
+
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-ipaddrs.adb	20170804214847 7f33b8d9 aip.ipaddrs%b
+D system.ads		20170728224417 db831581 system%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 aip.ads
+66K9*AIP 182e8 2|8r9 15r22 21r31 33r5 3|6r14 12r31 15r12 16r12 17r12 18r12
+. 48r5
+85I9*U8_T<short_integer> 2|21r35 3|12r35
+104M9*M32_T 2|15r26 3|15r16 16r16 17r16 18r16
+X 2 aip-ipaddrs.ads
+8K13*IPaddrs 1|66k9 2|33l9 33e16 3|6b18 48l9 48t16
+15M12*IPaddr{1|104M9} 17r32 18r32 19r32 21r48 24r23 27r30 30r31 3|12r48 25r23
+. 34r30 43r31
+17m4*IP_ADDR_ANY{15M12} 3|27r19
+18m4*IP_ADDR_LOOPBACK{15M12}
+19m4*IP_ADDR_BCAST{15M12}
+21V13*IP4{15M12} 21>18 21>21 21>24 21>27 3|12b13 19l8 19t11
+21i18 A{1|85I9} 3|12b18 15r23
+21i21 B{1|85I9} 3|12b21 16r23
+21i24 C{1|85I9} 3|12b24 17r23
+21i27 D{1|85I9} 3|12b27 18r23
+24V13*Any{boolean} 24>18 3|25b13 28l8 28t11 45s14 45s32
+24m18 IP{15M12} 3|25b18 27r14
+27V13*Same{boolean} 27>19 27>24 3|34b13 37l8 37t12 45s50
+27m19 IP1{15M12} 3|34b19 36r14
+27m24 IP2{15M12} 3|34b24 36r20
+30V13*Match{boolean} 30>20 30>25 3|43b13 46l8 46t13
+30m20 IP1{15M12} 3|43b20 45r19 45r56
+30m25 IP2{15M12} 3|43b25 45r37 45r61
+

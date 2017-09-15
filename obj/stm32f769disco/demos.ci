@@ -1,0 +1,83 @@
+edge: { sourcename: "demos__put__2"
+  targetname: "4:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "demos.adb:84:91"
+}
+edge: { sourcename: "demos__put__2"
+  targetname: "4:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "demos.adb:86:91"
+}
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "system__secondary_stack__ss_release" label: "Ss_Release\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-secsta.ads:70:14" shape : ellipse }
+node: { title: "net__utils__to_string" label: "To_String\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-utils.ads:21:13" shape : ellipse }
+node: { title: "system__secondary_stack__ss_mark" label: "Ss_Mark\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-secsta.ads:67:13" shape : ellipse }
+node: { title: "bitmapped_drawing__draw_char" label: "Draw_Char\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/Ada_Drivers_Library/examples/shared/common/gui/bitmapped_drawing.ads:42:14" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "system__img_llu__image_long_long_unsigned" label: "Image_Long_Long_Unsigned\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-imgllu.ads:41:14" shape : ellipse }
+node: { title: "bitmap_color_conversion__bitmap_color_to_word" label: "Bitmap_Color_To_Word\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/Ada_Drivers_Library/middleware/src/bitmap/bitmap_color_conversion.ads:37:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "bitmapped_drawing__draw_string" label: "Draw_String\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/Ada_Drivers_Library/examples/shared/common/gui/bitmapped_drawing.ads:50:14" shape : ellipse }
+node: { title: "framebuffer_dsi__hidden_buffer" label: "Hidden_Buffer\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/Ada_Drivers_Library/boards/stm32_common/otm8009a/framebuffer_dsi.ads:129:24" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B20b___finalizer.5753" label: "B20b\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:124:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B20b___finalizer.5753" targetname: "system__secondary_stack__ss_release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:124:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B18b___finalizer.5750" label: "B18b\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:123:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B18b___finalizer.5750" targetname: "system__secondary_stack__ss_release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:123:7" }
+node: { title: "demos__refresh_ifnet_stats" label: "Refresh_Ifnet_Stats\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:111:4\n96 bytes (static)" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "_Unwind_Resume" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "_Unwind_Resume" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "_Unwind_Resume" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:135:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:134:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:133:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:132:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:131:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:130:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:129:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:128:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:127:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:126:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B20b___finalizer.5753" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:124:0" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:124:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "net__utils__to_string" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:124:29" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "system__secondary_stack__ss_mark" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:124:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B18b___finalizer.5750" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:123:0" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:123:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "net__utils__to_string" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:123:29" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "system__secondary_stack__ss_mark" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:123:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B16b___finalizer.5662" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:122:0" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "demos__put" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:122:7" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "net__utils__to_string" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:122:29" }
+edge: { sourcename: "demos__refresh_ifnet_stats" targetname: "system__secondary_stack__ss_mark" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:122:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B16b___finalizer.5662" label: "B16b\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:122:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:demos__refresh_ifnet_stats__B16b___finalizer.5662" targetname: "system__secondary_stack__ss_release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:122:7" }
+node: { title: "demos__put__2" label: "Put\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:80:4\n128 bytes (dynamic)" }
+edge: { sourcename: "demos__put__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:103:28" }
+edge: { sourcename: "demos__put__2" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:100:17" }
+edge: { sourcename: "demos__put__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:99:25" }
+edge: { sourcename: "demos__put__2" targetname: "bitmapped_drawing__draw_char" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:93:27" }
+edge: { sourcename: "demos__put__2" targetname: "demos__scale" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:94:53" }
+edge: { sourcename: "demos__put__2" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:89:39" }
+edge: { sourcename: "demos__put__2" targetname: "memcpy" }
+edge: { sourcename: "demos__put__2" targetname: "system__img_llu__image_long_long_unsigned" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:88:45" }
+edge: { sourcename: "demos__put__2" targetname: "bitmap_color_conversion__bitmap_color_to_word" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:86:7" }
+edge: { sourcename: "demos__put__2" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:86:91" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "demos__put__2" targetname: "bitmap_color_conversion__bitmap_color_to_word" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:84:7" }
+edge: { sourcename: "demos__put__2" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:84:91" }
+edge: { sourcename: "demos__put__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:84:85" }
+edge: { sourcename: "demos__put__2" targetname: "framebuffer_dsi__hidden_buffer" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:83:7" }
+node: { title: "demos__put" label: "Put\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:64:4\n64 bytes (static)" }
+edge: { sourcename: "demos__put" targetname: "bitmapped_drawing__draw_string" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:68:24" }
+edge: { sourcename: "demos__put" targetname: "demos__scale" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:69:52" }
+edge: { sourcename: "demos__put" targetname: "framebuffer_dsi__hidden_buffer" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:68:71" }
+node: { title: "demos__scale" label: "Scale\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:51:4\n16 bytes (static)" }
+edge: { sourcename: "demos__scale" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:55:53" }
+edge: { sourcename: "demos__scale" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:55:32" }
+edge: { sourcename: "demos__scale" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:55:53" }
+edge: { sourcename: "demos__scale" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:55:53" }
+edge: { sourcename: "demos__scale" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:55:32" }
+edge: { sourcename: "demos__scale" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.adb:55:32" }
+node: { title: "demos__default_font" label: "Default_Font\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/demos/utils/demos.ads:65:4\n4 bytes (static)" }
+}

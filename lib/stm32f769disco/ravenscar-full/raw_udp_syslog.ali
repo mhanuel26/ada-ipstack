@@ -1,0 +1,145 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U raw_udp_syslog%b	raw_udp_syslog.adb	1bb33824 NE OO PK
+W aip%s			aip.adb			aip.ali
+W aip.buffers%s		aip-buffers.adb		aip-buffers.ali
+W aip.inet%s		aip-inet.adb		aip-inet.ali
+W aip.ipaddrs%s		aip-ipaddrs.adb		aip-ipaddrs.ali
+W raw_udp_callbacks%s	raw_udp_callbacks.ads	raw_udp_callbacks.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+
+U raw_udp_syslog%s	raw_udp_syslog.ads	917283b2 EE NE OO PK
+W aip%s			aip.adb			aip.ali
+W aip.pcbs%s		aip-pcbs.adb		aip-pcbs.ali
+Y aip.pools%s		aip-pools.ads		aip-pools.ali
+W aip.udp%s		aip-udp.adb		aip-udp.ali
+
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170822015827 9f4f104a aip.config%s
+D aip-inet.ads		20170804214847 207e705b aip.inet%s
+D aip-ip.ads		20170815223411 36592376 aip.ip%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D aip-pools.ads		20170804214847 35af82f0 aip.pools%s
+D aip-tcp.ads		20170824152806 62f2b216 aip.tcp%s
+D aip-udp.ads		20170806165452 1cbde6e9 aip.udp%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D net.ads		20170810143147 10b1f911 net%s
+D raw_udp_callbacks.ads	20170811031958 09a5b48b raw_udp_callbacks%s
+D raw_udp_syslog.ads	20170811031958 b702972d raw_udp_syslog%s
+D raw_udp_syslog.adb	20170811031958 7d1ec7e2 raw_udp_syslog%b
+D system.ads		20170728224417 db831581 system%s
+D s-assert.ads		20170517144320 cd8d2c94 system.assertions%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 aip.ads
+66K9*AIP 182e8 16|6r6 7r6 18r12 18r39 21r28 17|8r6 9r6 10r6 15r13 16r13 22r12
+. 22r39 46r16 50r20 53r13 63r7 64r20 64r38 66r20 69r19 79r15 82r7 86r21 87r7
+. 88r22 90r7 91r22 93r7 98r7 107r13 108r13 114r7 115r29 117r7 119r7 119r30
+. 120r22
+73I9*S8_T<short_short_integer>
+75I9*S32_T<integer>
+87I9*U16_T<integer>
+104M9*M32_T
+141I12*Err_T{73I9} 17|53r17 108r17
+154V13*No{boolean} 17|88s26 91s26 120s26
+167I12*EID{75I9} 17|15r17
+X 2 aip-buffers.ads
+11K13*Buffers 362e16 17|8w10 16r17 46r20 63r11 66r24 69r23 79r19 82r11 93r11
+34n7*SPLIT_BUF{33E9} 17|66r32
+64I12*Buffer_Length{1|87I9}
+66I12*Data_Length{1|87I9}
+75I12*Buffer_Id{1|87I9} 17|16r25 46r28
+76N4*NOBUF 17|69r31
+94U14*Buffer_Alloc 17|63s19
+95i7 Offset{64I12} 17|64r10
+96i7 Size{66I12} 17|65r10
+97e7 Kind{92E12} 17|66r10
+98i7 Buf{75I12} 17|67r10
+159V13*Buffer_Payload{18|80M9} 17|79s27
+202U14*Buffer_Blind_Free 17|93s19
+222U14*Buffer_Chain 17|82s19
+X 3 aip-callbacks.ads
+18M9*CBK_Id
+X 5 aip-inet.ads
+8K13*Inet 22e13 17|9w10 64r24 64r42
+16n46*TRANSPORT_LAYER{16E9} 17|64r47
+18V13*HLEN_To{1|87I9} 17|64s29
+X 7 aip-ipaddrs.ads
+8K13*IPaddrs 33e16 17|10w10 50r24 86r25 119r34
+15M12*IPaddr{1|104M9} 17|50r32
+17m4*IP_ADDR_ANY{15M12} 17|119r42
+21V13*IP4{15M12} 17|86s33
+X 9 aip-pcbs.ads
+14K13*PCBs 157e13 16|6w10 18r43 17|22r43 107r17 115r33
+16I12*PCB_Id{1|167I12} 16|18r48 17|22r48 107r22
+21i4*NOPCB{1|167I12} 17|115r38
+X 10 aip-pools.ads
+8K13 Pools 16|21r32
+X 12 aip-udp.ads
+17K13*UDP 165e12 16|7w10 18r16 17|22r16 87r11 90r11 98r11 114r11 117r11 119r11
+31U14*UDP_New 17|114s15
+36U14*UDP_Bind 17|119s15
+53U14*UDP_Connect 17|87s15
+68U14*UDP_Send 17|90s15
+88U14*UDP_Disconnect 17|98s15
+109R9*UDP_Event_T 114e14 16|18r20 17|22r20
+111i7*Buf{2|75I12} 17|82r44
+116U14*On_UDP_Recv 17|117s15
+X 15 raw_udp_callbacks.ads
+12K9*RAW_UDP_Callbacks 17e22 17|12w6 117r33
+14m4*SYSLOG_RECV{3|18M9} 17|117r51
+X 16 raw_udp_syslog.ads
+15K9*RAW_UDP_Syslog 26l5 26e19 17|14b14 123l5 123t19
+17U14*SYSLOG_Process_Recv 18>7 18>33 17|21b14 100l8 100t27
+18r7 Ev{12|109R9} 17|22b7 82r41
+18i33 Pcb{9|16I12} 17|22b33 87r28 90r25 98r31
+23U14*Init 17|106b14 121l8 121t12
+X 17 raw_udp_syslog.adb
+18U14 Memcpy 18>22 18>44 18>58 19b<c,memcpy>22 79s7
+18m22 Dst{18|80M9}
+18a44 Src{string}
+18i58 Len{integer}
+31a7 Logheader{string} 42r40
+38a7 Logdata{string} 42r58
+42a7 Logmsgstart{string} 65r20 80r15 80r28
+46i7 Logbuf{2|75I12} 67m20 69r10 79r43 82r33 90r30 93r38
+50m7 Syslogd_IP{7|15M12} 86m7 87r33
+53i7 Err{1|141I12} 87m50 88r30 90m38 91r30
+107i7 Pcb{9|16I12} 114m24 115r22 117r28 119r25
+108i7 Err{1|141I12} 119m60 120r30
+X 18 system.ads
+50K9*System 17|6w6 18r28 18|164e11
+80M9*Address 17|18r35
+

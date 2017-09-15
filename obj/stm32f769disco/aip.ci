@@ -1,0 +1,7 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip.adb"
+node: { title: "aip__any" label: "ANY\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip.adb:13:4\n16 bytes (static)" }
+edge: { sourcename: "aip__any" targetname: "aip__no" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip.adb:15:18" }
+node: { title: "aip__no" label: "NO\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip.adb:8:4\n16 bytes (static)" }
+node: { title: "aip__ll_addressIP" label: "LL_ADDRESSIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip.ads:128:9\n16 bytes (static)" }
+node: { title: "aip__Topaque64BIP" label: "TOPAQUE64BIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip.ads:115:4\n16 bytes (static)" }
+}

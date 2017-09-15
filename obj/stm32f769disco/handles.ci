@@ -1,0 +1,196 @@
+edge: { sourcename: "handles__ThandleCFD"
+  targetname: "-9:handles__handle,handles__handle"
+  label: "object-handle.ads:40:9 [handles.ads:32:1]"
+}
+class {
+  classname: "handles__handle"
+  label: "handles__handle\object-handle.ads:40:9 [handles.ads:32:1]"
+  parent: "ada__finalization__controlled"
+  virtuals: "1:handles__adjust__2,1:ada__finalization__controlled\n
+             2:handles__finalize__2,2:ada__finalization__controlled\n
+             -1:handles___size__3,-1:ada__finalization__controlled\n
+             -2:handles__handleSR__2,-2:ada__finalization__controlled\n
+             -3:handles__handleSW__2,-3:ada__finalization__controlled\n
+             -4:handles__handleSI__2,-4:ada__finalization__controlled\n
+             -5:handles__handleSO__2,-5:ada__finalization__controlled\n
+             -6:handles__Oeq,-6:ada__finalization__controlled\n
+             -7:handles___assign__3,-7:ada__finalization__controlled\n
+             -8:handles__handleDA__2,-8:ada__finalization__controlled\n
+             -9:handles__handleDF__2,-9:ada__finalization__controlled\n
+             4:handles__invalidate\n
+             5:handles__is_valid\n
+             6:handles__ptr\n
+             7:handles__ref\n
+             8:handles__set\n
+             9:handles__Olt\n
+             10:handles__Ole\n
+             11:handles__Oge\n
+             12:handles__Ogt\n
+             13:handles__Oeq__2\n
+             14:handles__Oeq__3"
+}
+edge: { sourcename: "handles__adjust__2"
+  targetname: "7:object__entity,mqtt__connection"
+  label: "object-handle.adb:33:10 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__ref"
+  targetname: "7:object__entity,mqtt__connection"
+  label: "object-handle.adb:65:10 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__set"
+  targetname: "7:object__entity,mqtt__connection"
+  label: "object-handle.adb:96:13 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__Olt"
+  targetname: "6:object__entity,mqtt__connection"
+  label: "object-handle.adb:104:14 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__Ole"
+  targetname: "5:object__entity,mqtt__connection"
+  label: "object-handle.adb:110:8 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__Ole"
+  targetname: "6:object__entity,mqtt__connection"
+  label: "object-handle.adb:112:10 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__Oeq"
+  targetname: "5:object__entity,mqtt__connection"
+  label: "object-handle.adb:129:20 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__Oge"
+  targetname: "6:object__entity,mqtt__connection"
+  label: "object-handle.adb:136:18 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__Ogt"
+  targetname: "5:object__entity,mqtt__connection"
+  label: "object-handle.adb:143:11 [handles.ads:32:1]"
+}
+edge: { sourcename: "handles__Ogt"
+  targetname: "6:object__entity,mqtt__connection"
+  label: "object-handle.adb:145:13 [handles.ads:32:1]"
+}
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "system__secondary_stack__ss_release" label: "Ss_Release\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-secsta.ads:70:14" shape : ellipse }
+node: { title: "system__secondary_stack__ss_mark" label: "Ss_Mark\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-secsta.ads:67:13" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:543:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:456:14" shape : ellipse }
+node: { title: "object__release" label: "Release\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object.ads:129:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_raise_from_controlled_operation" label: "Raise_From_Controlled_Operation\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-except.ads:215:14" shape : ellipse }
+node: { title: "__gnat_set_exception_parameter" label: "gnat_set_exception_parameter\n<built-in>" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "gnat_rcheck_PE_Finalize_Raised_Exception\n<built-in>" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-secsta.ads:58:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_as" label: "W_As\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-stratt.ads:133:14" shape : ellipse }
+node: { title: "ada__finalization__controlledSW__2" label: "Controlledsw\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-finali.ads:59:9" shape : ellipse }
+node: { title: "system__stream_attributes__i_as" label: "I_As\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-stratt.ads:102:13" shape : ellipse }
+node: { title: "ada__finalization__controlledSR__2" label: "Controlledsr\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-finali.ads:59:9" shape : ellipse }
+node: { title: "ada__finalization__controlledIP" label: "Controlledip\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-finali.ads:59:9" shape : ellipse }
+node: { title: "handles___elabs" label: "Handles\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "handles___elabs" targetname: "system__secondary_stack__ss_release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:175:4" }
+edge: { sourcename: "handles___elabs" targetname: "ada__finalization__controlledIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:176:21" }
+edge: { sourcename: "handles___elabs" targetname: "system__secondary_stack__ss_mark" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:175:4" }
+edge: { sourcename: "handles___elabs" targetname: "ada__tags__register_tag" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles___elabs" targetname: "ada__tags__check_tsd" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles__Oeq__3" label: "=\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:159:4\n24 bytes (static)" }
+edge: { sourcename: "handles__Oeq__3" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:165:20" }
+node: { title: "handles__Oeq__2" label: "=\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:149:4\n24 bytes (static)" }
+edge: { sourcename: "handles__Oeq__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:155:19" }
+node: { title: "handles__Ogt" label: ">\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:139:4\n16 bytes (static)" }
+edge: { sourcename: "handles__Ogt" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:145:13" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "handles__Ogt" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:145:43" }
+edge: { sourcename: "handles__Ogt" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:145:28" }
+edge: { sourcename: "handles__Ogt" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:143:11" }
+edge: { sourcename: "handles__Ogt" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:143:42" }
+edge: { sourcename: "handles__Ogt" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:143:27" }
+node: { title: "handles__Oge" label: ">=\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:134:4\n16 bytes (static)" }
+edge: { sourcename: "handles__Oge" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:136:18" }
+edge: { sourcename: "handles__Oge" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:136:48" }
+edge: { sourcename: "handles__Oge" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:136:33" }
+node: { title: "handles__Oeq" label: "=\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:117:4\n16 bytes (static)" }
+edge: { sourcename: "handles__Oeq" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:129:13" }
+edge: { sourcename: "handles__Oeq" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:129:51" }
+edge: { sourcename: "handles__Oeq" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:129:36" }
+node: { title: "handles__Ole" label: "<=\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:107:4\n16 bytes (static)" }
+edge: { sourcename: "handles__Ole" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:112:10" }
+edge: { sourcename: "handles__Ole" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:112:40" }
+edge: { sourcename: "handles__Ole" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:112:25" }
+edge: { sourcename: "handles__Ole" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:110:8" }
+edge: { sourcename: "handles__Ole" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:110:39" }
+edge: { sourcename: "handles__Ole" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:110:24" }
+node: { title: "handles__Olt" label: "<\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:102:4\n16 bytes (static)" }
+edge: { sourcename: "handles__Olt" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:104:7" }
+edge: { sourcename: "handles__Olt" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:104:44" }
+edge: { sourcename: "handles__Olt" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:104:29" }
+node: { title: "handles__set" label: "Set\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:89:4\n16 bytes (static)" }
+edge: { sourcename: "handles__set" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:96:13" }
+edge: { sourcename: "handles__set" targetname: "handles__release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:93:13" }
+node: { title: "handles__release" label: "Release\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:70:4\n24 bytes (static)" }
+edge: { sourcename: "handles__release" targetname: "object__release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:81:13" }
+node: { title: "handles__ref" label: "Ref\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:62:4\n48 bytes (static)" }
+edge: { sourcename: "handles__ref" targetname: "_Unwind_Resume" }
+edge: { sourcename: "handles__ref" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__ref___finalizer.6127" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:68:0" }
+edge: { sourcename: "handles__ref" targetname: "handles__adjust__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:67:7" }
+edge: { sourcename: "handles__ref" targetname: "system__secondary_stack__ss_allocate" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:67:7" }
+edge: { sourcename: "handles__ref" targetname: "ada__finalization__controlledIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:67:21" }
+edge: { sourcename: "handles__ref" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:65:10" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__ref___finalizer.6127" label: "Ref\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:62:4\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__ref___finalizer.6127" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:62:4" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__ref___finalizer.6127" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:62:4" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__ref___finalizer.6127" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__ref___finalizer.6127" targetname: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:62:4" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__ref___finalizer.6127" targetname: "handles__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:67:21" }
+node: { title: "handles__ptr" label: "Ptr\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:57:4\n16 bytes (static)" }
+node: { title: "handles__is_valid" label: "Is_Valid\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:52:4\n16 bytes (static)" }
+node: { title: "handles__invalidate" label: "Invalidate\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:44:4\n16 bytes (static)" }
+edge: { sourcename: "handles__invalidate" targetname: "handles__release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:47:10" }
+node: { title: "handles__finalize__2" label: "Finalize\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:38:4\n16 bytes (static)" }
+edge: { sourcename: "handles__finalize__2" targetname: "handles__release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:40:7" }
+node: { title: "handles__adjust__2" label: "Adjust\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:30:4\n16 bytes (static)" }
+edge: { sourcename: "handles__adjust__2" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:33:10" }
+edge: { sourcename: "handles__adjust__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.adb:33:41" }
+node: { title: "handles__ThandleCFD" label: "Thandlecfd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:40:9\n32 bytes (static)" }
+edge: { sourcename: "handles__ThandleCFD" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:40:9" }
+node: { title: "handles__handleDF__2" label: "Handledf\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n16 bytes (static)" }
+edge: { sourcename: "handles__handleDF__2" targetname: "handles__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles__handleDA__2" label: "Handleda\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n16 bytes (static)" }
+edge: { sourcename: "handles__handleDA__2" targetname: "handles__adjust__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles___assign__3" label: "Handles\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n456 bytes (static)" }
+edge: { sourcename: "handles___assign__3" targetname: "_Unwind_Resume" }
+edge: { sourcename: "handles___assign__3" targetname: "__gnat_end_handler" }
+edge: { sourcename: "handles___assign__3" targetname: "__gnat_raise_from_controlled_operation" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles___assign__3" targetname: "__gnat_set_exception_parameter" }
+edge: { sourcename: "handles___assign__3" targetname: "__gnat_begin_handler" }
+edge: { sourcename: "handles___assign__3" targetname: "_Unwind_Resume" }
+edge: { sourcename: "handles___assign__3" targetname: "handles__adjust__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles___assign__3" targetname: "handles__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles__handleSO__2" label: "Handleso\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n24 bytes (static)" }
+edge: { sourcename: "handles__handleSO__2" targetname: "handles__handleSW__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles__handleSI__2" label: "Handlesi\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n48 bytes (static)" }
+edge: { sourcename: "handles__handleSI__2" targetname: "_Unwind_Resume" }
+edge: { sourcename: "handles__handleSI__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__handleSI__R17s___finalizer__2.5991" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:0" }
+edge: { sourcename: "handles__handleSI__2" targetname: "handles__adjust__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles__handleSI__2" targetname: "system__secondary_stack__ss_allocate" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles__handleSI__2" targetname: "handles__handleSR__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles__handleSI__2" targetname: "handles__handleIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__handleSI__R17s___finalizer__2.5991" label: "R17s\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__handleSI__R17s___finalizer__2.5991" targetname: "__gnat_end_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__handleSI__R17s___finalizer__2.5991" targetname: "__gnat_begin_handler" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__handleSI__R17s___finalizer__2.5991" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__handleSI__R17s___finalizer__2.5991" targetname: "__gnat_rcheck_PE_Finalize_Raised_Exception" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/handles.ads:handles__handleSI__R17s___finalizer__2.5991" targetname: "handles__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles__handleSW__2" label: "Handlesw\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n24 bytes (static)" }
+edge: { sourcename: "handles__handleSW__2" targetname: "system__stream_attributes__w_as" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles__handleSW__2" targetname: "ada__finalization__controlledSW__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles__handleSR__2" label: "Handlesr\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n24 bytes (static)" }
+edge: { sourcename: "handles__handleSR__2" targetname: "system__stream_attributes__i_as" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+edge: { sourcename: "handles__handleSR__2" targetname: "ada__finalization__controlledSR__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles___size__3" label: "Handles\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n16 bytes (static)" }
+node: { title: "handles__handleFD" label: "Handlefd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n16 bytes (static)" }
+edge: { sourcename: "handles__handleFD" targetname: "handles__finalize__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9" }
+node: { title: "handles__handleIP" label: "Handleip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:9\n16 bytes (static)" }
+edge: { sourcename: "handles__handleIP" targetname: "ada__finalization__controlledIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/utils/object-handle.ads:157:19" }
+}

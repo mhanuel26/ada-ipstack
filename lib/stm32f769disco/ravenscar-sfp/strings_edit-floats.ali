@@ -1,0 +1,94 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U strings_edit.floats%b	strings_edit-floats.ads	bf9cfb94 EE OO PK
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W strings_edit%s	strings_edit.adb	strings_edit.ali
+W strings_edit.float_edit%s  strings_edit-float_edit.adb  strings_edit-float_edit.ali  AD
+Z strings_edit.integers%s  strings_edit-integers.ads  strings_edit-integers.ali  EA
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U strings_edit.floats%s	strings_edit-floats.ads	707fba21 EB EE NE OO PK
+W strings_edit%s	strings_edit.adb	strings_edit.ali
+W strings_edit.float_edit%s  strings_edit-float_edit.adb  strings_edit-float_edit.ali  AD
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-charac.ads		20170517144320 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170517144320 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170517144320 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20170517144320 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20170517144320 51c3d5d5 ada.numerics.elementary_functions%s
+D a-string.ads		20170517144320 90ac6797 ada.strings%s
+D a-strmap.ads		20170517144320 e8bb714a ada.strings.maps%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D strings_edit.ads	20170819015521 7d801be5 strings_edit%s
+D strings_edit-float_edit.ads  20170903225258 b2635a50 strings_edit.float_edit%s
+D strings_edit-float_edit.adb  20170903225152 28da9119 strings_edit.float_edit%b
+D strings_edit-floats.ads  20170903224657 bf9cfb94 strings_edit.floats%s
+D strings_edit-floats.ads  20170903224657 bf9cfb94 strings_edit.floats%b
+D strings_edit-integer_edit.ads  20170819025937 bd787de3 strings_edit.integer_edit%s
+D strings_edit-integers.ads  20170819025315 f7832339 strings_edit.integers%s
+D system.ads		20170728224417 db831581 system%s
+D s-exnllf.ads		20170517144320 bc7ebbdc system.exn_llf%s
+D s-fatflt.ads		20170517144320 11beb392 system.fat_flt%s
+D s-fatgen.ads		20170517144320 49cbaf86 system.fat_gen%s
+D s-gcmain.ads		20170517144320 f623c353 system.generic_c_math_interface%s
+D s-libpre.ads		20170517144320 f93cda94 system.libm_prefix%s
+D s-libsin.ads		20170517144320 7070a09c system.libm_single%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-secsta.ads		20170517144320 0b22b54c system.secondary_stack%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+X 11 strings_edit.ads
+133K9*Strings_Edit 336e17 15|28r6 30r9 30r36
+X 12 strings_edit-float_edit.ads
+34k22*Float_Edit 204e28 15|28w19 30r49
+X 15 strings_edit-floats.ads
+30K22*Floats[12|34] 11|133k9
+

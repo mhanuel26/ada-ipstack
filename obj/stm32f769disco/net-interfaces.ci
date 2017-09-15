@@ -1,0 +1,39 @@
+edge: { sourcename: "net__interfaces__Tifnet_typeCFD"
+  targetname: "-9:net__interfaces__ifnet_type,net__interfaces__ifnet_type"
+  label: "net-interfaces.ads:34:9"
+}
+class {
+  classname: "net__interfaces__ifnet_type"
+  label: "net__interfaces__ifnet_type\net-interfaces.ads:34:9"
+  virtuals: "1:net__interfaces__initialize\n
+             2:net__interfaces__send\n
+             3:net__interfaces__receive\n
+             4:net__interfaces__is_local_network\n
+             -1:net__interfaces___size\n
+             -9:net__interfaces__ifnet_typeDF"
+}
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.adb"
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:543:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:456:14" shape : ellipse }
+node: { title: "net__Oand" label: "And\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net.ads:74:13" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "net__interfaces___elabs" label: "Interfaces\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:23:1\n8 bytes (static)" }
+edge: { sourcename: "net__interfaces___elabs" targetname: "ada__tags__register_tag" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:34:9" }
+edge: { sourcename: "net__interfaces___elabs" targetname: "ada__tags__check_tsd" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:34:9" }
+node: { title: "net__interfaces___elabb" label: "Interfaces\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.adb:19:1\n4 bytes (static)" }
+node: { title: "net__interfaces__is_local_network" label: "Is_Local_Network\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.adb:24:4\n32 bytes (static)" }
+edge: { sourcename: "net__interfaces__is_local_network" targetname: "net__Oand" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.adb:28:66" }
+edge: { sourcename: "net__interfaces__is_local_network" targetname: "net__Oand" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.adb:28:32" }
+edge: { sourcename: "net__interfaces__is_local_network" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.adb:24:4" }
+node: { title: "net__interfaces__Tifnet_typeCFD" label: "Tifnet_Typecfd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:34:9\n32 bytes (static)" }
+edge: { sourcename: "net__interfaces__Tifnet_typeCFD" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:34:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "net__interfaces__ifnet_typeDF" label: "Ifnet_Typedf\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:34:9\n16 bytes (static)" }
+node: { title: "net__interfaces___size" label: "Interfaces\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:34:9\n16 bytes (static)" }
+node: { title: "net__interfaces__ifnet_typeIP" label: "Ifnet_Typeip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:34:9\n16 bytes (static)" }
+edge: { sourcename: "net__interfaces__ifnet_typeIP" targetname: "net__interfaces__stats_typeIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:42:7" }
+edge: { sourcename: "net__interfaces__ifnet_typeIP" targetname: "net__interfaces__stats_typeIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:41:7" }
+edge: { sourcename: "net__interfaces__ifnet_typeIP" targetname: "memcpy" }
+node: { title: "net__interfaces__stats_typeIP" label: "Stats_Typeip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-interfaces.ads:27:9\n16 bytes (static)" }
+}

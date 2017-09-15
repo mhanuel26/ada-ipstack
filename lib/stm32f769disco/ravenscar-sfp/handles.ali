@@ -1,0 +1,120 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U handles%b		handles.ads		8e21c50d NE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W mqtt%s		mqtt.adb		mqtt.ali
+W object%s		object.adb		object.ali
+W object.handle%s	object-handle.adb	object-handle.ali  AD
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+U handles%s		handles.ads		e391a82d EB EE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W mqtt%s		mqtt.adb		mqtt.ali
+W object%s		object.adb		object.ali
+W object.handle%s	object-handle.adb	object-handle.ali  AD
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-finali.ads		20170517144320 bf4f806b ada.finalization%s
+D a-stream.ads		20170517144320 119b8fb3 ada.streams%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170912220857 ec3c29ae aip.config%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D aip-time_types.ads	20170829195128 940203c3 aip.time_types%s
+D aip-timers.ads	20170827230204 0f190d44 aip.timers%s
+D generic_unbounded_array.ads  20170819033324 2a33c881 generic_unbounded_array%s
+D generic_unbounded_ptr_array.ads  20170819032953 fc8814e1 generic_unbounded_ptr_array%s
+D handles.ads		20170827033548 8e21c50d handles%s
+D handles.ads		20170827033548 8e21c50d handles%b
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D mqtt.ads		20170914193122 f2595cc5 mqtt%s
+D object.ads		20170819034427 d0edfe36 object%s
+D object-handle.ads	20170819034649 9fe931e5 object.handle%s
+D object-handle.adb	20170819034641 8d8283ae object.handle%b
+D raw_mqtt_callbacks.ads  20170831173036 e7e683bb raw_mqtt_callbacks%s
+D system.ads		20170728224417 db831581 system%s
+D s-finmas.ads		20170517144320 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170517144320 4ff27390 system.finalization_root%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-pooglo.ads		20170517144320 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170517144320 0b22b54c system.secondary_stack%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170517144320 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170517144320 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170517144320 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170517144320 aedef97e system.stream_attributes%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 16 generic_unbounded_array.ads
+64R9 Unbounded_Array<3|50R9>
+X 19 handles.ads
+32K9*Handles[23|39]
+X 21 mqtt.ads
+46K9*MQTT 19|28w6 28r29 21|1160e9
+222H9*Connection<22|40R9> 19|33r23 21|994e14
+223P9*Connection_Ptr(222R9) 19|33r35
+X 22 object.ads
+34K9*Object 19|27r6 33r8 22|156e11
+X 23 object-handle.ads
+39k16*Handle 19|27w13 33r15 23|177e18
+40R9*Handle<3|43R9>
+

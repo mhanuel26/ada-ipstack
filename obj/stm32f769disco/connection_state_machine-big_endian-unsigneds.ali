@@ -1,0 +1,230 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U connection_state_machine.big_endian.unsigneds%b  connection_state_machine-big_endian-unsigneds.adb  81e3d975 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W connection_state_machine.big_endian%s  connection_state_machine-big_endian.ads  connection_state_machine-big_endian.ali
+
+U connection_state_machine.big_endian.unsigneds%s  connection_state_machine-big_endian-unsigneds.ads  bea1738f EE OO PK
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W connection_state_machine.big_endian%s  connection_state_machine-big_endian.ads  connection_state_machine-big_endian.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-charac.ads		20170517144320 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170517144320 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-finali.ads		20170517144320 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170517144320 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170517144320 119b8fb3 ada.streams%s
+D a-string.ads		20170517144320 90ac6797 ada.strings%s
+D a-strmap.ads		20170517144320 e8bb714a ada.strings.maps%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170912220857 ec3c29ae aip.config%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D connection_state_machine.ads  20170904214026 9acedd10 connection_state_machine%s
+D connection_state_machine-big_endian.ads  20170903001234 d968c789 connection_state_machine.big_endian%s
+D connection_state_machine-big_endian-unsigneds.ads  20170903003027 67c9b406 connection_state_machine.big_endian.unsigneds%s
+D connection_state_machine-big_endian-unsigneds.adb  20170903003006 2b9360c2 connection_state_machine.big_endian.unsigneds%b
+D generic_unbounded_array.ads  20170819033324 2a33c881 generic_unbounded_array%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D object.ads		20170819034427 d0edfe36 object%s
+D object-handle.ads	20170819034649 9fe931e5 object.handle%s
+D raw_lwip_server.ads	20170909020754 c44e50f1 raw_lwip_server%s
+D strings_edit.ads	20170819015521 7d801be5 strings_edit%s
+D strings_edit-integer_edit.ads  20170819025937 bd787de3 strings_edit.integer_edit%s
+D system.ads		20170728224417 db831581 system%s
+D s-assert.ads		20170517144320 cd8d2c94 system.assertions%s
+D s-finmas.ads		20170517144320 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170517144320 4ff27390 system.finalization_root%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-pooglo.ads		20170517144320 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170517144320 0b22b54c system.secondary_stack%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170517144320 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170517144320 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170517144320 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170517144320 aedef97e system.stream_attributes%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 ada.ads
+16K9*Ada 20e8 22|28r6 28r30 29r6 29r30
+X 4 a-except.ads
+54K13*Exceptions 349e19 22|28w10 28r34
+90U14*Raise_Exception 22|44s10 70s10 101s10 132s10 165s10 187s10 192s10 216s10
+. 221s10 247s10 252s10 275s13 280s13 298s13 303s13 323s13 328s13 350s13 355s13
+X 5 a-finali.ads
+53U14*Initialize<33|44p14>
+54U14*Finalize<33|43p14>
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 22|29w10 29r34
+26X4*End_Error 22|192r27 221r27 252r27 276r14 299r14 324r14 351r14
+27X4*Data_Error 22|45r11 71r11 102r11 133r11
+28X4*Layout_Error 22|166r11 188r11 217r11 248r11 281r14 304r14 329r14 356r14
+X 7 a-stream.ads
+42M9*Stream_Element 21|162r19 22|286r25 309r29 310r29 335r35 362r35
+44I9*Stream_Element_Offset<long_long_integer> 21|66r34 68r34 74r34 76r34
+. 82r34 84r34 90r34 92r34 110r34 115r34 120r34 125r34 144r34 148r34 153r34
+. 158r34 22|37r34 39r34 63r34 65r34 94r34 96r34 125r34 127r34 154r34 176r34
+. 203r34 234r34 269r34 292r34 316r34 334r27 343r34 361r27
+54A9*Stream_Element_Array(42M9)<44I9> 21|65r27 73r27 81r27 89r27 109r25 114r25
+. 119r25 124r25 143r32 147r36 152r32 157r32 22|36r27 62r27 93r27 124r27 153r25
+. 175r25 202r25 233r25 268r32 291r32 315r32 342r32
+X 19 connection_state_machine.ads
+52K9*Connection_State_Machine 509e29 21|36r9 164r5 22|31r14 368r5
+118H9*State_Machine<27|129R9> 452e14 21|67r34 75r34 83r34 91r34 22|38r34
+. 64r34 95r34 126r34
+160H9*Data_Item<5|50R9> 161e63 21|44r46 48r47 52r47 56r47
+195V13*Get_Size{positive}
+204U14*Enumerate
+X 20 connection_state_machine-big_endian.ads
+28K34*Big_Endian 19|52k9 20|30e40 21|36r34 164r30 22|31r39 368r30
+X 21 connection_state_machine-big_endian-unsigneds.ads
+36K45*Unsigneds 20|28k34 21|162E19 164l41 164e50 22|31b50 368l41 368t50
+44H9*Unsigned_8_Data_Item<19|160R9> 5|53P14 54P14 19|195p13 204p14 21|46e14
+. 63P14 64r32 22|35r32 33|42p14
+45m7*Value{24|63M9} 22|49m15 53m15
+48H9*Unsigned_16_Data_Item<19|160R9> 5|53P14 54P14 19|195p13 204p14 21|50e14
+. 71P14 72r32 22|61r32 33|42p14
+49m7*Value{24|66M9} 22|75m15 80m15 81r19
+52H9*Unsigned_32_Data_Item<19|160R9> 5|53P14 54P14 19|195p13 204p14 21|54e14
+. 79P14 80r32 22|92r32 33|42p14
+53m7*Value{24|74M9} 22|106m15 111m15 112r19
+56H9*Unsigned_64_Data_Item<19|160R9> 5|53P14 54P14 19|195p13 204p14 21|58e14
+. 87P14 88r32 22|123r32 33|42p14
+57m7*Value{24|77M9} 22|137m15 142m15 143r19
+63U14*Feed<19|179p14> 64=15 65>17 66=17 67=17 68=17 22|34b14 57l8 57t12
+64r15 Item{44R9} 22|35b15 49m10 53m10
+65a17 Data{7|54A9} 22|36b17 52r21 53r36
+66i17 Pointer{7|44I9} 22|37b17 52r10 53r42 54m10 54r21
+67c17 Client<19|118R9> 22|38b17 42r28
+68i17 State{7|44I9} 22|39b17 43r10 48r13 50m10 55m10
+71U14*Feed<19|179p14> 72=15 73>17 74=17 75=17 76=17 22|60b14 88l8 88t12
+72r15 Item{48R9} 22|61b15 75m10 80m10 81r14
+73a17 Data{7|54A9} 22|62b17 78r24 83r30
+74i17 Pointer{7|44I9} 22|63b17 78r13 83r36 86m10 86r21
+75c17 Client<19|118R9> 22|64b17 68r28
+76i17 State{7|44I9} 22|65b17 69r10 74r13 76m10 78r43 79m10 79r19 84r32
+79U14*Feed<19|179p14> 80=15 81>17 82=17 83=17 84=17 22|91b14 119l8 119t12
+80r15 Item{52R9} 22|92b15 106m10 111m10 112r14
+81a17 Data{7|54A9} 22|93b17 109r24 114r30
+82i17 Pointer{7|44I9} 22|94b17 109r13 114r36 117m10 117r21
+83c17 Client<19|118R9> 22|95b17 99r28
+84i17 State{7|44I9} 22|96b17 100r10 105r13 107m10 109r43 110m10 110r19 115r32
+87U14*Feed<19|179p14> 88=15 89>17 90=17 91=17 92=17 22|122b14 150l8 150t12
+88r15 Item{56R9} 22|123b15 137m10 142m10 143r14
+89a17 Data{7|54A9} 22|124b17 140r24 145r30
+90i17 Pointer{7|44I9} 22|125b17 140r13 145r36 148m10 148r21
+91c17 Client<19|118R9> 22|126b17 130r28
+92i17 State{7|44I9} 22|127b17 131r10 136r13 138m10 140r43 141m10 141r19 146r32
+108U14*Get 109>15 110=17 111<17 22|152b14 172l8 172t11
+109a15 Data{7|54A9} 22|153b15 158r21 160r24 162r30 170r30
+110i17 Pointer{7|44I9} 22|154b17 158r11 160r14 162r16 170r36 171m7 171r18
+111m17 Value{24|63M9} 22|155b17 170m7
+113U14*Get 114>15 115=17 116<17 22|174b14 199l8 199t11
+114a15 Data{7|54A9} 22|175b15 180r21 182r24 184r30 191r27 195r36 196r38
+115i17 Pointer{7|44I9} 22|176b17 180r11 182r14 184r16 191r13 195r42 196r44
+. 198m7 198r18
+116m17 Value{24|66M9} 22|177b17 194m7
+118U14*Get 119>15 120=17 121<17 22|201b14 230l8 230t11
+119a15 Data{7|54A9} 22|202b15 209r21 211r24 213r30 220r27 224r36 225r38 226r38
+. 227r38
+120i17 Pointer{7|44I9} 22|203b17 209r11 211r14 213r16 220r13 224r42 225r44
+. 226r44 227r44 229m7 229r18
+121m17 Value{24|74M9} 22|204b17 223m7
+123U14*Get 124>15 125=17 126<17 22|232b14 265l8 265t11
+124a15 Data{7|54A9} 22|233b15 240r21 242r24 244r30 251r27 255r36 256r38 257r38
+. 258r38 259r38 260r38 261r38 262r38
+125i17 Pointer{7|44I9} 22|234b17 240r11 242r14 244r16 251r13 255r42 256r44
+. 257r44 258r44 259r44 260r44 261r44 262r44 264m7 264r18
+126m17 Value{24|77M9} 22|235b17 254m7
+142U14*Put 143=15 144=17 145>17 22|267b14 288l8 288t11
+143a15 Data{7|54A9} 22|268b15 273r20 273r39 274r24 274r59 286m7
+144i17 Pointer{7|44I9} 22|269b17 273r10 273r51 274r13 274r44 286r13 287m7
+. 287r18
+145m17 Value{24|63M9} 22|270b17 286r41
+147U14*Put 147=19 148=17 149>17 22|290b14 312l8 312t11
+147a19 Data{7|54A9} 22|291b15 296r20 296r39 297r24 297r59 309m7 310m7
+148i17 Pointer{7|44I9} 22|292b17 296r10 296r51 297r13 297r44 309r13 310r13
+. 311m7 311r18
+149m17 Value{24|66M9} 22|293b17 309r58 310r45
+151U14*Put 152=15 153=17 154>17 22|314b14 339l8 339t11
+152a15 Data{7|54A9} 22|315b15 321r20 321r39 322r24 322r59 335m10
+153i17 Pointer{7|44I9} 22|316b17 321r10 321r51 322r13 322r44 335r16 338m7
+. 338r18
+154m17 Value{24|74M9} 22|317b17 319r29
+156U14*Put 157=15 158=17 159>17 22|341b14 366l8 366t11
+157a15 Data{7|54A9} 22|342b15 348r20 348r39 349r24 349r59 362m10
+158i17 Pointer{7|44I9} 22|343b17 348r10 348r51 349r13 349r44 362r16 365m7
+. 365r18
+159m17 Value{24|77M9} 22|344b17 346r29
+X 22 connection_state_machine-big_endian-unsigneds.adb
+206m7 Result{24|74M9} 208r28
+237m7 Result{24|74M9} 239r28
+319m7 Item{24|74M9} 335r51 336m10 336r31
+334i11 Byte<long_long_integer> 335r26
+346m7 Item{24|77M9} 362r51 363m10 363r31
+361i11 Byte<long_long_integer> 362r26
+X 24 interfac.ads
+63M9*Unsigned_8 21|45r15 111r31 145r27 22|53r24 155r31 170r18 270r27
+66M9*Unsigned_16 21|49r15 116r31 149r27 22|83r17 177r31 195r23 196r25 293r27
+74M9*Unsigned_32 21|53r15 121r31 154r27 22|114r17 204r31 206r16 224r23 225r25
+. 226r25 227r25 237r16 317r27 319r14
+77M9*Unsigned_64 21|57r15 126r31 159r27 22|145r17 235r31 255r23 256r25 257r25
+. 258r25 259r25 260r25 261r25 262r25 344r27 346r14
+101V13*Shift_Left{66M9} 22|82s16 195s11
+105V13*Shift_Right{66M9} 22|309s45
+121V13*Shift_Left{74M9} 22|113s16 224s11 225s13 226s13
+125V13*Shift_Right{74M9} 22|336s18
+141V13*Shift_Left{77M9} 22|144s16 255s11 256s13 257s13 258s13 259s13 260s13
+. 261s13
+145V13*Shift_Right{77M9} 22|363s18
+X 33 s-finroo.ads
+42U14*Adjust
+

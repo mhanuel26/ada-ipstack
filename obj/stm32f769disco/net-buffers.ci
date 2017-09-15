@@ -1,0 +1,365 @@
+edge: { sourcename: "net__buffers__Tbuffer_typeCFD"
+  targetname: "-9:net__buffers__buffer_type,net__buffers__buffer_type"
+  label: "net-buffers.ads:113:9"
+}
+class {
+  classname: "net__buffers__buffer_type"
+  label: "net__buffers__buffer_type\net-buffers.ads:113:9"
+  parent: "net__buffers__buffer_type"
+  virtuals: "1:net__buffers__is_null\n
+             2:net__buffers__allocate\n
+             3:net__buffers__release\n
+             4:net__buffers__transfer\n
+             5:net__buffers__switch\n
+             6:net__buffers__get_data_address_pos\n
+             7:net__buffers__get_data_address\n
+             8:net__buffers__get_data_size\n
+             9:net__buffers__set_data_size\n
+             10:net__buffers__get_length\n
+             11:net__buffers__set_length\n
+             12:net__buffers__set_type\n
+             13:net__buffers__put_uint8\n
+             14:net__buffers__put_uint16\n
+             15:net__buffers__put_uint32\n
+             16:net__buffers__put_string\n
+             17:net__buffers__put_ip\n
+             18:net__buffers__get_uint8\n
+             19:net__buffers__get_uint16\n
+             20:net__buffers__get_uint32\n
+             21:net__buffers__get_ip\n
+             22:net__buffers__get_string\n
+             23:net__buffers__skip\n
+             24:net__buffers__ethernet\n
+             25:net__buffers__arp\n
+             26:net__buffers__ip\n
+             27:net__buffers__udp\n
+             28:net__buffers__tcp\n
+             29:net__buffers__igmp\n
+             30:net__buffers__icmp\n
+             31:net__buffers__dhcp\n
+             32:net__buffers__insert\n
+             33:net__buffers__peek\n
+             34:net__buffers__unsafe_reset\n
+             -1:net__buffers___size\n
+             -9:net__buffers__buffer_typeDF"
+}
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "__aeabi_ldivmod" label: "aeabi_ldivmod\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:543:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:456:14" shape : ellipse }
+node: { title: "system__tasking__protected_objects__unlock" label: "Unlock\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-taprob.ads:198:14" shape : ellipse }
+node: { title: "system__tasking__protected_objects__lock" label: "Lock\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-taprob.ads:184:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Index_Check" label: "gnat_rcheck_CE_Index_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-assert.ads:46:14" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "system__tasking__protected_objects__initialize_protection" label: "Initialize_Protection\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/s-taprob.ads:178:14" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-tags.ads:575:14" shape : ellipse }
+node: { title: "net__buffers___elabs" label: "Buffers\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:95:1\n8 bytes (static)" }
+edge: { sourcename: "net__buffers___elabs" targetname: "ada__tags__register_tag" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:303:9" }
+edge: { sourcename: "net__buffers___elabs" targetname: "ada__tags__check_tsd" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:303:9" }
+node: { title: "net__buffers___elabb" label: "Buffers\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:19:1\n8 bytes (static)" }
+edge: { sourcename: "net__buffers___elabb" targetname: "net__buffers__managerTVIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:73:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP" label: "Add_Regionp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:542:7\n40 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP___finalizer.6799" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:542:0" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionN" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:542:7" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP" targetname: "system__tasking__protected_objects__lock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:542:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP___finalizer.6799" label: "Add_Regionp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:542:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP___finalizer.6799" targetname: "system__tasking__protected_objects__unlock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:542:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionN" label: "Add_Regionn\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:542:7\n64 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionN" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:555:26" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionN" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:554:13" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP__2" label: "Releasep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:534:7\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP__2" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP___finalizer__2.6743" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:534:0" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseN__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:534:7" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP__2" targetname: "system__tasking__protected_objects__lock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:534:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP___finalizer__2.6743" label: "Releasep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:534:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP___finalizer__2.6743" targetname: "system__tasking__protected_objects__unlock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:534:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseN__2" label: "Releasen\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:534:7\n24 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseN__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:536:19" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP" label: "Releasep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:527:7\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP___finalizer.6739" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:527:0" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseN" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:527:7" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP" targetname: "system__tasking__protected_objects__lock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:527:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP___finalizer.6739" label: "Releasep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:527:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP___finalizer.6739" targetname: "system__tasking__protected_objects__unlock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:527:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseN" label: "Releasen\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:527:7\n24 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseN" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:529:16" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP__2" label: "Allocatep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:510:7\n40 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP__2" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP___finalizer__2.6733" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:510:0" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateN__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:510:7" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP__2" targetname: "system__tasking__protected_objects__lock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:510:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP___finalizer__2.6733" label: "Allocatep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:510:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP___finalizer__2.6733" targetname: "system__tasking__protected_objects__unlock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:510:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateN__2" label: "Allocaten\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:510:7\n48 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateN__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:517:32" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP" label: "Allocatep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:501:7\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP" targetname: "_Unwind_Resume" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP___finalizer.6718" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:501:0" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateN" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:501:7" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP" targetname: "system__tasking__protected_objects__lock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:501:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP___finalizer.6718" label: "Allocatep\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:501:7\n16 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP___finalizer.6718" targetname: "system__tasking__protected_objects__unlock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:501:7" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateN" label: "Allocaten\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:501:7\n24 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateN" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:506:19" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateN" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:505:32" }
+node: { title: "net__buffers__unsafe_reset" label: "Unsafe_Reset\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:493:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__unsafe_reset" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__unsafe_reset___postconditions.6710" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:497:8" }
+edge: { sourcename: "net__buffers__unsafe_reset" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:493:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__unsafe_reset___postconditions.6710" label: "Unsafe_Reset\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:493:4\n24 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__unsafe_reset___postconditions.6710" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:290:14" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__unsafe_reset___postconditions.6710" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:290:20" }
+node: { title: "net__buffers__add_region" label: "Add_Region\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:480:4\n40 bytes (static)" }
+edge: { sourcename: "net__buffers__add_region" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__add_regionP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:484:14" }
+edge: { sourcename: "net__buffers__add_region" targetname: "__aeabi_ldivmod" }
+edge: { sourcename: "net__buffers__add_region" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:283:13" }
+edge: { sourcename: "net__buffers__add_region" targetname: "__aeabi_ldivmod" }
+node: { title: "net__buffers__transfer__2" label: "Transfer\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:463:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__transfer__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions__2.6701" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:475:8" }
+edge: { sourcename: "net__buffers__transfer__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:467:17" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions__2.6701" label: "Transfer\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:463:4\n24 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions__2.6701" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:276:14" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions__2.6701" targetname: "net__buffers__is_empty" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:276:14" }
+node: { title: "net__buffers__peek" label: "Peek\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:447:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__peek" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:452:30" }
+edge: { sourcename: "net__buffers__peek" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:451:31" }
+edge: { sourcename: "net__buffers__peek" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:447:4" }
+node: { title: "net__buffers__allocate__2" label: "Allocate\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:438:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__allocate__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:441:14" }
+node: { title: "net__buffers__release__2" label: "Release\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:429:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__release__2" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:431:14" }
+node: { title: "net__buffers__insert" label: "Insert\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:413:4\n40 bytes (static)" }
+edge: { sourcename: "net__buffers__insert" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__insert___postconditions.6697" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:424:8" }
+edge: { sourcename: "net__buffers__insert" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:420:20" }
+edge: { sourcename: "net__buffers__insert" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:418:20" }
+edge: { sourcename: "net__buffers__insert" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:256:13" }
+edge: { sourcename: "net__buffers__insert" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:256:20" }
+edge: { sourcename: "net__buffers__insert" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:413:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__insert___postconditions.6697" label: "Insert\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:413:4\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__insert___postconditions.6697" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:257:14" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__insert___postconditions.6697" targetname: "net__buffers__is_empty" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:257:34" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__insert___postconditions.6697" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:257:17" }
+node: { title: "net__buffers__is_empty" label: "Is_Empty\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:405:4\n16 bytes (static)" }
+node: { title: "net__buffers__dhcp" label: "Dhcp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:397:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__dhcp" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:399:40" }
+edge: { sourcename: "net__buffers__dhcp" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:245:13" }
+edge: { sourcename: "net__buffers__dhcp" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:245:20" }
+edge: { sourcename: "net__buffers__dhcp" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:397:4" }
+node: { title: "net__buffers__icmp" label: "Icmp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:389:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__icmp" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:391:40" }
+edge: { sourcename: "net__buffers__icmp" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:241:13" }
+edge: { sourcename: "net__buffers__icmp" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:241:20" }
+edge: { sourcename: "net__buffers__icmp" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:389:4" }
+node: { title: "net__buffers__igmp" label: "Igmp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:381:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__igmp" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:383:40" }
+edge: { sourcename: "net__buffers__igmp" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:237:13" }
+edge: { sourcename: "net__buffers__igmp" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:237:20" }
+edge: { sourcename: "net__buffers__igmp" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:381:4" }
+node: { title: "net__buffers__tcp" label: "Tcp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:373:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__tcp" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:375:39" }
+edge: { sourcename: "net__buffers__tcp" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:233:13" }
+edge: { sourcename: "net__buffers__tcp" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:233:20" }
+edge: { sourcename: "net__buffers__tcp" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:373:4" }
+node: { title: "net__buffers__udp" label: "Udp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:365:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__udp" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:367:39" }
+edge: { sourcename: "net__buffers__udp" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:229:13" }
+edge: { sourcename: "net__buffers__udp" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:229:20" }
+edge: { sourcename: "net__buffers__udp" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:365:4" }
+node: { title: "net__buffers__ip" label: "Ip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:357:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__ip" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:359:38" }
+edge: { sourcename: "net__buffers__ip" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:225:13" }
+edge: { sourcename: "net__buffers__ip" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:225:20" }
+edge: { sourcename: "net__buffers__ip" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:357:4" }
+node: { title: "net__buffers__arp" label: "Arp\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:349:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__arp" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:351:32" }
+edge: { sourcename: "net__buffers__arp" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:351:49" }
+edge: { sourcename: "net__buffers__arp" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:221:13" }
+edge: { sourcename: "net__buffers__arp" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:221:20" }
+edge: { sourcename: "net__buffers__arp" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:349:4" }
+node: { title: "net__buffers__ethernet" label: "Ethernet\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:341:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__ethernet" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:343:37" }
+edge: { sourcename: "net__buffers__ethernet" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:343:54" }
+edge: { sourcename: "net__buffers__ethernet" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:217:13" }
+edge: { sourcename: "net__buffers__ethernet" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:217:20" }
+edge: { sourcename: "net__buffers__ethernet" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:341:4" }
+node: { title: "net__buffers__skip" label: "Skip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:332:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__skip" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:335:26" }
+edge: { sourcename: "net__buffers__skip" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:213:13" }
+edge: { sourcename: "net__buffers__skip" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:213:20" }
+edge: { sourcename: "net__buffers__skip" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:332:4" }
+node: { title: "net__buffers__get_string" label: "Get_String\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:318:4\n48 bytes (static)" }
+edge: { sourcename: "net__buffers__get_string" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:324:21" }
+edge: { sourcename: "net__buffers__get_string" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:323:47" }
+edge: { sourcename: "net__buffers__get_string" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:323:47" }
+edge: { sourcename: "net__buffers__get_string" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:208:13" }
+edge: { sourcename: "net__buffers__get_string" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:208:20" }
+edge: { sourcename: "net__buffers__get_string" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:318:4" }
+node: { title: "net__buffers__get_ip" label: "Get_Ip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:303:4\n40 bytes (static)" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:311:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:311:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:310:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:310:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:309:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:309:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:308:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:308:31" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:307:22" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:203:13" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:203:20" }
+edge: { sourcename: "net__buffers__get_ip" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:303:4" }
+node: { title: "net__buffers__get_uint32" label: "Get_Uint32\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:290:4\n32 bytes (static)" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:297:35" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:297:35" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:296:58" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:296:58" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:295:58" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:295:58" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:294:72" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:294:72" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:293:22" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:199:13" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:199:20" }
+edge: { sourcename: "net__buffers__get_uint32" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:290:4" }
+node: { title: "net__buffers__get_uint16" label: "Get_Uint16\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:279:4\n32 bytes (static)" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:284:35" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:284:35" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:283:72" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:283:72" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:282:22" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:195:13" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:195:20" }
+edge: { sourcename: "net__buffers__get_uint16" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:279:4" }
+node: { title: "net__buffers__get_uint8" label: "Get_Uint8\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:269:4\n32 bytes (static)" }
+edge: { sourcename: "net__buffers__get_uint8" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:273:24" }
+edge: { sourcename: "net__buffers__get_uint8" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:273:24" }
+edge: { sourcename: "net__buffers__get_uint8" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:272:22" }
+edge: { sourcename: "net__buffers__get_uint8" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:191:13" }
+edge: { sourcename: "net__buffers__get_uint8" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:191:20" }
+edge: { sourcename: "net__buffers__get_uint8" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:269:4" }
+node: { title: "net__buffers__put_ip" label: "Put_Ip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:255:4\n32 bytes (static)" }
+edge: { sourcename: "net__buffers__put_ip" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:261:21" }
+edge: { sourcename: "net__buffers__put_ip" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:260:20" }
+edge: { sourcename: "net__buffers__put_ip" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:260:20" }
+edge: { sourcename: "net__buffers__put_ip" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:187:13" }
+edge: { sourcename: "net__buffers__put_ip" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:187:20" }
+edge: { sourcename: "net__buffers__put_ip" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:255:4" }
+node: { title: "net__buffers__put_string" label: "Put_String\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:236:4\n56 bytes (static)" }
+edge: { sourcename: "net__buffers__put_string" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:247:21" }
+edge: { sourcename: "net__buffers__put_string" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:246:20" }
+edge: { sourcename: "net__buffers__put_string" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:246:20" }
+edge: { sourcename: "net__buffers__put_string" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:243:21" }
+edge: { sourcename: "net__buffers__put_string" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:242:20" }
+edge: { sourcename: "net__buffers__put_string" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:242:20" }
+edge: { sourcename: "net__buffers__put_string" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:182:13" }
+edge: { sourcename: "net__buffers__put_string" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:182:20" }
+edge: { sourcename: "net__buffers__put_string" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:236:4" }
+node: { title: "net__buffers__put_uint32" label: "Put_Uint32\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:222:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:229:26" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:228:67" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:228:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:228:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:227:95" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:227:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:227:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:226:96" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:226:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:226:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:225:61" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:225:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:225:17" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:175:13" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:175:20" }
+edge: { sourcename: "net__buffers__put_uint32" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:222:4" }
+node: { title: "net__buffers__put_uint16" label: "Put_Uint16\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:210:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:215:26" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:214:67" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:214:17" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:214:17" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:213:61" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:213:17" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:213:17" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:169:13" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:169:20" }
+edge: { sourcename: "net__buffers__put_uint16" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:210:4" }
+node: { title: "net__buffers__put_uint8" label: "Put_Uint8\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:199:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__put_uint8" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:203:26" }
+edge: { sourcename: "net__buffers__put_uint8" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:202:17" }
+edge: { sourcename: "net__buffers__put_uint8" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:202:17" }
+edge: { sourcename: "net__buffers__put_uint8" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:163:13" }
+edge: { sourcename: "net__buffers__put_uint8" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:163:20" }
+edge: { sourcename: "net__buffers__put_uint8" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:199:4" }
+node: { title: "net__buffers__set_type" label: "Set_Type\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:189:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__set_type" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:189:4" }
+node: { title: "net__buffers__set_length" label: "Set_Length\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:180:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__set_length" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:183:17" }
+edge: { sourcename: "net__buffers__set_length" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:180:4" }
+node: { title: "net__buffers__get_length" label: "Get_Length\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:175:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__get_length" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:175:4" }
+node: { title: "net__buffers__set_data_size" label: "Set_Data_Size\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:169:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__set_data_size" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:171:24" }
+edge: { sourcename: "net__buffers__set_data_size" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:169:4" }
+node: { title: "net__buffers__get_data_size" label: "Get_Data_Size\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:159:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__get_data_size" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:165:26" }
+edge: { sourcename: "net__buffers__get_data_size" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:163:25" }
+edge: { sourcename: "net__buffers__get_data_size" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:159:4" }
+node: { title: "net__buffers__get_data_address" label: "Get_Data_Address\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:154:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__get_data_address" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:156:24" }
+edge: { sourcename: "net__buffers__get_data_address" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:156:41" }
+edge: { sourcename: "net__buffers__get_data_address" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:154:4" }
+node: { title: "net__buffers__get_data_address_pos" label: "Get_Data_Address_Pos\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:149:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__get_data_address_pos" targetname: "__gnat_rcheck_CE_Index_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:151:24" }
+edge: { sourcename: "net__buffers__get_data_address_pos" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:151:24" }
+edge: { sourcename: "net__buffers__get_data_address_pos" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:149:4" }
+node: { title: "net__buffers__switch" label: "Switch\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:138:4\n56 bytes (static)" }
+edge: { sourcename: "net__buffers__switch" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__switch___postconditions.6597" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:147:8" }
+edge: { sourcename: "net__buffers__switch" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:138:13" }
+edge: { sourcename: "net__buffers__switch" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:138:40" }
+edge: { sourcename: "net__buffers__switch" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:138:21" }
+edge: { sourcename: "net__buffers__switch" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:138:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__switch___postconditions.6597" label: "Switch\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:138:4\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__switch___postconditions.6597" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:139:14" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__switch___postconditions.6597" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:139:41" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__switch___postconditions.6597" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:139:22" }
+node: { title: "net__buffers__transfer" label: "Transfer\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:122:4\n40 bytes (static)" }
+edge: { sourcename: "net__buffers__transfer" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions.6591" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:131:8" }
+edge: { sourcename: "net__buffers__transfer" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:126:17" }
+edge: { sourcename: "net__buffers__transfer" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:130:13" }
+edge: { sourcename: "net__buffers__transfer" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:130:21" }
+edge: { sourcename: "net__buffers__transfer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:122:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions.6591" label: "Transfer\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:122:4\n32 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions.6591" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:131:14" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions.6591" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:131:37" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__transfer___postconditions.6591" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:131:18" }
+node: { title: "net__buffers__release" label: "Release\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:111:4\n24 bytes (static)" }
+edge: { sourcename: "net__buffers__release" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__release___postconditions.6582" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:116:8" }
+edge: { sourcename: "net__buffers__release" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__releaseP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:114:17" }
+edge: { sourcename: "net__buffers__release" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:111:4" }
+node: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__release___postconditions.6582" label: "Release\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:111:4\n24 bytes (static)" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__release___postconditions.6582" targetname: "system__assertions__raise_assert_failure" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:124:14" }
+edge: { sourcename: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__release___postconditions.6582" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:124:17" }
+node: { title: "net__buffers__allocate" label: "Allocate\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:102:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__allocate" targetname: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:net__buffers__manager__allocateP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:104:14" }
+edge: { sourcename: "net__buffers__allocate" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:102:4" }
+node: { title: "net__buffers__is_null" label: "Is_Null\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:93:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__is_null" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:93:4" }
+node: { title: "net__buffers__managerTVIP" label: "Managertvip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:73:4\n16 bytes (static)" }
+edge: { sourcename: "net__buffers__managerTVIP" targetname: "system__tasking__protected_objects__initialize_protection" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:73:4" }
+node: { title: "net__buffers__Toffset_tableBIP" label: "Toffset_Tablebip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.adb:30:4\n16 bytes (static)" }
+node: { title: "net__buffers__finalize_spec" label: "Finalize_Spec\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:95:1\n8 bytes (static)" }
+edge: { sourcename: "net__buffers__finalize_spec" targetname: "ada__tags__unregister_tag" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:95:1" }
+node: { title: "net__buffers__buffer_listIP" label: "Buffer_Listip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:310:9\n16 bytes (static)" }
+node: { title: "net__buffers__Tbuffer_typeCFD" label: "Tbuffer_Typecfd\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:113:9\n32 bytes (static)" }
+edge: { sourcename: "net__buffers__Tbuffer_typeCFD" targetname: "__indirect_call" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:113:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "net__buffers__buffer_typeDF" label: "Buffer_Typedf\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:303:9\n16 bytes (static)" }
+node: { title: "net__buffers___size" label: "Buffers\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:303:9\n16 bytes (static)" }
+node: { title: "net__buffers__buffer_typeIP" label: "Buffer_Typeip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:303:9\n16 bytes (static)" }
+node: { title: "net__buffers__packet_bufferIP" label: "Packet_Bufferip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:297:9\n16 bytes (static)" }
+node: { title: "net__buffers__Tdata_typeBIP" label: "Tdata_Typebip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:110:4\n16 bytes (static)" }
+}

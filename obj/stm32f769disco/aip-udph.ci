@@ -1,0 +1,22 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb"
+node: { title: "aip__udph__set_udpp_length" label: "SET_UDPP_LENGTH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:114:4\n24 bytes (static)" }
+node: { title: "aip__udph__udpp_length" label: "UDPP_LENGTH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:108:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udpp_protocol" label: "SET_UDPP_PROTOCOL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:102:4\n24 bytes (static)" }
+node: { title: "aip__udph__udpp_protocol" label: "UDPP_PROTOCOL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:96:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udpp_zero" label: "SET_UDPP_ZERO\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:90:4\n24 bytes (static)" }
+node: { title: "aip__udph__udpp_zero" label: "UDPP_ZERO\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:84:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udpp_dst_address" label: "SET_UDPP_DST_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:78:4\n24 bytes (static)" }
+node: { title: "aip__udph__udpp_dst_address" label: "UDPP_DST_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:72:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udpp_src_address" label: "SET_UDPP_SRC_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:66:4\n24 bytes (static)" }
+node: { title: "aip__udph__udpp_src_address" label: "UDPP_SRC_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:60:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udph_checksum" label: "SET_UDPH_CHECKSUM\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:54:4\n24 bytes (static)" }
+node: { title: "aip__udph__udph_checksum" label: "UDPH_CHECKSUM\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:48:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udph_length" label: "SET_UDPH_LENGTH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:42:4\n24 bytes (static)" }
+node: { title: "aip__udph__udph_length" label: "UDPH_LENGTH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:36:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udph_dst_port" label: "SET_UDPH_DST_PORT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:30:4\n24 bytes (static)" }
+node: { title: "aip__udph__udph_dst_port" label: "UDPH_DST_PORT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:24:4\n24 bytes (static)" }
+node: { title: "aip__udph__set_udph_src_port" label: "SET_UDPH_SRC_PORT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:18:4\n24 bytes (static)" }
+node: { title: "aip__udph__udph_src_port" label: "UDPH_SRC_PORT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.adb:12:4\n24 bytes (static)" }
+node: { title: "aip__udph__udp_pseudo_headerIP" label: "UDP_PSEUDO_HEADERIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.ads:111:9\n16 bytes (static)" }
+node: { title: "aip__udph__udp_headerIP" label: "UDP_HEADERIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-udph.ads:93:9\n16 bytes (static)" }
+}

@@ -1,0 +1,82 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U raw_tcp_callbacks%s	raw_tcp_callbacks.ads	33ca6498 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W aip%s			aip.adb			aip.ali
+W aip.callbacks%s	aip-callbacks.ads	aip-callbacks.ali
+W aip.pcbs%s		aip-pcbs.adb		aip-pcbs.ali
+W aip.tcp%s		aip-tcp.adb		aip-tcp.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170912220857 ec3c29ae aip.config%s
+D aip-ip.ads		20170815223411 36592376 aip.ip%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D aip-tcp.ads		20170902044844 1a4cf31d aip.tcp%s
+D raw_tcp_callbacks.ads	20170811031958 bf1aa874 raw_tcp_callbacks%s
+D system.ads		20170728224417 db831581 system%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 ada.ads
+16K9*Ada 20e8 12|6r6 19r6 22r6
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 12|6w10 19r10 22r10
+X 3 aip.ads
+66K9*AIP 182e8 12|7r6 8r6 9r6 14r30 15r30 16r34 19r42 22r32
+73I9*S8_T<short_short_integer>
+75I9*S32_T<integer>
+141I12*Err_T{73I9} 12|16r38
+167I12*EID{75I9}
+X 5 aip-callbacks.ads
+8K13*Callbacks 33e18 12|9w10 19r46 22r36
+18M9*CBK_Id 12|19r56 22r46
+X 10 aip-pcbs.ads
+14K13*PCBs 157e13 12|8w10 15r34
+16I12*PCB_Id{3|167I12} 12|15r39
+X 11 aip-tcp.ads
+19K13*TCP 332e12 12|7w10 14r34
+44R9*TCP_Event_T 59e14 12|14r38
+X 12 raw_tcp_callbacks.ads
+11K9*RAW_TCP_Callbacks 24l5 24e22
+13P9*TCP_Hook 14>24 15>24 16<24 19r32 22r54
+14r24 Ev{11|44R9}
+15i24 Pcb{10|16I12}
+16i24 Err{3|141I12}
+18V13*To_CBID[2|20]{5|18M9}
+21V13*To_Hook[2|20]{13P9}
+

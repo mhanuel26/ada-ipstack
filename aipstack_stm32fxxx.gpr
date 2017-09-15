@@ -1,0 +1,23 @@
+with "Ada_Drivers_Library/boards/stm32f769_discovery/stm32f769_discovery";
+with "Ada_Drivers_Library/boards/config";
+
+library project Aipstack_STM32FXXX  is
+
+   for Library_Dir use "lib/stm32f769disco/" & STM32F769_Discovery.RTS_Profile & "/";
+   for Library_Name use "aipstack_stm32f769";
+   for Object_Dir use "obj/stm32f769disco";
+   for Runtime ("Ada") use STM32F769_Discovery'Runtime("Ada");
+
+   for Source_Dirs use ("src", "src/stm32", "build/gen", "src/core", "src/osal", "src/dev", "src/services", "src/services/utils", "src/services/mqtt", "src/services/sockets");
+
+
+   package Compiler is
+      --  The network packets are stored in the SDRAM and the SDRAM raises a hardware
+      --  fault when we access un-aligned 32-bit words.  Add --gnatwn to avoid treat warnings as errors.
+      for Default_Switches ("Ada")
+        use Config.Compiler'Default_Switches ("Ada") & "-mno-unaligned-access";
+      for Local_Configuration_Pragmas
+              use Aipstack_STM32FXXX'Project_Dir & "/" & "ipstack.adc";
+   end Compiler;
+
+end Aipstack_STM32FXXX;

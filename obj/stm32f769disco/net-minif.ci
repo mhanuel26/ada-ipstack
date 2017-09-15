@@ -1,0 +1,67 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "aip__osal__send" label: "SEND\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal.ads:37:14" shape : ellipse }
+node: { title: "net__buffers__set_length" label: "Set_Length\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:154:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "aip__buffers__buffer_tlen" label: "BUFFER_TLEN\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:134:13" shape : ellipse }
+node: { title: "net__buffers__is_null" label: "Is_Null\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:116:13" shape : ellipse }
+node: { title: "net__buffers__allocate" label: "Allocate\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:120:14" shape : ellipse }
+node: { title: "net__buffers__buffer_typeIP" label: "Buffer_Typeip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:303:9" shape : ellipse }
+node: { title: "net__buffers__release" label: "Release\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:123:14" shape : ellipse }
+node: { title: "net__buffers__get_data_address_pos" label: "Get_Data_Address_Pos\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:143:13" shape : ellipse }
+node: { title: "aip__buffers__buffer_next" label: "BUFFER_NEXT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:153:13" shape : ellipse }
+node: { title: "aip__conversions__memcpy" label: "MEMCPY\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-conversions.ads:20:14" shape : ellipse }
+node: { title: "aip__buffers__buffer_payload" label: "BUFFER_PAYLOAD\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:159:13" shape : ellipse }
+node: { title: "aip__buffers__buffer_len" label: "BUFFER_LEN\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:126:13" shape : ellipse }
+node: { title: "net__buffers__get_data_address" label: "Get_Data_Address\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:145:13" shape : ellipse }
+node: { title: "aip__buffers__buffer_alloc" label: "BUFFER_ALLOC\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers.ads:94:14" shape : ellipse }
+node: { title: "aip__nif__get_ll_address" label: "GET_LL_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-nif.ads:95:14" shape : ellipse }
+node: { title: "net__buffers__get_data_size" label: "Get_Data_Size\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:147:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "net__buffers__ip" label: "Ip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:224:13" shape : ellipse }
+node: { title: "net__headers__to_host__2" label: "To_Host\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:28:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "net__buffers__ethernet" label: "Ethernet\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-buffers.ads:216:13" shape : ellipse }
+node: { title: "net__minif__ll_output" label: "Ll_Output\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:104:4\n64 bytes (static)" }
+edge: { sourcename: "net__minif__ll_output" targetname: "_Unwind_Resume" }
+edge: { sourcename: "net__minif__ll_output" targetname: "aip__osal__send" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:135:15" }
+edge: { sourcename: "net__minif__ll_output" targetname: "net__buffers__set_length" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:134:13" }
+edge: { sourcename: "net__minif__ll_output" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:134:34" }
+edge: { sourcename: "net__minif__ll_output" targetname: "net__buffers__get_data_address_pos" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:132:17" }
+edge: { sourcename: "net__minif__ll_output" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:132:70" }
+edge: { sourcename: "net__minif__ll_output" targetname: "aip__buffers__buffer_next" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:131:12" }
+edge: { sourcename: "net__minif__ll_output" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:129:29" }
+edge: { sourcename: "net__minif__ll_output" targetname: "aip__conversions__memcpy" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:128:25" }
+edge: { sourcename: "net__minif__ll_output" targetname: "aip__buffers__buffer_payload" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:127:17" }
+edge: { sourcename: "net__minif__ll_output" targetname: "aip__buffers__buffer_len" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:126:49" }
+edge: { sourcename: "net__minif__ll_output" targetname: "aip__buffers__buffer_tlen" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:124:44" }
+edge: { sourcename: "net__minif__ll_output" targetname: "net__buffers__get_data_address" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:123:14" }
+edge: { sourcename: "net__minif__ll_output" targetname: "net__buffers__is_null" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:118:16" }
+edge: { sourcename: "net__minif__ll_output" targetname: "net__buffers__allocate" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:117:18" }
+edge: { sourcename: "net__minif__ll_output" targetname: "net__buffers__buffer_typeIP" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:108:7" }
+node: { title: "net__minif__ll_input" label: "Ll_Input\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:31:4\n96 bytes (static)" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__buffers__release" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:100:18" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__buffers__get_data_address_pos" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:97:20" }
+edge: { sourcename: "net__minif__ll_input" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:97:70" }
+edge: { sourcename: "net__minif__ll_input" targetname: "aip__buffers__buffer_next" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:95:15" }
+edge: { sourcename: "net__minif__ll_input" targetname: "aip__conversions__memcpy" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:94:28" }
+edge: { sourcename: "net__minif__ll_input" targetname: "aip__buffers__buffer_payload" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:93:20" }
+edge: { sourcename: "net__minif__ll_input" targetname: "aip__buffers__buffer_len" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:92:52" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__buffers__get_data_address" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:90:17" }
+edge: { sourcename: "net__minif__ll_input" targetname: "aip__buffers__buffer_alloc" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:87:18" }
+edge: { sourcename: "net__minif__ll_input" targetname: "aip__nif__get_ll_address" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:66:14" }
+edge: { sourcename: "net__minif__ll_input" targetname: "memcpy" }
+edge: { sourcename: "net__minif__ll_input" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:65:22" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__buffers__get_data_size" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:62:15" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__buffers__get_data_size" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:58:21" }
+edge: { sourcename: "net__minif__ll_input" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:56:59" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__headers__to_host__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:56:35" }
+edge: { sourcename: "net__minif__ll_input" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:56:50" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__headers__to_host__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:54:27" }
+edge: { sourcename: "net__minif__ll_input" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:54:42" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__buffers__ip" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:53:19" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__headers__to_host__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:47:21" }
+edge: { sourcename: "net__minif__ll_input" targetname: "__gnat_rcheck_CE_Access_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:47:36" }
+edge: { sourcename: "net__minif__ll_input" targetname: "net__buffers__ethernet" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.adb:46:13" }
+}

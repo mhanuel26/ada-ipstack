@@ -1,0 +1,101 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES SS ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U net.utils%b		net-utils.adb		84c4925d NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W net%s			net.adb			net.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32.rng%s		stm32-rng.adb		stm32-rng.ali
+W stm32.rng.interrupts%s  stm32-rng-interrupts.adb  stm32-rng-interrupts.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U net.utils%s		net-utils.ads		c96bae0d EE NE OO PK
+W net%s			net.adb			net.ali
+
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D hal.ads		20170728224345 2b42c80e hal%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D net.ads		20170911175125 10b1f911 net%s
+D net-utils.ads		20170729035226 d9da571c net.utils%s
+D net-utils.adb		20170808164749 e5bedd40 net.utils%b
+D net-utils-random.adb	20170729034304 e2154a69 net.utils.random
+D stm32.ads		20170728224345 698e2c3b stm32%s
+D stm32-rng.ads		20170728224345 e3005cde stm32.rng%s
+D stm32-rng-interrupts.ads  20170728224345 f3571db0 stm32.rng.interrupts%s
+D system.ads		20170728224417 db831581 system%s
+D s-imgint.ads		20170517144320 02dbe0c2 system.img_int%s
+D s-secsta.ads		20170517144320 0b22b54c system.secondary_stack%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+X 1 aip.ads
+85I9*U8_T<short_integer>
+89I9*U32_T<long_long_integer>
+X 2 hal.ads
+97M9*UInt32<3|74M9>
+X 3 interfac.ads
+38K9*Interfaces 184e15 6|18w6 30r11
+63M9*Unsigned_8
+74M9*Unsigned_32
+85V13*Shift_Right{63M9} 6|34s43
+X 4 net.ads
+29K9*Net 76e8 5|18r9 29r5 6|19r14 69r5 7|19r11
+37I12*Uint8{1|85I9} 6|21r29 22r31 29r29 39r31
+39I12*Uint32{1|89I9} 5|27r27 6|27r27 7|20r24 22r11
+42M12*Uint_8{3|63M9} 6|34r56 35r44
+51A9*Ip_Addr(37I12)<integer> 5|21r32 6|48r32
+54A9*Ether_Addr(37I12)<integer> 5|24r33 6|59r33
+X 5 net-utils.ads
+18K13*Utils 4|29k9 5|29l9 29e14 6|19b18 69l9 69t14 7|19r15
+21V13*To_String{string} 21>24 6|48b13 54l8 54t17
+21a24 Ip{4|51A9} 6|48b24 50r21 50r25 51r18 51r22 52r18 52r22 53r18 53r22
+24V13*To_String{string} 24>24 6|59b13 67l8 67t17
+24a24 Mac{4|54A9} 6|59b24 61r19 61r24 62r16 62r21 63r16 63r21 64r16 64r21
+. 65r16 65r21 66r16 66r21
+27V13*Random{4|39I12} 6|27b13 7|20b10 23l5 23t11
+X 6 net-utils.adb
+21V13 Hex{string} 21>18 29b13 37l8 37t11 61s14 62s11 63s11 64s11 65s11 66s11
+21i18 Value{4|37I12} 29b18 34r64 35r52
+22V13 Image{string} 22>20 39b13 43l8 43t13 50s14 51s11 52s11 53s11
+22i20 Value{4|37I12} 39b20 40r35
+24a4 Hex_String{string} 34r21 35r21
+32a7 Result{string} 34m7 35m7 36r14
+40a7 Result{string} 42r14 42r22 42r42
+X 8 stm32.ads
+39K9*STM32 7|18r6 22r19 8|48e10
+X 9 stm32-rng.ads
+48K15*RNG 7|18r12 22r25 9|78e14
+X 10 stm32-rng-interrupts.ads
+48K19*Interrupts 7|18w16 22r29 10|60e25
+56V13*Random{2|97M9} 7|22s40
+

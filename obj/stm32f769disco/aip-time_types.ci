@@ -1,0 +1,16 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb"
+node: { title: "__aeabi_ldivmod" label: "aeabi_ldivmod\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "ada__real_time__to_duration" label: "To_Duration\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-reatim.ads:101:13" shape : ellipse }
+node: { title: "ada__real_time__Osubtract__2" label: "-\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-reatim.ads:76:13" shape : ellipse }
+node: { title: "ada__real_time__clock" label: "Clock\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-reatim.ads:70:13" shape : ellipse }
+node: { title: "aip__time_types___elabb" label: "TIME_TYPES\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:8:1\n16 bytes (static)" }
+edge: { sourcename: "aip__time_types___elabb" targetname: "ada__real_time__clock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:11:56" }
+node: { title: "aip__time_types__now" label: "NOW\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:17:4\n64 bytes (static)" }
+edge: { sourcename: "aip__time_types__now" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:20:14" }
+edge: { sourcename: "aip__time_types__now" targetname: "__aeabi_ldivmod" }
+edge: { sourcename: "aip__time_types__now" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:20:14" }
+edge: { sourcename: "aip__time_types__now" targetname: "ada__real_time__to_duration" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:21:23" }
+edge: { sourcename: "aip__time_types__now" targetname: "ada__real_time__Osubtract__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:21:57" }
+edge: { sourcename: "aip__time_types__now" targetname: "ada__real_time__clock" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-time_types.adb:21:50" }
+}

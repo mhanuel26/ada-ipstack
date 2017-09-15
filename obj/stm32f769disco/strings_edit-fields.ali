@@ -1,0 +1,100 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U strings_edit.fields%b	strings_edit-fields.adb	98ac7b90 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W interfaces%s		interfac.ads		interfac.ali
+W strings_edit%s	strings_edit.adb	strings_edit.ali
+
+U strings_edit.fields%s	strings_edit-fields.ads	0b9cc63b BN EE NE OO PK
+W strings_edit%s	strings_edit.adb	strings_edit.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-charac.ads		20170517144320 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170517144320 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170517144320 e4a01f64 ada.io_exceptions%s
+D a-string.ads		20170517144320 90ac6797 ada.strings%s
+D a-strmap.ads		20170517144320 e8bb714a ada.strings.maps%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D strings_edit.ads	20170819015521 7d801be5 strings_edit%s
+D strings_edit-fields.ads  20170903223116 761cddde strings_edit.fields%s
+D strings_edit-fields.adb  20170903223048 0a10b92a strings_edit.fields%b
+D system.ads		20170728224417 db831581 system%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 ada.ads
+16K9*Ada 20e8 12|28r6 28r29
+X 5 a-ioexce.ads
+18K13*IO_Exceptions 30e22 12|28w10 28r33
+28X4*Layout_Error 12|47r16
+X 10 strings_edit.ads
+133K9*Strings_Edit 336e17 11|60r9 106r5 12|30r14 108r5
+140E12*Alignment{6|29E9} 11|102r31 12|58r31
+142e4*Center=142:43{6|29E9} 12|74r24
+143e4*Left=143:43{6|29E9} 12|70r24
+144e4*Right=144:43{6|29E9} 12|90r24
+X 11 strings_edit-fields.ads
+60K22*Fields 10|133k9 11|106l18 106e24 12|30b27 108l18 108t24
+76V13*Get_Output_Field{natural} 77>14 78>16 79>16 81r19 12|32b13 50l8 50t24
+77a14 Destination{string} 12|33b14 40r20 42r21 44r36
+78i16 Pointer{integer} 12|34b16 40r39 42r11 44r13
+79i16 Field{natural} 12|35b16 37r27
+96U14*Adjust_Output_Field 97=15 98=17 99>17 100>17 101>17 102>17 103>17 105r19
+. 12|52b14 106l8 106t27
+97a15 Destination{string} 12|53b15 72m25 81m25 82r25 84m28 87m28 95m25 96r28
+. 98m28
+98i17 Pointer{integer} 12|54b17 63m10 66r40 68r37 76r62 78r37 82r38 83r41
+. 93r55 96r41 97r41 103m13
+99i17 Index{integer} 12|55b17 63r21 68r29 71r38 76r54 82r49 93r47 96r52
+100i17 Out_Field{natural} 12|56b17 66r50 68r16 78r48
+101i17 Field{natural} 12|57b17 62r10
+102e17 Justify{10|140E12} 12|58b17 69r21
+103e17 Fill{character} 12|59b17 72r51 84r54 87r54 98r54
+X 12 strings_edit-fields.adb
+37i7 Result{natural} 39r10 40m10 44r23 49r14
+66i13 Last{integer} 71r47 86r49 93r36 95r47 103r24
+71i26 Position{integer} 72r38
+76i25 Length{natural} 78r60 79r62
+77i25 First{integer} 79r54 81r38 83r52
+79i25 Next{integer} 81r47 86r41
+83i29 Position{integer} 84r41
+86i29 Position{integer} 87r41
+92i25 First{integer} 95r38 97r52
+97i29 Position{integer} 98r41
+

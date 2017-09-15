@@ -1,0 +1,105 @@
+with "Ada_Drivers_Library/boards/stm32f769_discovery/stm32f769_discovery";
+with "aipstack_stm32fxxx";
+
+project Ping extends "Ada_Drivers_Library/examples/shared/common/common.gpr" is
+
+   for Object_Dir use "obj/stm32f769disco";
+   for Main use ("ping.adb");
+   for Source_Dirs use ("demos/ping", "demos/utils", "Ada_Drivers_Library/examples/shared/common/gui");
+   type Lch_Type is
+      ("led", "lcd");
+   Lch : Lch_Type := external ("LCH");
+   type Rts_Type is
+      ("ravenscar-sfp", "ravenscar-full");
+   Rts_Profile : Rts_Type := external ("RTS_Profile");
+   type Loader_Type is
+      ("RAM", "ROM");
+   Loader : Loader_Type := external ("LOADER");
+   type Build_Type is
+      ("Debug", "Production");
+   Platform_Build : Build_Type := external ("PLATFORM_BUILD");
+
+   case Lch is
+
+      when "led" =>
+
+         case Rts_Profile is
+
+            when "ravenscar-sfp" =>
+
+               case Loader is
+
+                  when "RAM" =>
+                     for Runtime ("ada") use Stm32F769_Discovery'Runtime ("Ada");
+
+                  when "ROM" =>
+
+                     case Platform_Build is
+
+                        when "Debug" =>
+                           for Runtime ("ada") use "ravenscar-full-stm32f769disco";
+                           for Target use "arm-eabi";
+
+                        when "Production" =>
+                           for Runtime ("ada") use Stm32F769_Discovery'Runtime ("Ada");
+                     end case;
+               end case;
+
+            when "ravenscar-full" =>
+               for Runtime ("ada") use Stm32F769_Discovery'Runtime ("Ada");
+         end case;
+
+      when "lcd" =>
+         for Runtime ("ada") use Stm32F769_Discovery'Runtime ("Ada");
+   end case;
+
+   package Compiler is
+      --  The network packets are stored in the SDRAM and the SDRAM raises a hardware
+      --  fault when we access un-aligned 32-bit words.
+      for Default_Switches ("ada") use Aipstack_Stm32Fxxx.Compiler'Default_Switches ("Ada");
+   end Compiler;
+
+   package Builder is
+      for Global_Configuration_Pragmas use "gnat.adc";
+   end Builder;
+
+   package Ide is
+
+      case Lch is
+
+         when "led" =>
+
+            case Rts_Profile is
+
+               when "ravenscar-sfp" =>
+
+                  case Loader is
+
+                     when "RAM" =>
+
+                     when "ROM" =>
+
+                        case Platform_Build is
+
+                           when "Debug" =>
+                              for Connection_Tool use "openocd";
+                              for Connection_Config_File use "../../../STM/openocd/tcl/board/stm32f7discovery.cfg";
+                              for Program_Host use "localhost:3333";
+                              for Communication_Protocol use "remote";
+
+                           when "Production" =>
+
+                        end case;
+                  end case;
+
+               when "ravenscar-full" =>
+
+            end case;
+
+         when "lcd" =>
+
+      end case;
+   end Ide;
+
+end Ping;
+

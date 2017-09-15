@@ -1,0 +1,131 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES SS ZX
+
+RN
+RV NO_FIXED_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stm32.calendar%b	stm32-calendar.adb	b94d5c7f NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+
+U stm32.calendar%s	stm32-calendar.ads	959505bf EE NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32.rtc%s		stm32-rtc.adb		stm32-rtc.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-finali.ads		20170517144320 bf4f806b ada.finalization%s
+D a-reatim.ads		20170517144320 bb781ad1 ada.real_time%s
+D a-stream.ads		20170517144320 119b8fb3 ada.streams%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D hal.ads		20170728224345 2b42c80e hal%s
+D hal-real_time_clock.ads  20170728224345 9dd52fca hal.real_time_clock%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D i-stm32.ads		20170728224417 8e8d1147 interfaces.stm32%s
+D i-stm32-pwr.ads	20170728224417 9584d9cf interfaces.stm32.pwr%s
+D i-stm32-rcc.ads	20170728224417 4eaa7f20 interfaces.stm32.rcc%s
+D stm32.ads		20170728224345 698e2c3b stm32%s
+D stm32-calendar.ads	20170903170527 b83b90bd stm32.calendar%s
+D stm32-calendar.adb	20170903170602 0176ccc2 stm32.calendar%b
+D stm32-rtc.ads		20170728224345 ff58a3e8 stm32.rtc%s
+D system.ads		20170728224417 db831581 system%s
+D s-bb.ads		20170517144320 09e072ae system.bb%s
+D s-bbbopa.ads		20170728224417 b051dd3b system.bb.board_parameters%s
+D s-bbbosu.ads		20170517144320 9b59a61f system.bb.board_support%s
+D s-bbcppr.ads		20170728224417 bcfa73ad system.bb.cpu_primitives%s
+D s-bcprmu.ads		20170517144320 043d3736 system.bb.cpu_primitives.multiprocessors%s
+D s-bbinte.ads		20170517144320 d9fc23b0 system.bb.interrupts%s
+D s-bbmcpa.ads		20170728224417 a88de48e system.bb.mcu_parameters%s
+D s-bbpara.ads		20170728224417 77379e7b system.bb.parameters%s
+D s-bbthre.ads		20170517144320 d6c36e4f system.bb.threads%s
+D s-bbthqu.ads		20170517144320 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20170517144320 ad086247 system.bb.time%s
+D s-finmas.ads		20170517144320 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170517144320 4ff27390 system.finalization_root%s
+D s-multip.ads		20170517144320 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20170517144320 2d4f0621 system.os_interface%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-pooglo.ads		20170517144320 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170517144320 0b22b54c system.secondary_stack%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-stm32.ads		20170728224417 e898dba2 system.stm32%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20170517144320 b16154c2 system.storage_pools%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 ada.ads
+16K9*Ada 20e8 15|19r6 19r30
+X 4 a-reatim.ads
+41K13*Real_Time 155e18 15|19w10 19r34
+53M9*Time<29|46M9> 15|33r29 34r29 35r29 36r29 39r17 50r17 16|21r26 29r27
+. 37r25 45r29 54r17 72r17 74r27
+70V13*Clock{53M9}<29|134p13> 16|74s35
+X 9 hal-real_time_clock.ads
+79h9*RTC_Device
+X 14 stm32.ads
+39K9*STM32 48e10 15|20r6 24r9 25r8 52r5 16|19r14 80r5
+X 15 stm32-calendar.ads
+24K15*Calendar 14|39k9 15|52l11 52e19 16|19b20 80l11 80t19
+27I12*Year_Number{integer} 33r42 40r21 46r17 16|21r39 22r18 55r21 68r17
+28I12*Month_Number{integer} 34r42 41r21 47r17 16|29r40 30r19 56r21 69r17
+29I12*Day_Number{integer} 35r42 42r21 48r17 16|37r38 38r17 57r21 70r17
+31O12*Day_Duration{duration} 36r42 43r21 49r17 16|45r42 46r22 58r21 71r17
+33V13*Year{27I12} 33>22 16|21b13 27l8 27t12
+33m22 Date{4|53M9} 16|21b19 24r28
+34V13*Month{28I12} 34>22 16|29b13 35l8 35t13
+34m22 Date{4|53M9} 16|29b20 32r28
+35V13*Day{29I12} 35>22 16|37b13 43l8 43t11
+35m22 Date{4|53M9} 16|37b18 40r28
+36V13*Seconds{31O12} 36>22 16|45b13 51l8 51t15
+36m22 Date{4|53M9} 16|45b22 48r28
+38U14*Split 39>7 40<7 41<7 42<7 43<7 16|53b14 65l8 65t13
+39m7 Date{4|53M9} 16|54b7 60r28
+40i7 Year{27I12} 16|55b7 61m7
+41i7 Month{28I12} 16|56b7 62m7
+42i7 Day{29I12} 16|57b7 63m7
+43o7 Seconds{31O12} 16|58b7 64m7
+45V13*Time_Of{4|53M9} 46>7 47>7 48>7 49>7 16|67b13 78l8 78t15
+46i7 Year{27I12} 16|68b7 76r28
+47i7 Month{28I12} 16|69b7 76r34
+48i7 Day{29I12} 16|70b7 76r41
+49o7 Seconds{31O12} 16|71b7 76r46
+X 16 stm32-calendar.adb
+22i7 Year_Var{15|27I12} 25m7 26r14
+30i7 Month_Var{15|28I12} 33m7 34r14
+38i7 Day_Var{15|29I12} 41m7 42r14
+46o7 Duration_Var{15|31O12} 49m7 50r14
+74m7 Time_var{4|53M9} 77r14
+X 17 stm32-rtc.ads
+34K15*RTC 15|20w12 22r28 25r14 17|62e14
+X 23 s-bcprmu.ads
+39U14*Start_All_CPUs 40i<c,__gnat_start_slave_cpus>22
+X 29 s-bbtime.ads
+46M9*Time
+

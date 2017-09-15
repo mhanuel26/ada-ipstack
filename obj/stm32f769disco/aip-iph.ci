@@ -1,0 +1,27 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb"
+node: { title: "aip__iph__set_iph_dst_address" label: "SET_IPH_DST_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:150:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_dst_address" label: "IPH_DST_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:144:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_src_address" label: "SET_IPH_SRC_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:138:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_src_address" label: "IPH_SRC_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:132:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_checksum" label: "SET_IPH_CHECKSUM\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:126:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_checksum" label: "IPH_CHECKSUM\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:120:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_protocol" label: "SET_IPH_PROTOCOL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:114:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_protocol" label: "IPH_PROTOCOL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:108:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_ttl" label: "SET_IPH_TTL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:102:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_ttl" label: "IPH_TTL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:96:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_frag_offset" label: "SET_IPH_FRAG_OFFSET\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:90:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_frag_offset" label: "IPH_FRAG_OFFSET\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:84:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_flags" label: "SET_IPH_FLAGS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:78:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_flags" label: "IPH_FLAGS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:72:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_ident" label: "SET_IPH_IDENT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:66:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_ident" label: "IPH_IDENT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:60:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_length" label: "SET_IPH_LENGTH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:54:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_length" label: "IPH_LENGTH\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:48:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_tos" label: "SET_IPH_TOS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:42:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_tos" label: "IPH_TOS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:36:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_ihl" label: "SET_IPH_IHL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:30:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_ihl" label: "IPH_IHL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:24:4\n24 bytes (static)" }
+node: { title: "aip__iph__set_iph_version" label: "SET_IPH_VERSION\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:18:4\n24 bytes (static)" }
+node: { title: "aip__iph__iph_version" label: "IPH_VERSION\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.adb:12:4\n24 bytes (static)" }
+node: { title: "aip__iph__ip_headerIP" label: "IP_HEADERIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-iph.ads:115:9\n16 bytes (static)" }
+}

@@ -1,0 +1,177 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB LC TF  ES SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_PROTECTED_TYPES
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U object%b		object.adb		98aa70f3 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+U object%s		object.ads		6fa27e5d BN EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-finali.ads		20170517144320 bf4f806b ada.finalization%s
+D a-stream.ads		20170517144320 119b8fb3 ada.streams%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D a-uncdea.ads		20170517144320 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D i-stm32.ads		20170728224417 8e8d1147 interfaces.stm32%s
+D i-stm32-pwr.ads	20170728224417 9584d9cf interfaces.stm32.pwr%s
+D i-stm32-rcc.ads	20170728224417 4eaa7f20 interfaces.stm32.rcc%s
+D object.ads		20170819034427 d0edfe36 object%s
+D object.adb		20170819034337 982f4669 object%b
+D system.ads		20170728224417 db831581 system%s
+D s-bb.ads		20170517144320 09e072ae system.bb%s
+D s-bbbopa.ads		20170728224417 b051dd3b system.bb.board_parameters%s
+D s-bbbosu.ads		20170517144320 9b59a61f system.bb.board_support%s
+D s-bbcppr.ads		20170728224417 bcfa73ad system.bb.cpu_primitives%s
+D s-bcprmu.ads		20170517144320 043d3736 system.bb.cpu_primitives.multiprocessors%s
+D s-bbinte.ads		20170517144320 d9fc23b0 system.bb.interrupts%s
+D s-bbmcpa.ads		20170728224417 a88de48e system.bb.mcu_parameters%s
+D s-bbpara.ads		20170728224417 77379e7b system.bb.parameters%s
+D s-bbthre.ads		20170517144320 d6c36e4f system.bb.threads%s
+D s-bbthqu.ads		20170517144320 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20170517144320 ad086247 system.bb.time%s
+D s-finmas.ads		20170517144320 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170517144320 4ff27390 system.finalization_root%s
+D s-multip.ads		20170517144320 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20170517144320 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20170517144320 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20170517144320 2d4f0621 system.os_interface%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-pooglo.ads		20170517144320 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170517144320 0b22b54c system.secondary_stack%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-stm32.ads		20170728224417 e898dba2 system.stm32%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20170517144320 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20170517144320 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170517144320 97a6219c system.storage_pools.subpools%s
+D s-tasinf.ads		20170517144320 801abd01 system.task_info%s
+D s-taspri.ads		20170517144320 351848fa system.task_primitives%s
+D s-taskin.ads		20170517144320 a1f44ab3 system.tasking%s
+D s-taprob.ads		20170517144320 c8fc0753 system.tasking.protected_objects%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170517144320 34867c83 system.unsigned_types%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 ada.ads
+16K9*Ada 20e8 12|32r6 40r23 13|27r6 27r27 28r6 28r27 30r6 80r14 93r14 132r10
+X 2 a-except.ads
+54K13*Exceptions 349e19 13|27w10 27r31
+90U14*Raise_Exception 13|78s10 91s10
+X 3 a-finali.ads
+40K13*Finalization 68e21 12|32w10 40r27
+50H9*Limited_Controlled<27|40R9> 66e55 12|40r40
+X 5 a-tags.ads
+69K13*Tags 608e13 13|28w10 28r31 80r18 93r18
+78V13*Expanded_Name{string} 13|80s23 93s23
+X 7 a-uncdea.ads
+20u15*Unchecked_Deallocation 13|30w10 132r14
+X 12 object.ads
+34K9*Object 40E9 156l5 156e11 13|33b14 152l5 152t11
+40R9*Entity<3|50R9> 42e14 43r34 56p14 56r47 79p13 80r22 81r24 84p13 85r22
+. 86r24 99P14 99r40 109p14 109r47 116P14 116r42 140r38 13|62r22 63r24 67r32
+. 75r40 80r38 86r47 93r38 98r47 104r42 110r22 111r24 115r32 125r38 132r38
+. 136r22 27|42p14
+41i7*Use_Count{natural} 13|77r22 88m30 100m30 139r23
+43P9*Entity_Ptr(40R9) 129r36 13|130r36 132r52
+56U14*Decrement_Count 56=31 153r19 13|86b14 96l8 96t23 138R13
+56r31 Object{40R9} 13|86b31 88m23 88r23 93r52
+79V13*Equal{boolean} 80>14 81>16 82>16 13|61b13 70R17 72l8 72t13 120R24
+80r14 Left{40R9} 13|62b14 68r17 70r31
+81c16 Right<40R9> 13|63b16 67r23 68r32 70r24
+82b16 Flag{boolean} 13|64b16 67r10
+84V13*Less{boolean} 85>14 86>16 87>16 13|109b13 118R22 123l8 123t12
+85r14 Left{40R9} 13|110b14 116r17 118r35 120r38
+86c16 Right<40R9> 13|111b16 115r23 116r32 118r28 120r31
+87b16 Flag{boolean} 13|112b16 115r10
+99U14*Finalize<3|54p14> 99=24 13|75b14 84l8 84t16
+99r24 Object{40R9} 13|75b24 77r15 80r52
+109U14*Increment_Count 109=31 154r19 13|98b14 101l8 101t23
+109r31 Object{40R9} 13|98b31 100m23 100r23
+116U14*Initialize<3|53p14> 116=26 13|104b14 107l8 107t18
+116r26 Object{40R9} 13|104b26
+129U14*Release 129=23 13|130b14 145l8 145t15
+129p23 Ptr{43P9} 13|130b23 134r10 136r43 143m16
+140U14*Put_Traceback 140>29 13|125b14 128l8 128t21
+140c29 Object<40R9> 13|125b29
+150U14*Set_Trace_File 150>30 13|147b14 150l8 150t22
+150a30 File{string} 13|147b30
+X 13 object.adb
+35X4 Decrement_Error 54r19 90r12
+37w14 Lock 45b19 59l8 59t12 88r7 100r7
+38U17 Increment 38=28 41r22 46b17 49l11 49t20 100s12
+38i28 Count{natural} 46b28 48m10 48r19
+39U17 Decrement 39=28 42r22 51b17 58l11 58t20 88s12
+39i28 Count{natural} 51b28 53r13 56m13 56r22
+131U17 Free[7|20] 143s10
+136c13 Object<12|40R9> 138r30 139r16
+X 14 system.ads
+50K9*System 13|31w6 31r23 14|164e11
+80M9*Address 13|31r30
+90V14*"<"{boolean} 13|116r30
+94V14*"="{boolean} 13|68r30
+X 19 s-bcprmu.ads
+39U14*Start_All_CPUs 40i<c,__gnat_start_slave_cpus>22
+X 27 s-finroo.ads
+42U14*Adjust
+X 43 s-taskin.ads
+413V13*Get_Sec_Stack{14|80M9} 414i<c,__gnat_get_secondary_stack>22
+

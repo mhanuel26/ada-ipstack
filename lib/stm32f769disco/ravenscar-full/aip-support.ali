@@ -1,0 +1,68 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U aip.support%b		aip-support.adb		9879d809 NE OO PK IU
+W aip%s			aip.adb			aip.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.io%s		g-io.adb		g-io.ali
+
+U aip.support%s		aip-support.ads		f3e6253f NE OO PR PK IU
+W aip%s			aip.adb			aip.ali
+
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-support.ads	20170804214847 902a7a8d aip.support%s
+D aip-support.adb	20170804214847 3b9fff14 aip.support%b
+D gnat.ads		20170517144320 fd2ad2f1 gnat%s
+D g-io.ads		20170517144320 33cc5d90 gnat.io%s
+D system.ads		20170728224417 db831581 system%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+X 1 aip.ads
+66K9*AIP 182e8 2|6r9 14r22 15r18 19r5 3|8r14 40r22 41r18 46r17 50r5
+73I9*S8_T<short_short_integer>
+141I12*Err_T{73I9} 2|14r26 15r22 3|40r26 41r22
+142i4*NOERR{141I12} 3|46r21
+X 2 aip-support.ads
+6K13*Support 1|66k9 2|19l9 19e16 3|8b18 50l9 50t16
+9U14*Verify 9>22 3|25b14 32l8 32t14
+9b22 T{boolean} 10r26 3|25b22 29r14
+12U14*Verify_Or_Err 13>7 14<7 15>7 3|38b14 48l8 48t21
+13b7 T{boolean} 3|39b7 43r14
+14i7 Err{1|141I12} 3|40b7 44m10 46m10
+15i7 Err_Type{1|141I12} 3|41b7 44r17
+17U14*Log 17>19 3|14b14 19l8 19t11
+17a19 Msg{string} 3|14b19 18r25
+X 4 gnat.ads
+34K9*GNAT 3|6r6 18r7 4|37e9
+X 5 g-io.ads
+43K14*IO 3|6w11 18r12 5|63e12
+56U14*Put_Line 3|18s15
+

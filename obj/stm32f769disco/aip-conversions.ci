@@ -1,0 +1,7 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-conversions.adb"
+node: { title: "memmove" label: "builtin_memmove\n<built-in>" shape : ellipse }
+node: { title: "aip__conversions__memcpy" label: "MEMCPY\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-conversions.adb:36:4\n40 bytes (static)" }
+edge: { sourcename: "aip__conversions__memcpy" targetname: "memmove" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-conversions.adb:52:13" }
+node: { title: "aip__conversions__diff" label: "DIFF\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-conversions.adb:26:4\n32 bytes (static)" }
+node: { title: "aip__conversions__ofs" label: "OFS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-conversions.adb:16:4\n32 bytes (static)" }
+}

@@ -1,0 +1,118 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U aip.checksum%b	aip-checksum.adb	346d3a57 NE OO PK IU
+W aip%s			aip.adb			aip.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U aip.checksum%s	aip-checksum.ads	b9fd230a EE NE OO PK IU
+W aip%s			aip.adb			aip.ali
+W aip.buffers%s		aip-buffers.adb		aip-buffers.ali
+
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-checksum.ads	20170804214847 949742dd aip.checksum%s
+D aip-checksum.adb	20170804214847 8d39328e aip.checksum%b
+D aip-config.ads	20170822015827 9f4f104a aip.config%s
+D system.ads		20170728224417 db831581 system%s
+D s-assert.ads		20170517144320 cd8d2c94 system.assertions%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 aip.ads
+66K9*AIP 182e8 3|9r6 11r9 15r16 15r34 21r5 4|8r14 167r16 167r34 172r22 175r17
+. 226r5
+87I9*U16_T<integer> 3|15r20 4|14r16 32r16 78r16 113r29 167r20 172r26 175r21
+. 188r26
+102M9*M8_T 4|56r19
+103M9*M16_T 3|15r38 4|68r19 167r38 203r14
+104M9*M32_T 4|14r30 19r31 22r31 32r30 42r16 43r16 45r32 48r32 55r32 60r17
+. 67r32 72r17 109r50 177r16 210r31 219r31
+X 2 aip-buffers.ads
+11K13*Buffers 362e16 3|9w10 14r16 19r16 4|166r16 171r22 186r38 187r26 188r45
+. 196r23
+12@21*State 3|19r24
+75I12*Buffer_Id{1|87I9} 3|14r24 4|166r24 171r30
+76N4*NOBUF 4|186r46
+126V13*Buffer_Len{1|87I9} 4|188s53
+153V13*Buffer_Next{75I12} 4|196s31
+159V13*Buffer_Payload{6|80M9} 4|187s34
+X 3 aip-checksum.ads
+11K13*Checksum 1|66k9 3|21l9 21e17 4|8b18 226l9 226t17
+13V13*Sum{1|103M9} 14>7 15>7 4|165b13 204l8 204t11
+14i7 Buf{2|75I12} 4|166b7 183r20
+15i7 Length{1|87I9} 4|167b7 180r17
+X 4 aip-checksum.adb
+12V13 Sum_Chunk{1|104M9} 13>7 14>7 30b13 159l8 159t17 189s29
+13m7 Data{6|80M9} 31b7 84r17
+14i7 Length{1|87I9} 32b7 86r17
+19U14 Swap 19=20 155s10 194s13 201s10 210b14 213l8 213t12
+19m20 S{1|104M9} 210b20 212m7 212r13 212r41
+22U14 Wrap 22=20 152s7 190s10 199s7 219b14 224l8 224t12
+22m20 S{1|104M9} 219b20 221r13 222m10 222r16 222r35
+37m7 Data_A{6|80M9} 39m30 39r30 57r33 69r33 84m7 110r37
+38m7 Data_I{8|105M9} 39m11 39r11 40m27 40r27 88r10 97m10 97r20 101r13 103m10
+. 103r20 131m13 131r23 138m10 138r20
+42m7 Result{1|104M9} 85m7 93m13 95m13 102m10 102r20 116r23 118r25 122m16
+. 124r19 125m19 125r29 137m10 137r20 146m13 146r23 148m13 148r23 152m13 152r13
+. 155m16 155r16 158r14
+43m7 Tmp{1|104M9} 116m16 118r19 119m19 119r26 122r26 124r28
+45V16 Get_Byte{1|104M9} 55b16 61l11 61t19 93s23 95s23 146s32 148s32
+48V16 Get_Word{1|104M9} 67b16 73l11 73t19 102s29 137s29
+56m10 Result{1|102M9} 57m14 57r14 58m30 58r30 60r24
+68m10 Result{1|103M9} 69m14 69r14 70m30 70r30 72r24
+75b7 Odd{boolean} 89m10 91m10 154r10
+78i7 Remain{1|87I9} 86m7 98m10 98r20 101r40 104m10 104r20 107r10 109r35 115r19
+. 128m16 128r26 136r13 139m10 139r20 142r10 143r25
+109a13 Data_32(1|104M9) 110m17 110r17 111m33 111r33 113r38 116r32 122r32
+. 132r55
+113i13 Data_32_Index{1|87I9} 116r41 117m16 117r33 122r41 123m16 123r33 132r39
+171i7 Chunk_Buf{2|75I12} 183m7 186r25 187r50 188r65 196m10 196r44
+172i7 Chunk_Length{1|87I9} 188m10 189r52 191r29 192r13
+173m7 Chunk_Data{6|80M9} 187m10 189r40
+175i7 Remain{1|87I9} 180m7 185r13 188r37 191m10 191r20
+176b7 Swapped{boolean} 182m7 193m13 193r28 200r10
+177m7 Result{1|104M9} 181m7 189m10 189r20 190m16 190r16 194m19 194r19 199m13
+. 199r13 201m16 201r16 203r21
+X 6 system.ads
+50K9*System 4|6r6 13r16 31r16 34r11 35r11 37r16 92r13 92r40 169r16 173r22
+. 200r23 200r51 6|164e11
+80M9*Address 4|13r23 31r23 37r23 173r29
+104E9*Bit_Order 4|169r23 6|104e57
+104n23*High_Order_First{104E9} 4|145r33 200r58
+104n41*Low_Order_First{104E9} 4|92r47
+105e4*Default_Bit_Order{104E9} 4|92r20 145r13 200r30
+X 8 s-stoele.ads
+42K16*Storage_Elements 4|6w13 35r18 8|117e28
+105M9*Integer_Address 4|38r16 132r21
+

@@ -1,0 +1,16 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.adb"
+node: { title: "net__headers__to_host__2" label: "To_Host\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.adb:43:4\n16 bytes (static)" }
+node: { title: "net__headers__to_host" label: "To_Host\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.adb:38:4\n16 bytes (static)" }
+node: { title: "net__headers__to_network__2" label: "To_Network\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.adb:30:4\n16 bytes (static)" }
+node: { title: "net__headers__to_network" label: "To_Network\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.adb:25:4\n16 bytes (static)" }
+node: { title: "net__headers__dhcp_headerIP" label: "Dhcp_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:130:9\n16 bytes (static)" }
+node: { title: "net__headers__icmp_headerIP" label: "Icmp_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:120:9\n16 bytes (static)" }
+node: { title: "net__headers__tcp_headerIP" label: "Tcp_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:103:9\n16 bytes (static)" }
+node: { title: "net__headers__igmp_headerIP" label: "Igmp_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:87:9\n16 bytes (static)" }
+node: { title: "net__headers__udp_headerIP" label: "Udp_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:78:9\n16 bytes (static)" }
+node: { title: "net__headers__ip_headerIP" label: "Ip_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:63:9\n16 bytes (static)" }
+node: { title: "net__headers__arp_packetIP" label: "Arp_Packetip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:56:9\n16 bytes (static)" }
+node: { title: "net__headers__ether_arpIP" label: "Ether_Arpip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:46:9\n16 bytes (static)" }
+node: { title: "net__headers__arp_headerIP" label: "Arp_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:38:9\n16 bytes (static)" }
+node: { title: "net__headers__ether_headerIP" label: "Ether_Headerip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net-headers.ads:31:9\n16 bytes (static)" }
+}

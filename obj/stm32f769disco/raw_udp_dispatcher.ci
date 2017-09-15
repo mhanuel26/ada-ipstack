@@ -1,0 +1,5 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_dispatcher.adb"
+node: { title: "raw_udp_syslog__syslog_process_recv" label: "Syslog_Process_Recv\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_syslog.ads:17:14" shape : ellipse }
+node: { title: "raw_udp_dispatcher__udp_event" label: "Udp_Event\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_dispatcher.adb:11:4\n24 bytes (static)" }
+edge: { sourcename: "raw_udp_dispatcher__udp_event" targetname: "raw_udp_syslog__syslog_process_recv" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/services/raw_udp_dispatcher.adb:25:27" }
+}

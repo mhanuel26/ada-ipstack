@@ -1,0 +1,234 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U aip.osal%b		aip-osal.adb		fd23de33 NE OO PK IU
+W ada.tags%s		a-tags.adb		a-tags.ali
+W aip%s			aip.adb			aip.ali
+W aip.arp%s		aip-arp.adb		aip-arp.ali
+W aip.buffers%s		aip-buffers.adb		aip-buffers.ali
+W aip.ip%s		aip-ip.adb		aip-ip.ali
+W aip.tcp%s		aip-tcp.adb		aip-tcp.ali
+W aip.udp%s		aip-udp.adb		aip-udp.ali
+W hal%s			hal.ads			hal.ali
+W hal.bitmap%s		hal-bitmap.ads		hal-bitmap.ali
+W net%s			net.adb			net.ali
+W net.minif%s		net-minif.adb		net-minif.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32.sdram%s		stm32-sdram.adb		stm32-sdram.ali
+
+U aip.osal%s		aip-osal.ads		05fd5824 EE OO PK IU
+W aip%s			aip.adb			aip.ali
+W aip.ipaddrs%s		aip-ipaddrs.adb		aip-ipaddrs.ali
+W aip.nif%s		aip-nif.adb		aip-nif.ali
+W interfaces%s		interfac.ads		interfac.ali
+W net%s			net.adb			net.ali
+W net.buffers%s		net-buffers.adb		net-buffers.ali
+W net.interfaces%s	net-interfaces.adb	net-interfaces.ali
+W net.interfaces.stm32%s  net-interfaces-stm32.adb  net-interfaces-stm32.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-except.ads		20170517144320 291912d5 ada.exceptions%s
+D a-finali.ads		20170517144320 bf4f806b ada.finalization%s
+D a-stream.ads		20170517144320 119b8fb3 ada.streams%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-arp.ads		20170911231550 835ca3d0 aip.arp%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170912220857 ec3c29ae aip.config%s
+D aip-ip.ads		20170815223411 36592376 aip.ip%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-osal.ads		20170811231814 a35e8d51 aip.osal%s
+D aip-osal.adb		20170910034837 2b90b951 aip.osal%b
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D aip-tcp.ads		20170902044844 1a4cf31d aip.tcp%s
+D aip-time_types.ads	20170829195128 940203c3 aip.time_types%s
+D aip-udp.ads		20170806165452 1cbde6e9 aip.udp%s
+D hal.ads		20170728224345 2b42c80e hal%s
+D hal-bitmap.ads	20170728224345 03ebc14f hal.bitmap%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D net.ads		20170911175125 10b1f911 net%s
+D net-buffers.ads	20170810162520 42b6bdec net.buffers%s
+D net-headers.ads	20170708034755 05ae6a05 net.headers%s
+D net-interfaces.ads	20170708034755 cc3158ac net.interfaces%s
+D net-interfaces-stm32.ads  20170708034755 6da83930 net.interfaces.stm32%s
+D net-minif.ads		20170816042409 06c57bbb net.minif%s
+D stm32.ads		20170728224345 698e2c3b stm32%s
+D stm32-sdram.ads	20170728224345 8d91fbf0 stm32.sdram%s
+D system.ads		20170728224417 db831581 system%s
+D s-finmas.ads		20170517144320 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170517144320 4ff27390 system.finalization_root%s
+D s-parame.ads		20170517144320 c9fe535f system.parameters%s
+D s-pooglo.ads		20170517144320 ede33ef8 system.pool_global%s
+D s-stalib.ads		20170517144320 09bd3940 system.standard_library%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20170517144320 b16154c2 system.storage_pools%s
+D s-traent.ads		20170517144320 005bf670 system.traceback_entries%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 7 aip.ads
+66K9*AIP 182e8 15|17r6 18r6 20r9 30r21 32r24 33r24 34r24 35r24 44r28 49r5
+. 16|5r6 6r6 7r6 8r6 9r6 14r14 47r31 48r31 49r23 62r36 63r37 125r5
+73I9*S8_T<short_short_integer>
+75I9*S32_T<integer>
+85I9*U8_T<short_integer>
+87I9*U16_T<integer>
+89I9*U32_T<long_long_integer>
+104M9*M32_T
+126I12*LL_Address_Range{85I9} 16|38r45
+128A9*LL_Address(85I9)<85I9>
+130A12*LL_Address_Storage{128A9}<85I9> 16|20r13
+134A12*Ethernet_Address{128A9}<85I9> 15|30r25 16|47r35
+141I12*Err_T{73I9} 15|44r32 16|16r10 19r28 49r27
+142i4*NOERR{141I12} 16|22r14
+143i4*ERR_MEM{141I12} 16|26r17
+157V13*Any{boolean} 16|108s10
+167I12*EID{75I9} 15|46r12
+X 8 aip-arp.ads
+18K13*ARP 159e12 16|6w10 53r10 63r41 88r7
+22U14*Initialize 16|88s11
+47U14*ARP_Output 16|63r45
+62U14*ARP_Update 16|53s14
+63i7 Nid{14|32I12} 16|54r13
+64a7 Eth_Address{7|134A12} 16|55r13
+65m7 IP_Address{13|15M12} 16|56r13
+66b7 Allocate{boolean} 16|57r13
+67i7 Err{7|141I12} 16|58r13
+X 9 aip-buffers.ads
+11K13*Buffers 362e16 16|7w10 85r7
+83U14*Buffer_Init 16|85s15
+X 12 aip-ip.ads
+14K13*IP 72e11 16|5w10 62r40
+35U14*IP_Input 16|62r43
+X 13 aip-ipaddrs.ads
+8K13*IPaddrs 33e16 15|18w10 32r28 33r28 34r28 35r28 16|41r13 42r15 43r20
+. 44r17 48r35 52r23
+15M12*IPaddr{7|104M9} 15|32r36 33r36 34r36 35r36 16|48r43
+17m4*IP_ADDR_ANY{15M12} 16|44r25
+21V13*IP4{15M12} 16|41s21 42s23 43s28 52s31
+X 14 aip-nif.ads
+15K13*NIF 212e12 15|17w10 46r19 16|17r11 24r7 25r18 28r7 34r7 34r44 35r7
+. 35r44 36r7 36r44 37r7 37r44 38r7 39r7 40r7 62r7 63r7 64r7 65r7 89r7
+18U14*Initialize 16|89s11
+26A9*Netif_Name(character)<integer> 16|17r15
+32I12*Netif_Id{7|167I12}
+33i4*IF_NOID{7|167I12} 15|46r23 16|25r22
+35n27*IP_CS{35E9} 16|34r48
+35n34*ICMP_CS{35E9} 16|35r48
+35n43*UDP_CS{35E9} 16|36r48
+35n51*TCP_CS{35E9} 16|37r48
+52U14*If_Config 16|65s11
+107U14*NIF_Set_Name 16|28s11
+114U14*NIF_Set_MTU 16|40s11
+122U14*NIF_Set_LL_Address_Length 16|38s11
+129U14*NIF_Set_LL_Address 16|39s11
+159U14*Allocate_Netif 16|24s11
+164U14*NIF_Set_Offload_Checksum 16|34s11 35s11 36s11 37s11
+182U14*NIF_Set_Input_CB 16|62s11
+188U14*NIF_Set_Link_Output_CB 16|64s11
+194U14*NIF_Set_Output_CB 16|63s11
+X 15 aip-osal.ads
+20K13*OSAL 7|66k9 15|44E13 49l9 49e13 16|14b18 125l9 125t13
+25i4*NET_BUFFER_SIZE{24|39I12} 16|101r74 102r31
+28r4*Ifnet{28|28R9} 16|31r33 32r44 41r26 41r40 41r54 41r68 42r28 42r47 42r66
+. 42r85 74m7 74r7 92m7 93m7 94m7 97m7 112m7 112r7
+30a4*Netif_MAC_Addr{7|134A12} 16|32m10
+32m4*IP{13|15M12} 16|41m7 65r29
+33m4*Mask{13|15M12} 16|42m7 65r33
+34m4*Broadcast{13|15M12} 16|43m7 65r39
+35m4*Remote{13|15M12} 16|44m7 65r50
+37U14*Send 37=20 16|72b14 75l8 75t12
+37r20 Packet{25|113R9} 16|72b20 74m19
+39U14*Initialize 16|81b14 123l8 123t18
+44V13 If_Init{7|141I12} 16|19b13 67l8 67t15 106s14
+46i4 If_Id{7|167I12} 16|24m27 25r10 28r25 34r37 35r37 36r37 37r37 38r38 39r31
+. 40r24 54r32 62r29 63r30 64r35 65r22
+X 16 aip-osal.adb
+16i4 Err{7|141I12} 22m7 26m10 65m58 66r14 106m7 108r15
+17a4 Name{14|26A9} 23m7 28r32
+20a7 Mac{7|130A12} 31m10 39r38
+30i11 I{integer} 31r26 31r44 32r37 32r55
+47a10 remote_mac{7|134A12} 51m10 55r29
+48m10 remote_ip{13|15M12} 52m10 56r32
+49i10 arp_err{7|141I12} 58m32 59r31
+X 18 aip-tcp.ads
+19K13*TCP 16|8w10 87r7 18|332e12
+27U14*TCP_Init 16|87s11
+X 20 aip-udp.ads
+17K13*UDP 16|9w10 86r7 20|165e12
+25U14*UDP_Init 16|86s11
+X 21 hal.ads
+34K9*HAL 16|10r6 101r62 21|166e8
+97M9*UInt32<23|74M9> 16|101r66
+X 22 hal-bitmap.ads
+34K13*Bitmap 16|10w10 22|424e15
+X 23 interfac.ads
+38K9*Interfaces 15|11w6 22r13 23|184e15
+74M9*Unsigned_32 15|22r24
+X 24 net.ads
+29K9*Net 15|12w6 13r6 14r6 15r6 25r31 25r45 28r24 37r36 16|12r6 31r15 32r26
+. 40r31 64r42 72r36 101r7 24|76e8
+37I12*Uint8{7|85I9} 16|31r19 32r30
+38I12*Uint16{7|87I9} 16|40r35
+39I12*Uint32{7|89I9} 15|25r35
+51A9*Ip_Addr(37I12)<integer>
+54A9*Ether_Addr(37I12)<integer>
+X 25 net-buffers.ads
+95K13*Buffers 15|13w10 25r49 37r40 16|72r40 101r11 25|318e16
+100i4*NET_ALLOC_SIZE{24|39I12} 15|25r57
+113R9*Buffer_Type 15|37r48 16|72r48 25|308e14
+281U14*Add_Region 16|101s19
+X 27 net-interfaces.ads
+23K13*Interfaces 15|14w10 15r10 28r28 27|64e19
+35a7*Mac{24|54A9} 16|31r39 32r50 97m13
+36a7*Ip{24|51A9} 16|41r32 41r46 41r60 41r74 92m13
+37a7*Netmask{24|51A9} 16|42r34 42r53 42r72 42r91
+38a7*Gateway{24|51A9} 16|93m13
+39a7*Dns{24|51A9} 16|94m13
+X 28 net-interfaces-stm32.ads
+19K24*STM32 15|15w21 28r39 28|47e25
+28R9*STM32_Ifnet<27|34R9> 15|28r45 28|28e78
+32U14*Initialize<27|46p14> 16|112s13
+36U14*Send<27|49p14> 16|74s13
+X 29 net-minif.ads
+23K13*MinIf 16|12w10 64r46 29|36e14
+30U14*LL_Output 16|64r52
+X 30 stm32.ads
+39K9*STM32 16|11r6 101r31 30|48e10
+X 31 stm32-sdram.ads
+34K15*SDRAM 16|11w12 101r37 31|44e16
+40V13*Reserve{32|80M9} 16|101s43
+41m7 Amount{21|97M9} 16|101r52
+X 32 system.ads
+80M9*Address
+

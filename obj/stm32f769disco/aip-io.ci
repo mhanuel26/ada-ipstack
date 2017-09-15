@@ -1,0 +1,8 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.adb"
+node: { title: "ada__text_io__put_line" label: "Put_Line\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-textio.ads:46:14" shape : ellipse }
+node: { title: "ada__text_io__put__2" label: "Put\n/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/gnat/a-textio.ads:43:14" shape : ellipse }
+node: { title: "aip__io__put_line" label: "PUT_LINE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.adb:13:14\n16 bytes (static)" }
+edge: { sourcename: "aip__io__put_line" targetname: "ada__text_io__put_line" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.adb:13:14" }
+node: { title: "aip__io__put" label: "PUT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.adb:12:14\n16 bytes (static)" }
+edge: { sourcename: "aip__io__put" targetname: "ada__text_io__put__2" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/aip-io.adb:12:14" }
+}

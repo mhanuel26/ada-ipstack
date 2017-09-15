@@ -1,0 +1,7 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net.adb"
+node: { title: "net__is_multicast" label: "Is_Multicast\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net.adb:29:4\n16 bytes (static)" }
+edge: { sourcename: "net__is_multicast" targetname: "net__Oand" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net.adb:31:29" }
+node: { title: "net__Oand" label: "And\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net.adb:21:4\n16 bytes (static)" }
+node: { title: "net__Tether_addrBIP" label: "Tether_Addrbip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net.ads:54:4\n16 bytes (static)" }
+node: { title: "net__Tip_addrBIP" label: "Tip_Addrbip\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/net.ads:51:4\n16 bytes (static)" }
+}

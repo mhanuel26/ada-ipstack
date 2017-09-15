@@ -1,0 +1,15 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb"
+node: { title: "net__minif__ll_input" label: "Ll_Input\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/dev/net-minif.ads:27:13" shape : ellipse }
+node: { title: "aip__nif__input" label: "INPUT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-nif.ads:136:14" shape : ellipse }
+node: { title: "aip__arp__arp_input" label: "ARP_INPUT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-arp.ads:38:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "aip__osal__single__process_interface_events" label: "PROCESS_INTERFACE_EVENTS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:39:4\n16 bytes (static)" }
+edge: { sourcename: "aip__osal__single__process_interface_events" targetname: "net__minif__ll_input" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:41:7" }
+edge: { sourcename: "aip__osal__single__process_interface_events" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:41:34" }
+node: { title: "aip__osal__single__process_input" label: "PROCESS_INPUT\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:30:4\n16 bytes (static)" }
+edge: { sourcename: "aip__osal__single__process_input" targetname: "aip__nif__input" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:32:14" }
+edge: { sourcename: "aip__osal__single__process_input" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:32:22" }
+node: { title: "aip__osal__single__process_arp" label: "PROCESS_ARP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:21:4\n16 bytes (static)" }
+edge: { sourcename: "aip__osal__single__process_arp" targetname: "aip__arp__arp_input" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:23:14" }
+edge: { sourcename: "aip__osal__single__process_arp" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/osal/aip-osal-single.adb:23:26" }
+}

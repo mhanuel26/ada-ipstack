@@ -1,0 +1,84 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U raw_mqtt_callbacks%s	raw_mqtt_callbacks.ads	60e133f9 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.unchecked_conversion%s
+W aip%s			aip.adb			aip.ali
+W aip.callbacks%s	aip-callbacks.ads	aip-callbacks.ali
+W aip.pcbs%s		aip-pcbs.adb		aip-pcbs.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-stream.ads		20170517144320 119b8fb3 ada.streams%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D a-unccon.ads		20170517144320 31484697 ada.unchecked_conversion%s
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-callbacks.ads	20170806002620 a8b609e0 aip.callbacks%s
+D aip-config.ads	20170912220857 ec3c29ae aip.config%s
+D aip-ipaddrs.ads	20170804214847 6d5187df aip.ipaddrs%s
+D aip-nif.ads		20170810211549 01157a11 aip.nif%s
+D aip-pcbs.ads		20170804214847 0f627086 aip.pcbs%s
+D raw_mqtt_callbacks.ads  20170831173036 e7e683bb raw_mqtt_callbacks%s
+D system.ads		20170728224417 db831581 system%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+X 1 ada.ads
+16K9*Ada 20e8 12|6r6 9r6 9r30 19r6 22r6
+X 2 a-stream.ads
+36K13*Streams 87e16 12|9w10 9r34
+42M9*Stream_Element
+54A9*Stream_Element_Array(42M9)<44I9> 12|15r31
+X 4 a-unccon.ads
+20v14*Unchecked_Conversion 12|6w10 19r10 22r10
+X 5 aip.ads
+66K9*AIP 182e8 12|7r6 8r6 14r30 16r34 19r43 22r32
+73I9*S8_T<short_short_integer>
+75I9*S32_T<integer>
+141I12*Err_T{73I9} 12|16r38
+167I12*EID{75I9}
+X 7 aip-callbacks.ads
+8K13*Callbacks 33e18 12|8w10 19r47 22r36
+18M9*CBK_Id 12|19r57 22r46
+X 11 aip-pcbs.ads
+14K13*PCBs 157e13 12|7w10 14r34
+16I12*PCB_Id{5|167I12} 12|14r39
+X 12 raw_mqtt_callbacks.ads
+11K9*RAW_MQTT_Callbacks 24l5 24e23
+13P9*MQTT_Hook 14>24 15>24 16<24 19r32 22r54
+14i24 Pcb{11|16I12}
+15a24 DATA{2|54A9}
+16i24 Err{5|141I12}
+18V13*To_CBID[4|20]{7|18M9}
+21V13*To_Hook[4|20]{13P9}
+

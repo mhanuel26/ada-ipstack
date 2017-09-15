@@ -1,0 +1,277 @@
+graph: { title: "b__ping.adb"
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "__gnat_finalize" label: "finalize\nb__ping.adb:550:17" shape : ellipse }
+node: { title: "_ada_ping" label: "ada_main_program\nb__ping.adb:543:14" shape : ellipse }
+node: { title: "__gnat_initialize" label: "initialize\nb__ping.adb:547:17" shape : ellipse }
+node: { title: "__gnat_start_slave_cpus" label: "start_slave_cpus\nb__ping.adb:217:17" shape : ellipse }
+node: { title: "__gnat_activate_all_tasks" label: "activate_all_tasks_sequential\nb__ping.adb:215:17" shape : ellipse }
+node: { title: "__gnat_attach_all_handlers" label: "install_restricted_handlers_sequential\nb__ping.adb:209:17" shape : ellipse }
+node: { title: "os_service___elabb" label: "e426b\nb__ping.adb:536:17" shape : ellipse }
+node: { title: "os_service___elabs" label: "e424b\nb__ping.adb:534:17" shape : ellipse }
+node: { title: "receiver___elabb" label: "e422b\nb__ping.adb:532:15" shape : ellipse }
+node: { title: "receiver___elabs" label: "e420b\nb__ping.adb:531:15" shape : ellipse }
+node: { title: "aip__osal___elabs" label: "e418b\nb__ping.adb:527:15" shape : ellipse }
+node: { title: "net__interfaces__stm32___elabb" label: "e416b\nb__ping.adb:525:27" shape : ellipse }
+node: { title: "net__interfaces__stm32___elabs" label: "e414b\nb__ping.adb:524:27" shape : ellipse }
+node: { title: "framebuffer_dsi___elabb" label: "e412b\nb__ping.adb:522:22" shape : ellipse }
+node: { title: "audio___elabb" label: "e410b\nb__ping.adb:519:12" shape : ellipse }
+node: { title: "sdcard___elabb" label: "e408b\nb__ping.adb:517:13" shape : ellipse }
+node: { title: "touch_panel_ft6x06___elabb" label: "e406b\nb__ping.adb:515:25" shape : ellipse }
+node: { title: "stm32__board___elabs" label: "e404b\nb__ping.adb:513:18" shape : ellipse }
+node: { title: "framebuffer_otm8009a___elabb" label: "e402b\nb__ping.adb:511:27" shape : ellipse }
+node: { title: "framebuffer_otm8009a___elabs" label: "e400b\nb__ping.adb:510:27" shape : ellipse }
+node: { title: "framebuffer_dsi___elabs" label: "e398b\nb__ping.adb:509:22" shape : ellipse }
+node: { title: "sdcard___elabs" label: "e396b\nb__ping.adb:508:13" shape : ellipse }
+node: { title: "touch_panel_ft6x06___elabs" label: "e394b\nb__ping.adb:507:25" shape : ellipse }
+node: { title: "audio___elabs" label: "e392b\nb__ping.adb:506:12" shape : ellipse }
+node: { title: "wm8994___elabb" label: "e390b\nb__ping.adb:504:13" shape : ellipse }
+node: { title: "wm8994___elabs" label: "e388b\nb__ping.adb:503:13" shape : ellipse }
+node: { title: "test_mqtt_clients___elabb" label: "e386b\nb__ping.adb:501:24" shape : ellipse }
+node: { title: "test_mqtt_clients___elabs" label: "e384b\nb__ping.adb:500:24" shape : ellipse }
+node: { title: "test_http_servers___elabb" label: "e382b\nb__ping.adb:498:24" shape : ellipse }
+node: { title: "test_http_servers___elabs" label: "e380b\nb__ping.adb:497:24" shape : ellipse }
+node: { title: "connection_state_machine__http_server___elabb" label: "e378b\nb__ping.adb:495:43" shape : ellipse }
+node: { title: "connection_state_machine__http_server___elabs" label: "e376b\nb__ping.adb:494:43" shape : ellipse }
+node: { title: "strings_edit__time_conversions___elabb" label: "e374b\nb__ping.adb:492:36" shape : ellipse }
+node: { title: "strings_edit__time_conversions___elabs" label: "e372b\nb__ping.adb:491:36" shape : ellipse }
+node: { title: "handles___elabs" label: "e370b\nb__ping.adb:487:14" shape : ellipse }
+node: { title: "mqtt___elabb" label: "e368b\nb__ping.adb:484:11" shape : ellipse }
+node: { title: "mqtt___elabs" label: "e366b\nb__ping.adb:483:11" shape : ellipse }
+node: { title: "strings_edit__floats___elabb" label: "e364b\nb__ping.adb:480:26" shape : ellipse }
+node: { title: "connection_state_machine__terminated_strings___elabb" label: "e362b\nb__ping.adb:477:50" shape : ellipse }
+node: { title: "connection_state_machine__terminated_strings___elabs" label: "e360b\nb__ping.adb:476:50" shape : ellipse }
+node: { title: "connection_state_machine__expected_sequence___elabb" label: "e358b\nb__ping.adb:474:49" shape : ellipse }
+node: { title: "connection_state_machine__expected_sequence___elabs" label: "e356b\nb__ping.adb:473:49" shape : ellipse }
+node: { title: "connection_state_machine__big_endian__unsigneds___elabb" label: "e354b\nb__ping.adb:471:52" shape : ellipse }
+node: { title: "connection_state_machine__big_endian__unsigneds___elabs" label: "e352b\nb__ping.adb:470:52" shape : ellipse }
+node: { title: "connection_state_machine___elabb" label: "e350b\nb__ping.adb:468:31" shape : ellipse }
+node: { title: "connection_state_machine___elabs" label: "e348b\nb__ping.adb:467:31" shape : ellipse }
+node: { title: "raw_lwip_server___elabb" label: "e346b\nb__ping.adb:463:22" shape : ellipse }
+node: { title: "raw_lwip_server___elabs" label: "e344b\nb__ping.adb:462:22" shape : ellipse }
+node: { title: "strings_edit___elabs" label: "e342b\nb__ping.adb:457:19" shape : ellipse }
+node: { title: "stm32__ltdc___elabb" label: "e340b\nb__ping.adb:453:17" shape : ellipse }
+node: { title: "stm32__i2s___elabb" label: "e338b\nb__ping.adb:449:16" shape : ellipse }
+node: { title: "stm32__sdmmc___elabb" label: "e336b\nb__ping.adb:447:18" shape : ellipse }
+node: { title: "stm32__device___elabs" label: "e334b\nb__ping.adb:445:19" shape : ellipse }
+node: { title: "stm32__sdmmc___elabs" label: "e332b\nb__ping.adb:443:18" shape : ellipse }
+node: { title: "stm32__gpio___elabb" label: "e330b\nb__ping.adb:441:17" shape : ellipse }
+node: { title: "stm32__i2s___elabs" label: "e328b\nb__ping.adb:440:16" shape : ellipse }
+node: { title: "stm32__gpio___elabs" label: "e326b\nb__ping.adb:439:17" shape : ellipse }
+node: { title: "stm32__spi__dma___elabb" label: "e324b\nb__ping.adb:437:20" shape : ellipse }
+node: { title: "stm32__spi__dma___elabs" label: "e322b\nb__ping.adb:436:20" shape : ellipse }
+node: { title: "stm32__spi___elabb" label: "e320b\nb__ping.adb:434:16" shape : ellipse }
+node: { title: "stm32__spi___elabs" label: "e318b\nb__ping.adb:433:16" shape : ellipse }
+node: { title: "stm32__rtc___elabb" label: "e316b\nb__ping.adb:430:16" shape : ellipse }
+node: { title: "stm32__rtc___elabs" label: "e314b\nb__ping.adb:429:16" shape : ellipse }
+node: { title: "stm32__rng__interrupts___elabb" label: "e312b\nb__ping.adb:426:27" shape : ellipse }
+node: { title: "stm32__i2c___elabb" label: "e310b\nb__ping.adb:421:16" shape : ellipse }
+node: { title: "stm32__i2c___elabs" label: "e308b\nb__ping.adb:420:16" shape : ellipse }
+node: { title: "stm32__dsi___elabb" label: "e306b\nb__ping.adb:416:16" shape : ellipse }
+node: { title: "stm32__dsi___elabs" label: "e304b\nb__ping.adb:415:16" shape : ellipse }
+node: { title: "stm32__dma2d_bitmap___elabb" label: "e302b\nb__ping.adb:413:25" shape : ellipse }
+node: { title: "stm32__dma2d_bitmap___elabs" label: "e300b\nb__ping.adb:412:25" shape : ellipse }
+node: { title: "stm32__dma2d__interrupt___elabb" label: "e298b\nb__ping.adb:409:28" shape : ellipse }
+node: { title: "stm32__adc___elabs" label: "e296b\nb__ping.adb:404:16" shape : ellipse }
+node: { title: "stack_storage___elabb" label: "e294b\nb__ping.adb:402:20" shape : ellipse }
+node: { title: "stack_storage___elabs" label: "e292b\nb__ping.adb:401:20" shape : ellipse }
+node: { title: "memory_mapped_bitmap___elabb" label: "e290b\nb__ping.adb:399:27" shape : ellipse }
+node: { title: "memory_mapped_bitmap___elabs" label: "e288b\nb__ping.adb:398:27" shape : ellipse }
+node: { title: "soft_drawing_bitmap___elabb" label: "e286b\nb__ping.adb:396:26" shape : ellipse }
+node: { title: "soft_drawing_bitmap___elabs" label: "e284b\nb__ping.adb:395:26" shape : ellipse }
+node: { title: "ravenscar_time___elabb" label: "e282b\nb__ping.adb:389:21" shape : ellipse }
+node: { title: "ravenscar_time___elabs" label: "e280b\nb__ping.adb:388:21" shape : ellipse }
+node: { title: "otm8009a___elabb" label: "e278b\nb__ping.adb:386:15" shape : ellipse }
+node: { title: "otm8009a___elabs" label: "e276b\nb__ping.adb:385:15" shape : ellipse }
+node: { title: "object___elabb" label: "e274b\nb__ping.adb:382:13" shape : ellipse }
+node: { title: "object___elabs" label: "e272b\nb__ping.adb:381:13" shape : ellipse }
+node: { title: "ft6x06___elabb" label: "e270b\nb__ping.adb:377:13" shape : ellipse }
+node: { title: "ft6x06___elabs" label: "e268b\nb__ping.adb:376:13" shape : ellipse }
+node: { title: "hal__touch_panel___elabs" label: "e266b\nb__ping.adb:374:22" shape : ellipse }
+node: { title: "hal__time___elabs" label: "e264b\nb__ping.adb:372:15" shape : ellipse }
+node: { title: "hal__spi___elabs" label: "e262b\nb__ping.adb:370:14" shape : ellipse }
+node: { title: "hal__sdmmc___elabs" label: "e260b\nb__ping.adb:368:16" shape : ellipse }
+node: { title: "hal__real_time_clock___elabs" label: "e258b\nb__ping.adb:366:26" shape : ellipse }
+node: { title: "hal__i2c___elabs" label: "e256b\nb__ping.adb:364:14" shape : ellipse }
+node: { title: "hal__gpio___elabs" label: "e254b\nb__ping.adb:362:15" shape : ellipse }
+node: { title: "hal__framebuffer___elabs" label: "e252b\nb__ping.adb:360:22" shape : ellipse }
+node: { title: "file_io___elabb" label: "e250b\nb__ping.adb:357:14" shape : ellipse }
+node: { title: "filesystem__fat___elabb" label: "e248b\nb__ping.adb:355:21" shape : ellipse }
+node: { title: "filesystem__fat___elabs" label: "e246b\nb__ping.adb:352:21" shape : ellipse }
+node: { title: "hal__filesystem___elabs" label: "e244b\nb__ping.adb:350:21" shape : ellipse }
+node: { title: "hal__dsi___elabs" label: "e242b\nb__ping.adb:348:14" shape : ellipse }
+node: { title: "hal__block_drivers___elabs" label: "e240b\nb__ping.adb:346:24" shape : ellipse }
+node: { title: "hal__bitmap___elabs" label: "e238b\nb__ping.adb:343:17" shape : ellipse }
+node: { title: "hal__audio___elabs" label: "e236b\nb__ping.adb:341:16" shape : ellipse }
+node: { title: "cortex_m__cache___elabb" label: "e234b\nb__ping.adb:337:21" shape : ellipse }
+node: { title: "aip__tcp___elabb" label: "e232b\nb__ping.adb:333:14" shape : ellipse }
+node: { title: "aip__timers___elabb" label: "e230b\nb__ping.adb:328:17" shape : ellipse }
+node: { title: "aip__time_types___elabb" label: "e228b\nb__ping.adb:326:21" shape : ellipse }
+node: { title: "net__interfaces___elabb" label: "e226b\nb__ping.adb:321:21" shape : ellipse }
+node: { title: "net__interfaces___elabs" label: "e224b\nb__ping.adb:320:21" shape : ellipse }
+node: { title: "net__buffers___elabb" label: "e222b\nb__ping.adb:318:18" shape : ellipse }
+node: { title: "net__buffers___elabs" label: "e220b\nb__ping.adb:317:18" shape : ellipse }
+node: { title: "aip__nif___elabb" label: "e218b\nb__ping.adb:315:14" shape : ellipse }
+node: { title: "system__tasking__restricted__stages___elabb" label: "e216b\nb__ping.adb:313:39" shape : ellipse }
+node: { title: "system__tasking__protected_objects__multiprocessors___elabb" label: "e214b\nb__ping.adb:311:55" shape : ellipse }
+node: { title: "system__tasking__protected_objects___elabb" label: "e212b\nb__ping.adb:309:39" shape : ellipse }
+node: { title: "system__pool_size___elabs" label: "e210b\nb__ping.adb:307:23" shape : ellipse }
+node: { title: "system__pool_global___elabs" label: "e208b\nb__ping.adb:305:25" shape : ellipse }
+node: { title: "ada__strings__maps__constants___elabs" label: "e206b\nb__ping.adb:303:33" shape : ellipse }
+node: { title: "ada__strings__maps___elabs" label: "e204b\nb__ping.adb:301:23" shape : ellipse }
+node: { title: "gnat__sha1___elabs" label: "e202b\nb__ping.adb:299:16" shape : ellipse }
+node: { title: "ada__real_time___elabb" label: "e200b\nb__ping.adb:295:20" shape : ellipse }
+node: { title: "system__storage_pools__subpools___elabs" label: "e198b\nb__ping.adb:293:36" shape : ellipse }
+node: { title: "system__finalization_masters___elabb" label: "e196b\nb__ping.adb:291:34" shape : ellipse }
+node: { title: "system__finalization_masters___elabs" label: "e194b\nb__ping.adb:290:34" shape : ellipse }
+node: { title: "system__storage_pools___elabs" label: "e192b\nb__ping.adb:288:27" shape : ellipse }
+node: { title: "ada__finalization___elabs" label: "e190b\nb__ping.adb:286:23" shape : ellipse }
+node: { title: "system__finalization_root___elabs" label: "e188b\nb__ping.adb:284:31" shape : ellipse }
+node: { title: "ada__streams___elabs" label: "e186b\nb__ping.adb:282:18" shape : ellipse }
+node: { title: "system__bb__timing_events___elabs" label: "e184b\nb__ping.adb:279:30" shape : ellipse }
+node: { title: "ada__tags___elabb" label: "e182b\nb__ping.adb:277:15" shape : ellipse }
+node: { title: "system__exception_table___elabb" label: "e180b\nb__ping.adb:275:29" shape : ellipse }
+node: { title: "system__soft_links___elabs" label: "e178b\nb__ping.adb:274:24" shape : ellipse }
+node: { title: "__gnat_runtime_initialize" label: "runtime_initialize\nb__ping.adb:207:17" shape : ellipse }
+node: { title: "system__standard_library__adafinal" label: "s_stalib_adafinal\nb__ping.adb:158:17" shape : ellipse }
+node: { title: "__gnat_runtime_finalize" label: "runtime_finalize\nb__ping.adb:161:17" shape : ellipse }
+node: { title: "main" label: "main\nb__ping.adb:546:4\n24 bytes (static)" }
+edge: { sourcename: "main" targetname: "__gnat_finalize" label: "b__ping.adb:562:7" }
+edge: { sourcename: "main" targetname: "adafinal" label: "b__ping.adb:561:7" }
+edge: { sourcename: "main" targetname: "_ada_ping" label: "b__ping.adb:560:7" }
+edge: { sourcename: "main" targetname: "adainit" label: "b__ping.adb:559:7" }
+edge: { sourcename: "main" targetname: "__gnat_initialize" label: "b__ping.adb:558:7" }
+node: { title: "adainit" label: "adainit\nb__ping.adb:173:4\n8 bytes (static)" }
+edge: { sourcename: "adainit" targetname: "__gnat_start_slave_cpus" label: "b__ping.adb:540:7" }
+edge: { sourcename: "adainit" targetname: "__gnat_activate_all_tasks" label: "b__ping.adb:539:7" }
+edge: { sourcename: "adainit" targetname: "__gnat_attach_all_handlers" label: "b__ping.adb:538:7" }
+edge: { sourcename: "adainit" targetname: "os_service___elabb" label: "b__ping.adb:536:17" }
+edge: { sourcename: "adainit" targetname: "os_service___elabs" label: "b__ping.adb:534:17" }
+edge: { sourcename: "adainit" targetname: "receiver___elabb" label: "b__ping.adb:532:15" }
+edge: { sourcename: "adainit" targetname: "receiver___elabs" label: "b__ping.adb:531:15" }
+edge: { sourcename: "adainit" targetname: "aip__osal___elabs" label: "b__ping.adb:527:15" }
+edge: { sourcename: "adainit" targetname: "net__interfaces__stm32___elabb" label: "b__ping.adb:525:27" }
+edge: { sourcename: "adainit" targetname: "net__interfaces__stm32___elabs" label: "b__ping.adb:524:27" }
+edge: { sourcename: "adainit" targetname: "framebuffer_dsi___elabb" label: "b__ping.adb:522:22" }
+edge: { sourcename: "adainit" targetname: "audio___elabb" label: "b__ping.adb:519:12" }
+edge: { sourcename: "adainit" targetname: "sdcard___elabb" label: "b__ping.adb:517:13" }
+edge: { sourcename: "adainit" targetname: "touch_panel_ft6x06___elabb" label: "b__ping.adb:515:25" }
+edge: { sourcename: "adainit" targetname: "stm32__board___elabs" label: "b__ping.adb:513:18" }
+edge: { sourcename: "adainit" targetname: "framebuffer_otm8009a___elabb" label: "b__ping.adb:511:27" }
+edge: { sourcename: "adainit" targetname: "framebuffer_otm8009a___elabs" label: "b__ping.adb:510:27" }
+edge: { sourcename: "adainit" targetname: "framebuffer_dsi___elabs" label: "b__ping.adb:509:22" }
+edge: { sourcename: "adainit" targetname: "sdcard___elabs" label: "b__ping.adb:508:13" }
+edge: { sourcename: "adainit" targetname: "touch_panel_ft6x06___elabs" label: "b__ping.adb:507:25" }
+edge: { sourcename: "adainit" targetname: "audio___elabs" label: "b__ping.adb:506:12" }
+edge: { sourcename: "adainit" targetname: "wm8994___elabb" label: "b__ping.adb:504:13" }
+edge: { sourcename: "adainit" targetname: "wm8994___elabs" label: "b__ping.adb:503:13" }
+edge: { sourcename: "adainit" targetname: "test_mqtt_clients___elabb" label: "b__ping.adb:501:24" }
+edge: { sourcename: "adainit" targetname: "test_mqtt_clients___elabs" label: "b__ping.adb:500:24" }
+edge: { sourcename: "adainit" targetname: "test_http_servers___elabb" label: "b__ping.adb:498:24" }
+edge: { sourcename: "adainit" targetname: "test_http_servers___elabs" label: "b__ping.adb:497:24" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__http_server___elabb" label: "b__ping.adb:495:43" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__http_server___elabs" label: "b__ping.adb:494:43" }
+edge: { sourcename: "adainit" targetname: "strings_edit__time_conversions___elabb" label: "b__ping.adb:492:36" }
+edge: { sourcename: "adainit" targetname: "strings_edit__time_conversions___elabs" label: "b__ping.adb:491:36" }
+edge: { sourcename: "adainit" targetname: "handles___elabs" label: "b__ping.adb:487:14" }
+edge: { sourcename: "adainit" targetname: "mqtt___elabb" label: "b__ping.adb:484:11" }
+edge: { sourcename: "adainit" targetname: "mqtt___elabs" label: "b__ping.adb:483:11" }
+edge: { sourcename: "adainit" targetname: "strings_edit__floats___elabb" label: "b__ping.adb:480:26" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__terminated_strings___elabb" label: "b__ping.adb:477:50" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__terminated_strings___elabs" label: "b__ping.adb:476:50" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__expected_sequence___elabb" label: "b__ping.adb:474:49" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__expected_sequence___elabs" label: "b__ping.adb:473:49" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__big_endian__unsigneds___elabb" label: "b__ping.adb:471:52" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine__big_endian__unsigneds___elabs" label: "b__ping.adb:470:52" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine___elabb" label: "b__ping.adb:468:31" }
+edge: { sourcename: "adainit" targetname: "connection_state_machine___elabs" label: "b__ping.adb:467:31" }
+edge: { sourcename: "adainit" targetname: "raw_lwip_server___elabb" label: "b__ping.adb:463:22" }
+edge: { sourcename: "adainit" targetname: "raw_lwip_server___elabs" label: "b__ping.adb:462:22" }
+edge: { sourcename: "adainit" targetname: "strings_edit___elabs" label: "b__ping.adb:457:19" }
+edge: { sourcename: "adainit" targetname: "stm32__ltdc___elabb" label: "b__ping.adb:453:17" }
+edge: { sourcename: "adainit" targetname: "stm32__i2s___elabb" label: "b__ping.adb:449:16" }
+edge: { sourcename: "adainit" targetname: "stm32__sdmmc___elabb" label: "b__ping.adb:447:18" }
+edge: { sourcename: "adainit" targetname: "stm32__device___elabs" label: "b__ping.adb:445:19" }
+edge: { sourcename: "adainit" targetname: "stm32__sdmmc___elabs" label: "b__ping.adb:443:18" }
+edge: { sourcename: "adainit" targetname: "stm32__gpio___elabb" label: "b__ping.adb:441:17" }
+edge: { sourcename: "adainit" targetname: "stm32__i2s___elabs" label: "b__ping.adb:440:16" }
+edge: { sourcename: "adainit" targetname: "stm32__gpio___elabs" label: "b__ping.adb:439:17" }
+edge: { sourcename: "adainit" targetname: "stm32__spi__dma___elabb" label: "b__ping.adb:437:20" }
+edge: { sourcename: "adainit" targetname: "stm32__spi__dma___elabs" label: "b__ping.adb:436:20" }
+edge: { sourcename: "adainit" targetname: "stm32__spi___elabb" label: "b__ping.adb:434:16" }
+edge: { sourcename: "adainit" targetname: "stm32__spi___elabs" label: "b__ping.adb:433:16" }
+edge: { sourcename: "adainit" targetname: "stm32__rtc___elabb" label: "b__ping.adb:430:16" }
+edge: { sourcename: "adainit" targetname: "stm32__rtc___elabs" label: "b__ping.adb:429:16" }
+edge: { sourcename: "adainit" targetname: "stm32__rng__interrupts___elabb" label: "b__ping.adb:426:27" }
+edge: { sourcename: "adainit" targetname: "stm32__i2c___elabb" label: "b__ping.adb:421:16" }
+edge: { sourcename: "adainit" targetname: "stm32__i2c___elabs" label: "b__ping.adb:420:16" }
+edge: { sourcename: "adainit" targetname: "stm32__dsi___elabb" label: "b__ping.adb:416:16" }
+edge: { sourcename: "adainit" targetname: "stm32__dsi___elabs" label: "b__ping.adb:415:16" }
+edge: { sourcename: "adainit" targetname: "stm32__dma2d_bitmap___elabb" label: "b__ping.adb:413:25" }
+edge: { sourcename: "adainit" targetname: "stm32__dma2d_bitmap___elabs" label: "b__ping.adb:412:25" }
+edge: { sourcename: "adainit" targetname: "stm32__dma2d__interrupt___elabb" label: "b__ping.adb:409:28" }
+edge: { sourcename: "adainit" targetname: "stm32__adc___elabs" label: "b__ping.adb:404:16" }
+edge: { sourcename: "adainit" targetname: "stack_storage___elabb" label: "b__ping.adb:402:20" }
+edge: { sourcename: "adainit" targetname: "stack_storage___elabs" label: "b__ping.adb:401:20" }
+edge: { sourcename: "adainit" targetname: "memory_mapped_bitmap___elabb" label: "b__ping.adb:399:27" }
+edge: { sourcename: "adainit" targetname: "memory_mapped_bitmap___elabs" label: "b__ping.adb:398:27" }
+edge: { sourcename: "adainit" targetname: "soft_drawing_bitmap___elabb" label: "b__ping.adb:396:26" }
+edge: { sourcename: "adainit" targetname: "soft_drawing_bitmap___elabs" label: "b__ping.adb:395:26" }
+edge: { sourcename: "adainit" targetname: "ravenscar_time___elabb" label: "b__ping.adb:389:21" }
+edge: { sourcename: "adainit" targetname: "ravenscar_time___elabs" label: "b__ping.adb:388:21" }
+edge: { sourcename: "adainit" targetname: "otm8009a___elabb" label: "b__ping.adb:386:15" }
+edge: { sourcename: "adainit" targetname: "otm8009a___elabs" label: "b__ping.adb:385:15" }
+edge: { sourcename: "adainit" targetname: "object___elabb" label: "b__ping.adb:382:13" }
+edge: { sourcename: "adainit" targetname: "object___elabs" label: "b__ping.adb:381:13" }
+edge: { sourcename: "adainit" targetname: "ft6x06___elabb" label: "b__ping.adb:377:13" }
+edge: { sourcename: "adainit" targetname: "ft6x06___elabs" label: "b__ping.adb:376:13" }
+edge: { sourcename: "adainit" targetname: "hal__touch_panel___elabs" label: "b__ping.adb:374:22" }
+edge: { sourcename: "adainit" targetname: "hal__time___elabs" label: "b__ping.adb:372:15" }
+edge: { sourcename: "adainit" targetname: "hal__spi___elabs" label: "b__ping.adb:370:14" }
+edge: { sourcename: "adainit" targetname: "hal__sdmmc___elabs" label: "b__ping.adb:368:16" }
+edge: { sourcename: "adainit" targetname: "hal__real_time_clock___elabs" label: "b__ping.adb:366:26" }
+edge: { sourcename: "adainit" targetname: "hal__i2c___elabs" label: "b__ping.adb:364:14" }
+edge: { sourcename: "adainit" targetname: "hal__gpio___elabs" label: "b__ping.adb:362:15" }
+edge: { sourcename: "adainit" targetname: "hal__framebuffer___elabs" label: "b__ping.adb:360:22" }
+edge: { sourcename: "adainit" targetname: "file_io___elabb" label: "b__ping.adb:357:14" }
+edge: { sourcename: "adainit" targetname: "filesystem__fat___elabb" label: "b__ping.adb:355:21" }
+edge: { sourcename: "adainit" targetname: "filesystem__fat___elabs" label: "b__ping.adb:352:21" }
+edge: { sourcename: "adainit" targetname: "hal__filesystem___elabs" label: "b__ping.adb:350:21" }
+edge: { sourcename: "adainit" targetname: "hal__dsi___elabs" label: "b__ping.adb:348:14" }
+edge: { sourcename: "adainit" targetname: "hal__block_drivers___elabs" label: "b__ping.adb:346:24" }
+edge: { sourcename: "adainit" targetname: "hal__bitmap___elabs" label: "b__ping.adb:343:17" }
+edge: { sourcename: "adainit" targetname: "hal__audio___elabs" label: "b__ping.adb:341:16" }
+edge: { sourcename: "adainit" targetname: "cortex_m__cache___elabb" label: "b__ping.adb:337:21" }
+edge: { sourcename: "adainit" targetname: "aip__tcp___elabb" label: "b__ping.adb:333:14" }
+edge: { sourcename: "adainit" targetname: "aip__timers___elabb" label: "b__ping.adb:328:17" }
+edge: { sourcename: "adainit" targetname: "aip__time_types___elabb" label: "b__ping.adb:326:21" }
+edge: { sourcename: "adainit" targetname: "net__interfaces___elabb" label: "b__ping.adb:321:21" }
+edge: { sourcename: "adainit" targetname: "net__interfaces___elabs" label: "b__ping.adb:320:21" }
+edge: { sourcename: "adainit" targetname: "net__buffers___elabb" label: "b__ping.adb:318:18" }
+edge: { sourcename: "adainit" targetname: "net__buffers___elabs" label: "b__ping.adb:317:18" }
+edge: { sourcename: "adainit" targetname: "aip__nif___elabb" label: "b__ping.adb:315:14" }
+edge: { sourcename: "adainit" targetname: "system__tasking__restricted__stages___elabb" label: "b__ping.adb:313:39" }
+edge: { sourcename: "adainit" targetname: "system__tasking__protected_objects__multiprocessors___elabb" label: "b__ping.adb:311:55" }
+edge: { sourcename: "adainit" targetname: "system__tasking__protected_objects___elabb" label: "b__ping.adb:309:39" }
+edge: { sourcename: "adainit" targetname: "system__pool_size___elabs" label: "b__ping.adb:307:23" }
+edge: { sourcename: "adainit" targetname: "system__pool_global___elabs" label: "b__ping.adb:305:25" }
+edge: { sourcename: "adainit" targetname: "ada__strings__maps__constants___elabs" label: "b__ping.adb:303:33" }
+edge: { sourcename: "adainit" targetname: "ada__strings__maps___elabs" label: "b__ping.adb:301:23" }
+edge: { sourcename: "adainit" targetname: "gnat__sha1___elabs" label: "b__ping.adb:299:16" }
+edge: { sourcename: "adainit" targetname: "ada__real_time___elabb" label: "b__ping.adb:295:20" }
+edge: { sourcename: "adainit" targetname: "system__storage_pools__subpools___elabs" label: "b__ping.adb:293:36" }
+edge: { sourcename: "adainit" targetname: "system__finalization_masters___elabb" label: "b__ping.adb:291:34" }
+edge: { sourcename: "adainit" targetname: "system__finalization_masters___elabs" label: "b__ping.adb:290:34" }
+edge: { sourcename: "adainit" targetname: "system__storage_pools___elabs" label: "b__ping.adb:288:27" }
+edge: { sourcename: "adainit" targetname: "ada__finalization___elabs" label: "b__ping.adb:286:23" }
+edge: { sourcename: "adainit" targetname: "system__finalization_root___elabs" label: "b__ping.adb:284:31" }
+edge: { sourcename: "adainit" targetname: "ada__streams___elabs" label: "b__ping.adb:282:18" }
+edge: { sourcename: "adainit" targetname: "system__bb__timing_events___elabs" label: "b__ping.adb:279:30" }
+edge: { sourcename: "adainit" targetname: "ada__tags___elabb" label: "b__ping.adb:277:15" }
+edge: { sourcename: "adainit" targetname: "system__exception_table___elabb" label: "b__ping.adb:275:29" }
+edge: { sourcename: "adainit" targetname: "system__soft_links___elabs" label: "b__ping.adb:274:24" }
+edge: { sourcename: "adainit" targetname: "__gnat_runtime_initialize" label: "b__ping.adb:272:7" }
+edge: { sourcename: "adainit" targetname: "memcpy" }
+node: { title: "adafinal" label: "adafinal\nb__ping.adb:157:4\n8 bytes (static)" }
+edge: { sourcename: "adafinal" targetname: "system__standard_library__adafinal" label: "b__ping.adb:170:7" }
+edge: { sourcename: "adafinal" targetname: "__gnat_runtime_finalize" label: "b__ping.adb:169:7" }
+}

@@ -1,0 +1,26 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb"
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "aip__arph__set_arph_dst_ip_address" label: "SET_ARPH_DST_IP_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:114:4\n24 bytes (static)" }
+node: { title: "aip__arph__arph_dst_ip_address" label: "ARPH_DST_IP_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:108:4\n24 bytes (static)" }
+node: { title: "aip__arph__set_arph_dst_eth_address" label: "SET_ARPH_DST_ETH_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:102:4\n24 bytes (static)" }
+edge: { sourcename: "aip__arph__set_arph_dst_eth_address" targetname: "memcpy" }
+node: { title: "aip__arph__arph_dst_eth_address" label: "ARPH_DST_ETH_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:96:4\n24 bytes (static)" }
+edge: { sourcename: "aip__arph__arph_dst_eth_address" targetname: "memcpy" }
+node: { title: "aip__arph__set_arph_src_ip_address" label: "SET_ARPH_SRC_IP_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:90:4\n24 bytes (static)" }
+node: { title: "aip__arph__arph_src_ip_address" label: "ARPH_SRC_IP_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:84:4\n24 bytes (static)" }
+node: { title: "aip__arph__set_arph_src_eth_address" label: "SET_ARPH_SRC_ETH_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:78:4\n24 bytes (static)" }
+edge: { sourcename: "aip__arph__set_arph_src_eth_address" targetname: "memcpy" }
+node: { title: "aip__arph__arph_src_eth_address" label: "ARPH_SRC_ETH_ADDRESS\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:72:4\n24 bytes (static)" }
+edge: { sourcename: "aip__arph__arph_src_eth_address" targetname: "memcpy" }
+node: { title: "aip__arph__set_arph_operation" label: "SET_ARPH_OPERATION\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:66:4\n24 bytes (static)" }
+node: { title: "aip__arph__arph_operation" label: "ARPH_OPERATION\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:60:4\n24 bytes (static)" }
+node: { title: "aip__arph__set_arph_pr_len" label: "SET_ARPH_PR_LEN\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:54:4\n24 bytes (static)" }
+node: { title: "aip__arph__arph_pr_len" label: "ARPH_PR_LEN\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:48:4\n24 bytes (static)" }
+node: { title: "aip__arph__set_arph_hw_len" label: "SET_ARPH_HW_LEN\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:42:4\n24 bytes (static)" }
+node: { title: "aip__arph__arph_hw_len" label: "ARPH_HW_LEN\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:36:4\n24 bytes (static)" }
+node: { title: "aip__arph__set_arph_protocol" label: "SET_ARPH_PROTOCOL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:30:4\n24 bytes (static)" }
+node: { title: "aip__arph__arph_protocol" label: "ARPH_PROTOCOL\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:24:4\n24 bytes (static)" }
+node: { title: "aip__arph__set_arph_hardware_type" label: "SET_ARPH_HARDWARE_TYPE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:18:4\n24 bytes (static)" }
+node: { title: "aip__arph__arph_hardware_type" label: "ARPH_HARDWARE_TYPE\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.adb:12:4\n24 bytes (static)" }
+node: { title: "aip__arph__arp_headerIP" label: "ARP_HEADERIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/build/gen/aip-arph.ads:95:9\n16 bytes (static)" }
+}

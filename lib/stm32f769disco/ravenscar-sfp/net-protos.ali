@@ -1,0 +1,68 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_DISPATCH
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U net.protos%s		net-protos.ads		934c66eb NE OO PR PK
+W net%s			net.adb			net.ali
+W net.buffers%s		net-buffers.adb		net-buffers.ali
+W net.interfaces%s	net-interfaces.adb	net-interfaces.ali
+
+D ada.ads		20170517144320 76789da1 ada%s
+D a-tags.ads		20170517144320 d3a89129 ada.tags%s
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D net.ads		20170911175125 10b1f911 net%s
+D net-buffers.ads	20170810162520 42b6bdec net.buffers%s
+D net-headers.ads	20170708034755 05ae6a05 net.headers%s
+D net-interfaces.ads	20170708034755 cc3158ac net.interfaces%s
+D net-protos.ads	20170804015858 0d7a7aba net.protos%s
+D system.ads		20170728224417 db831581 system%s
+D s-stoele.ads		20170517144320 2dc34a04 system.storage_elements%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 3 aip.ads
+87I9*U16_T<integer>
+X 5 net.ads
+29K9*Net 76e8 9|18r6 19r6 20r9 29r42 30r42 32r5
+38I12*Uint16{3|87I9} 9|24r30 25r30 26r30
+X 6 net-buffers.ads
+95K13*Buffers 318e16 9|18w10 30r46
+113R9*Buffer_Type 308e14 9|30r54
+X 8 net-interfaces.ads
+23K13*Interfaces 64e19 9|19w10 29r46
+34H9*Ifnet_Type 43e14 9|29r57
+X 9 net-protos.ads
+20K13*Protos 5|29k9 9|32l9 32e15
+24i4*ETHERTYPE_ARP{5|38I12}
+25i4*ETHERTYPE_IP{5|38I12}
+26i4*ETHERTYPE_IPv6{5|38I12}
+28P9*Receive_Handler 29=26 30=26
+29c26 Ifnet<8|34R9>
+30r26 Packet{6|113R9}
+

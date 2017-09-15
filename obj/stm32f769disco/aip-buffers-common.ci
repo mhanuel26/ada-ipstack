@@ -1,0 +1,8 @@
+graph: { title: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers-common.adb"
+node: { title: "aip__support__verify" label: "VERIFY\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-support.ads:9:14" shape : ellipse }
+node: { title: "aip__buffers__common__is_data_buffer" label: "IS_DATA_BUFFER\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers-common.adb:15:4\n16 bytes (static)" }
+edge: { sourcename: "aip__buffers__common__is_data_buffer" targetname: "aip__support__verify" label: "/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers-common.adb:19:14" }
+node: { title: "aip__buffers__common__Tbuffer_arrayBIP" label: "TBUFFER_ARRAYBIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers-common.ads:57:4\n16 bytes (static)" }
+node: { title: "aip__buffers__common__bufferIP" label: "BUFFERIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers-common.ads:14:9\n16 bytes (static)" }
+node: { title: "aip__buffers__common__Tpacket_queue_ptrsBIP" label: "TPACKET_QUEUE_PTRSBIP\n/home/mhanuel/Devel/ADA/projects/ada-ipstack/src/core/aip-buffers-common.ads:12:4\n16 bytes (static)" }
+}

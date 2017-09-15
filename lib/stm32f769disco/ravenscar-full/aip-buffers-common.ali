@@ -1,0 +1,85 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P DB ES ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U aip.buffers.common%b	aip-buffers-common.adb	efcb171e NE OO PK IU
+W aip%s			aip.adb			aip.ali
+W aip.buffers%s		aip-buffers.adb		aip-buffers.ali
+W aip.config%s		aip-config.ads		aip-config.ali
+W aip.support%s		aip-support.adb		aip-support.ali
+
+U aip.buffers.common%s	aip-buffers-common.ads	7559f3d2 NE OO PR PK IU
+W aip.buffers%s		aip-buffers.adb		aip-buffers.ali
+
+D aip.ads		20170810230203 63cc5fb2 aip%s
+D aip-buffers.ads	20170804220629 4ea63e65 aip.buffers%s
+D aip-buffers-common.ads  20170804214847 3bffcdb7 aip.buffers.common%s
+D aip-buffers-common.adb  20170804214847 db51b06e aip.buffers.common%b
+D aip-config.ads	20170822015827 9f4f104a aip.config%s
+D aip-support.ads	20170804214847 902a7a8d aip.support%s
+D system.ads		20170728224417 db831581 system%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack//ipstack.adc  20170806152010 00000000
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 aip.ads
+66K9*AIP 182e8 3|9r17 49r21 56r28 58r44 63r5 4|6r6 7r6 9r14 24r5
+87I9*U16_T<integer> 3|49r25 56r32
+X 2 aip-buffers.ads
+11K13*Buffers 1|66k9 2|362e16 3|9r21 12r37 12r62 15r21 25r21 30r21 41r23
+. 42r23 46r21 56r49 58r48 60r35 63r9 4|9r18 15r35 24r9
+12@21*State 3|58r56
+64I12*Buffer_Length{1|87I9} 3|46r29
+66I12*Data_Length{1|87I9} 3|25r29 30r29 41r31 42r31
+75I12*Buffer_Id{1|87I9} 3|12r70 15r29 56r57 60r43 4|15r43
+76N4*NOBUF 4|19r30
+263E9*Packet_Layer 263e42 3|12r45
+X 3 aip-buffers-common.ads
+9K29*Common 2|11k13 3|63l17 63e23 4|9b26 24l17 24t23
+12A9*Packet_Queue_Ptrs(2|75I12)<2|263E9> 18r21
+14R9*Buffer 54e14 57r49
+15i7*Next{2|75I12}
+18a7*Next_Packet{12A9}
+21m7*Packet_Info{7|80M9}
+25i7*Len{2|66I12}
+30i7*Tot_Len{2|66I12}
+41i7*Alloc_Len{2|66I12}
+42i7*Alloc_Tot_Len{2|66I12}
+46i7*Poffset{2|64I12}
+49i7*Ref{1|87I9}
+56I12*Buffer_Index{1|87I9} 57r32
+57A9*Buffer_Array(14R9)<1|87I9> 58r15
+58a4*Buf_List{57A9}
+60V13*Is_Data_Buffer{boolean} 60>29 4|15b13 22l8 22t22
+60i29 Buf{2|75I12} 4|15b29 19r23 21r14
+X 5 aip-config.ads
+10K13*Config 4|6w10 21r21 5|96e15
+25N4*Data_Buffer_Num 4|21r28
+X 6 aip-support.ads
+6K13*Support 4|7w10 19r7 6|19e16
+9U14*Verify 4|19s15
+X 7 system.ads
+50K9*System 3|21r21 7|164e11
+80M9*Address 3|21r28
+

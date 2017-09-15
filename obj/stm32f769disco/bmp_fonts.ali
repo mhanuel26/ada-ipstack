@@ -1,0 +1,71 @@
+V "GNAT Lib v2017"
+A -O0
+A -gnatA
+A --RTS=/usr/local/gnat/arm-eabi/lib/gnat/ravenscar-full-stm32f769disco/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m7
+A -mfpu=fpv5-d16
+A -mthumb
+A -g
+A -gnata
+A -fcallgraph-info=su
+A -gnatwa
+A -gnatwe
+A -gnatQ
+A -gnatw.X
+A -gnaty
+A -gnatyO
+A -gnatyM120
+A -ffunction-sections
+A -fdata-sections
+A -mno-unaligned-access
+P ES ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U bmp_fonts%b		bmp_fonts.adb		79e16f98 NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+
+U bmp_fonts%s		bmp_fonts.ads		727ec237 BN EE NE OO PK
+W hal%s			hal.ads			hal.ali
+
+D bmp_fonts.ads		20170728224345 593c0a39 bmp_fonts%s
+D bmp_fonts.adb		20170728224345 20dd65a1 bmp_fonts%b
+D hal.ads		20170728224345 2b42c80e hal%s
+D interfac.ads		20170517144320 5ab55268 interfaces%s
+D system.ads		20170728224417 db831581 system%s
+D /home/mhanuel/Devel/ADA/projects/ada-ipstack/gnat.adc  20170826155342 00000000
+X 1 bmp_fonts.ads
+44K9*BMP_Fonts 74l5 74e14 2|42b14 4323l5 4323t14
+46E9*BMP_Font 46e52 49r23 57r26 66r33 70r32 2|4254r26 4271r23 4295r33 4311r32
+46n22*Font8x8{46E9} 2|4257r15 4282r15 4298r15 4314r15
+46n31*Font12x12{46E9} 2|4259r15 4284r15 4300r15 4316r15
+46n42*Font16x24{46E9} 2|4261r15 4286r15 4302r15 4318r15
+48V13*Data{3|66M9} 49>7 50>7 51>7 2|4270b13 4289l8 4289t12
+49e7 Font{46E9} 2|4271b7 4276r53 4281r12
+50e7 C{character} 2|4272b7 4275r55
+51i7 Height_Offset{natural} 2|4273b7 4283r54 4285r48 4287r48
+57V13*Mask{3|66M9} 57>19 57>36 2|4254b13 4264l8 4264t12
+57e19 Font{46E9} 2|4254b19 4256r12
+57i36 Width_Offset{natural} 2|4254b36 4258r28 4260r29 4262r23
+66V13*Char_Height{natural} 66>26 2|4276s40 4295b13 4305l8 4305t19
+66e26 Font{46E9} 2|4295b26 4297r12
+70V13*Char_Width{natural} 70>25 2|4311b13 4321l8 4321t18
+70e25 Font{46E9} 2|4311b25 4313r12
+X 2 bmp_fonts.adb
+44a4 BMP_Font16x24(3|66M9) 4287r20
+2326a4 BMP_Font12x12(3|66M9) 4285r20
+3480a4 BMP_Font8x8(3|53M9) 4283r28
+4275i7 Char_Num{natural} 4277r26 4277r50 4278r28
+4276i7 Char_Index{natural} 4283r41 4285r35 4287r35
+X 3 hal.ads
+34K9*HAL 1|42w6 42r15 3|166e8
+53M9*UInt8<4|63M9> 2|3480r47
+66M9*UInt16<4|66M9> 1|52r14 57r67 2|44r50 2326r50 4254r67 4273r39 4283r20
+X 4 interfac.ads
+63M9*Unsigned_8
+66M9*Unsigned_16
+
