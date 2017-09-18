@@ -5,12 +5,12 @@ Currently it supports MQTT client and HTTP Server.
 This source is under development so it can change as new features and existing code 
 is completed tested. 
 
-Hardware.
+# Hardware.
 
 It's has been tested only on STM32F769I-DISCO since It's the only DISCO board I have at the
 moment.
 
-Building.
+# Building.
 
 I have no configure file yet, any help on this will be appreciated!
 
@@ -42,26 +42,11 @@ arm-eabi-gnatmake -Paipstack_stm32fxxx -p
 From then on you can open the ping.gpr project using gps and build. Just remember to select the 
 ravenscar-full-stm32f769 under Project -> Properties -> Ada RunTime drop down.
 
-Debugging using openocd.
+# Debugging. 
 
-I use openocd as follows
+I guess ST-Link can be used but I use openocd as follows
 
 openocd -f ./tcl/board/stm32f7discovery.cfg
-
-the stm32f7discovery.cfg content is
-
-# This is an STM32F7 discovery board with a single STM32F756NGH6 chip.
-# http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF261641
-
-# This is for using the onboard STLINK/V2-1
-source [find interface/stlink-v2-1.cfg]
-
-transport select hla_swd
-
-# increase working area to 256KB
-set WORKAREASIZE 0x40000
-
-source [find target/stm32f7x.cfg]
 
 Under gps project you have to specify the settings for the remote connection go to,
 
