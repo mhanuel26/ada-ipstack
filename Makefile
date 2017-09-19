@@ -5,7 +5,7 @@ MODE=-XBUILD=Debug -XBUILD_RTS=Debug
 all:	ping
 
 ping:
-	arm-eabi-gnatmake -vh $(MODE) -Pping -p -cargs -mno-unaligned-access
+	arm-eabi-gnatmake $(MODE) -Pping -p -cargs -mno-unaligned-access
 	arm-eabi-objcopy -O binary obj/${BOARD_DIR}/ping ping.bin
 
 flash-ping:		ping

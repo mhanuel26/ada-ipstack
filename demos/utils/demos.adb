@@ -23,7 +23,7 @@ with Net.Utils;
 with Receiver;
 with Os_Service;
 with AIP.OSAL;
-with AIP.IO;
+--  with AIP.IO;
 with AIP.IP;
 with RAW_TCP_Echo;
 with RAW_TCP_Dispatcher;
@@ -31,11 +31,11 @@ with RAW_UDP_Dispatcher;
 with MQTT;
 
 
---  with HAL.Filesystem;
---  with Ada.Real_Time;              use Ada.Real_Time;
-with File_IO;                    use File_IO;
-with Filesystem.FAT;             use Filesystem.FAT;
---  with Filesystem;                 use Filesystem;
+--  This guys here are from other commit of Ada_Drivers_Library
+--  that is not on master
+--  with File_IO;                    use File_IO;
+--  with Filesystem.FAT;             use Filesystem.FAT;
+
 with HAL;                        use HAL;
 with HAL.SDMMC;                  use HAL.SDMMC;
 with STM32.Board;                use STM32.Board;
@@ -160,55 +160,55 @@ package body Demos is
       Capacity      : UInt64;
       Error_State   : Boolean := False;
 
-      Status        : Status_Code;
+--        Status        : Status_Code;
 
       Y             : Integer := 90;
 
-      procedure Display_Current_Dir (Path : String);
+--        procedure Display_Current_Dir (Path : String);
 
       -------------------------
       -- Display_Current_Dir --
       -------------------------
 
-      procedure Display_Current_Dir (Path : String)
-      is
-         Dir    : Directory_Descriptor;
-         E      : Directory_Entry := Invalid_Dir_Entry;
-         Status : Status_Code;
-      begin
-         if Error_State then
-            return;
-         end if;
-
-         Status := Open (Dir, Path);
-
-         if Status /= OK then
-            AIP.IO.Put_Line ("!!! Error reading the directory " & Path);
-            Error_State := True;
-            Y := Y + 10;
-            return;
-         end if;
-
-         loop
-            E := Read (Dir);
-
-            exit when E = Invalid_Dir_Entry;
-
-            if not E.Hidden
-              and then E.Name /= "."
-              and then E.Name /= ".."
-            then
-               Put (5, Y, Path & E.Name);
-               Y := Y + 10;
-
-               if E.Subdirectory then
-                  Display_Current_Dir (Path & E.Name & "/");
-               end if;
-            end if;
-         end loop;
-
-         Close (Dir);
-      end Display_Current_Dir;
+--        procedure Display_Current_Dir (Path : String)
+--        is
+--           Dir    : Directory_Descriptor;
+--           E      : Directory_Entry := Invalid_Dir_Entry;
+--           Status : Status_Code;
+--        begin
+--           if Error_State then
+--              return;
+--           end if;
+--
+--           Status := Open (Dir, Path);
+--
+--           if Status /= OK then
+--              AIP.IO.Put_Line ("!!! Error reading the directory " & Path);
+--              Error_State := True;
+--              Y := Y + 10;
+--              return;
+--           end if;
+--
+--           loop
+--              E := Read (Dir);
+--
+--              exit when E = Invalid_Dir_Entry;
+--
+--              if not E.Hidden
+--                and then E.Name /= "."
+--                and then E.Name /= ".."
+--              then
+--                 Put (5, Y, Path & E.Name);
+--                 Y := Y + 10;
+--
+--                 if E.Subdirectory then
+--                    Display_Current_Dir (Path & E.Name & "/");
+--                 end if;
+--              end if;
+--           end loop;
+--
+--           Close (Dir);
+--        end Display_Current_Dir;
 
    begin
       STM32.RNG.Interrupts.Initialize_RNG;
@@ -219,26 +219,26 @@ package body Demos is
 
       STM32.Board.SDCard_Device.Initialize;
 
-      if STM32.Board.SDCard_Device.Card_Present then
-         AIP.IO.Put_Line ("SD card is present");
-
-         SD_Card_Info := STM32.Board.SDCard_Device.Get_Card_Information;
-
-         --  Dump general info about the SD-card
-         Capacity := SD_Card_Info.Card_Capacity;
-
-         for Unit of Units loop
-            if Capacity < 1000 or else Unit = 'T' then
-               Put (5, 70, "SDcard size:" & Capacity'Img & " " & Unit & "B");
-               exit;
-            end if;
-
-            if Capacity mod 1000 >= 500 then
-               Capacity := Capacity / 1000 + 1;
-            else
-               Capacity := Capacity / 1000;
-            end if;
-         end loop;
+--        if STM32.Board.SDCard_Device.Card_Present then
+--           AIP.IO.Put_Line ("SD card is present");
+--
+--           SD_Card_Info := STM32.Board.SDCard_Device.Get_Card_Information;
+--
+--           --  Dump general info about the SD-card
+--           Capacity := SD_Card_Info.Card_Capacity;
+--
+--           for Unit of Units loop
+--              if Capacity < 1000 or else Unit = 'T' then
+--                 Put (5, 70, "SDcard size:" & Capacity'Img & " " & Unit & "B");
+--                 exit;
+--              end if;
+--
+--              if Capacity mod 1000 >= 500 then
+--                 Capacity := Capacity / 1000 + 1;
+--              else
+--                 Capacity := Capacity / 1000;
+--              end if;
+--           end loop;
 
 --           --  Test read speed of the card (ideal case: contiguous blocks)
 --           declare
@@ -303,7 +303,7 @@ package body Demos is
 --              Display_Current_Dir ("/");
 --              Status := Unmount ("sdcard");
 --           end if;
-      end if;
+--        end if;
 
       Os_Service.Start;
 
