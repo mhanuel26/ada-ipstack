@@ -55,6 +55,7 @@ package body AIP.OSAL is
       Mask := IPaddrs.IP4 (Ifnet.Netmask (1), Ifnet.Netmask (2), Ifnet.Netmask (3), Ifnet.Netmask (4));
       Broadcast := IPaddrs.IP4 (192, 168, 2, 255);
       Remote := IPaddrs.IP_ADDR_ANY;
+      Dns := IPaddrs.IP4 (Ifnet.Dns (1), Ifnet.Dns (2), Ifnet.Dns (3), Ifnet.Dns (4));
       --  make static ARP for tests to isolate the issue with ARP append buffer
       declare
          remote_mac : aliased AIP.Ethernet_Address;
@@ -104,7 +105,7 @@ package body AIP.OSAL is
       --  Static IP interface, default netmask and no gateway.
       Ifnet.Ip := (192, 168, 2, 50);
       Ifnet.Gateway := (192, 168, 2, 1);
-      Ifnet.Dns := (192, 168, 2, 1);
+      Ifnet.Dns := (192, 168, 2, 5);
 
       --  STMicroelectronics OUI = 00 81 E1
       Ifnet.Mac := (0, 16#81#, 16#E1#, 5, 5, 1);

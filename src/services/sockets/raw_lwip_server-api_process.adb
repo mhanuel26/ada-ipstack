@@ -257,7 +257,6 @@ is
       srcAdd      : System.Address;
       Plen        : AIP.U16_T;
       TPlen       : AIP.U16_T;
-      --        Err         : AIP.Err_T := AIP.NOERR;
       Item_Size   : Stream_Element_Offset;
       Err         : AIP.Err_T;
    begin

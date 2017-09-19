@@ -27,6 +27,7 @@ with AIP.IO;
 with AIP.IP;
 with RAW_TCP_Echo;
 with RAW_TCP_Dispatcher;
+with RAW_UDP_Dispatcher;
 with MQTT;
 
 
@@ -38,9 +39,13 @@ with Filesystem.FAT;             use Filesystem.FAT;
 with HAL;                        use HAL;
 with HAL.SDMMC;                  use HAL.SDMMC;
 with STM32.Board;                use STM32.Board;
+with Dns_List;
+with DNS;
+
 
 
 pragma Warnings (Off, RAW_TCP_Dispatcher);
+pragma Warnings (Off, RAW_UDP_Dispatcher);
 pragma Warnings (Off, RAW_TCP_Echo);
 pragma Warnings (Off, MQTT);
 
@@ -312,6 +317,8 @@ package body Demos is
 
       --  MQTT Service
       MQTT.Init;  --  This only init the Pool, it's not harms to leave it here enable
+
+      DNS.Init (Dns_List.Queries'Access);
 
       Receiver.Start;
 

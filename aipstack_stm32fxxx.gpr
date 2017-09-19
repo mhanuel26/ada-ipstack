@@ -8,7 +8,7 @@ library project Aipstack_STM32FXXX  is
    for Object_Dir use "obj/stm32f769disco";
    for Runtime ("Ada") use STM32F769_Discovery'Runtime("Ada");
 
-   for Source_Dirs use ("src", "src/stm32", "build/gen", "src/core", "src/osal", "src/dev", "src/services", "src/services/utils", "src/services/mqtt", "src/services/sockets");
+   for Source_Dirs use ("src", "src/stm32", "build/gen", "src/core", "src/osal", "src/dev", "src/services", "src/services/utils", "src/services/mqtt", "src/services/sockets", "src/services/dns");
 
 
    package Compiler is

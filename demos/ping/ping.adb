@@ -32,12 +32,14 @@ with AIP.IPaddrs;
 with AIP;                      use AIP;
 with AIP.Timers;
 with AIP.Time_Types;
+with Dns_List;
+with DNS;                      use DNS;
 
 pragma Unreferenced (Receiver);
 pragma Unreferenced (Os_Service, AIP.Time_Types);
 
 pragma Unreferenced (Test_MQTT_Clients);
---  pragma Unreferenced (Test_HTTP_Servers);
+pragma Unreferenced (Test_HTTP_Servers);
 
 --  == Ping Application ==
 --  The <b>Ping</b> application listens to the Ethernet network to identify some local
@@ -68,7 +70,6 @@ procedure Ping is
    --  Test MQTT
    Client_Ip     : constant AIP.IPaddrs.IPaddr := AIP.IPaddrs.IP4 (192, 168, 2, 5);
    pragma Unreferenced (Client_Ip);
-   --  this will need to hold on until DNS
 --     Server_Address : constant String := "test.mosquitto.org";
 
 begin
@@ -80,26 +81,54 @@ begin
    Demos.Current_Font := BMP_Fonts.Font8x8;
    --  Instantiate an Mqtt Client
    declare
-      Deadline     : Time;
-      Now          : constant Time := Clock;
+      timer_deadline : Ada.Real_Time.Time;
+      timer_delay    : constant Ada.Real_Time.Time_Span := Ada.Real_Time.Milliseconds (1000);
       --  To test Timers
       My_Test_Cb_Timer_Id : AIP.Timers.Valid_Tmr_Id;
       My_Test_Interval : AIP.Time_Types.Interval;
 
    begin
       pragma Unreferenced (My_Test_Cb_Timer_Id, My_Test_Interval);
+      --  DNS Test Code
+      Dns_List.Queries (1).Resolve ("www.google.com");
+      --  This won't get thru since original code accept non-authoritative only
+--        Dns_List.Queries (1).Resolve ("x83vdeb2.localdeb.net");
+      declare
+         Timeout : Natural := 0;
+      begin
+         timer_deadline := Ada.Real_Time.Clock;
+         loop
+            timer_deadline := timer_deadline + timer_delay;
+            delay until timer_deadline;
+            if Dns_List.Queries (1).Get_Status = NOERROR then
+               if Dns_List.Queries (1).Get_Name'Length > 0 then
+                  AIP.IO.Put_Line (Dns_List.Queries (1).Get_Name);
+                  AIP.IO.Put_Line (To_String (Dns_List.Queries (1).Get_Ip));
+                  exit;
+               end if;
+            elsif Timeout > 10 then
+               AIP.IO.Put_Line ("DNS Lookup Timeout");
+               exit;
+            else
+               Timeout := Timeout + 1;
+            end if;
+         end loop;
+      end;
       --  MQTT Test Starts
 --        delay 1.0;
 --        Test_MQTT_Clients.Test_1 (Client_Ip);
+--    HTTP Test Code
 --        Test_HTTP_Servers.Test_Web (80);   --  used only for tests while not having the dedicated task.
-      Test_HTTP_Servers.Start;
+--        Test_HTTP_Servers.Start;
+--    A calback example
       --        My_Test_Interval := AIP.Time_Types.Time (1 * Duration (AIP.Time_Types.Hz));
       --        AIP.Timers.Timer_Alloc (My_Test_Cb_Timer_Id, Os_Service.Dummy'Access);
       --        AIP.Timers.Set_Interval (My_Test_Cb_Timer_Id, My_Test_Interval);
       AIP.IO.Put_Line ("Enter endless loop");
+      timer_deadline := Ada.Real_Time.Clock;
       loop
-         Deadline := Now + Milliseconds (50);
-         delay until Deadline;
+         timer_deadline := timer_deadline + timer_delay;
+         delay until timer_deadline;
       end loop;
    end;
 end Ping;

@@ -72,5 +72,6 @@ package Net is
    function Is_Multicast (IP : in Ip_Addr) return Boolean;
 
    function "and" (Left, Right : in Uint8) return Uint8;
+   function "and" (Left, Right : in Uint32) return Uint32;
 
 end Net;

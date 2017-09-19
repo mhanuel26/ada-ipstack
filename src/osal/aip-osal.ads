@@ -45,6 +45,7 @@ package AIP.OSAL is
    IP        : aliased AIP.IPaddrs.IPaddr;
    Mask      : aliased AIP.IPaddrs.IPaddr;
    Broadcast : aliased AIP.IPaddrs.IPaddr;
+   Dns       : aliased AIP.IPaddrs.IPaddr;
    Remote    : aliased AIP.IPaddrs.IPaddr;
 
    procedure Send (Packet : in out Net.Buffers.Buffer_Type);

@@ -5,6 +5,7 @@
 
 with RAW_UDP_Callbacks;
 with RAW_UDP_Syslog;
+with DNS.Clients;
 
 package body RAW_UDP_Dispatcher is
 
@@ -23,6 +24,8 @@ package body RAW_UDP_Dispatcher is
       case Cbid is
          when RAW_UDP_Callbacks.SYSLOG_RECV =>
             RAW_UDP_Syslog.SYSLOG_Process_Recv (Ev, PCB);
+         when RAW_UDP_Callbacks.DNS_RECV    =>
+            DNS.Clients.Dns_Receive (Ev, PCB);
          when others =>
             null;
       end case;

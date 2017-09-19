@@ -1,6 +1,6 @@
 -----------------------------------------------------------------------
---  net -- Network stack
---  Copyright (C) 2016 Stephane Carrez
+--  receiver -- Ethernet Packet Receiver
+--  Copyright (C) 2017 Stephane Carrez
 --  Written by Stephane Carrez (Stephane.Carrez@gmail.com)
 --
 --  Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,24 +15,10 @@
 --  See the License for the specific language governing permissions and
 --  limitations under the License.
 -----------------------------------------------------------------------
+with DNS;
 
-package body Net is
+package Dns_List is
 
-   function "and" (Left, Right : in Uint8) return Uint8 is
-   begin
-      return Uint8 ((Uint_8 (Left) and Uint_8 (Right)));
-   end "and";
+   Queries : aliased DNS.Dns_Query_Array;
 
-   function "and" (Left, Right : in Uint32) return Uint32 is
-   begin
-      return Uint32 ((Uint_32 (Left) and Uint_32 (Right)));
-   end "and";
-   --  ------------------------------
-   --  Returns true if the IPv4 address is a multicast address.
-   --  ------------------------------
-   function Is_Multicast (IP : in Ip_Addr) return Boolean is
-   begin
-      return (IP (IP'First) and 16#f0#) = 16#e0#;
-   end Is_Multicast;
-
-end Net;
+end Dns_List;

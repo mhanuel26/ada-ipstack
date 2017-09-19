@@ -1,9 +1,10 @@
 --                                                                     --
---   package                         Copyright (c)  Dmitry A. Kazakov  --
---      GNAT.Sockets.Connection_State_Machine.      Luebeck            --
---      HTTP_Server                                 Winter, 2013       --
---   Implementation                                                    --
---                                 Last revision :  20:41 21 Jul 2017  --
+--   package Connection_State_Machine.HTTP_Server                      --
+--     Copyright (c)  Dmitry A. Kazakov                                --
+--   Implementation                                 Luebeck            --
+--                                                  Winter, 2012       --
+--   Modified by Manuel Iglesias for ipstack raw lwip implementation   --
+--                                 Last revision :  15 Sep 2017        --
 --                                                                     --
 --   This  library  is  free software; you can redistribute it and/or  --
 --   modify it under the terms of the GNU General Public  License  as  --

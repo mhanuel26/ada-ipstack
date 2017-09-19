@@ -13,5 +13,7 @@ package RAW_UDP_Callbacks is
 
    SYSLOG_RECV : constant AIP.Callbacks.CBK_Id := 1;
    --  Datagram received on SYSLOG PCB
+   DNS_RECV    : constant AIP.Callbacks.CBK_Id := 2;
+   --  Datagram received on DNS Request PCB
 
 end RAW_UDP_Callbacks;
