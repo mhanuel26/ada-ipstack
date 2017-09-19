@@ -1,7 +1,14 @@
 # ada-ipstack
-Ada ipstack embedded implementation for the STM32 devices with Ethernet peripheral.
 
-Currently it supports MQTT client and HTTP Server.
+Ada ipstack embedded implementation for the STM32 devices with Ethernet peripheral. 
+It brings ICMP / UDP / TCP / ARP support for Ada embedded. 
+
+Higher layer protocol supported:
+
+ * MQTT client.
+ * HTTP Server.
+ * DNS client.
+
 This source is under development so it can change as new features and existing code 
 is completed tested. 
 
